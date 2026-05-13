@@ -16,8 +16,8 @@
 - 🔄 Phase 1 — Project setup & scaffold
   - ✅ Init NestJS project with Nest CLI
   - ✅ Configure ESLint, Prettier, tsconfig paths
-  - ⬜ Set up docker-compose with app, Postgres, Redis services
-  - ⬜ Configure environment variables with @nestjs/config and .env.example
+  - ✅ Set up docker-compose with app, Postgres, Redis services
+  - ✅ Configure environment variables with @nestjs/config and .env.example
   - ⬜ Verify app boots and connects to Postgres + Redis via health check
 - ⬜ Phase 2 — Database & data layer
   - ⬜ Set up TypeORM module with async config
