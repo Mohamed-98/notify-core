@@ -18,7 +18,7 @@
   - ✅ Configure ESLint, Prettier, tsconfig paths
   - ✅ Set up docker-compose with app, Postgres, Redis services
   - ✅ Configure environment variables with @nestjs/config and .env.example
-  - ⬜ Verify app boots and connects to Postgres + Redis via health check
+  - ✅ Verify app boots and connects to Postgres + Redis via health check
 - ⬜ Phase 2 — Database & data layer
   - ⬜ Set up TypeORM module with async config
   - ⬜ Design and create User entity
