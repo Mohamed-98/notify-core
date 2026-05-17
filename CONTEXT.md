@@ -22,8 +22,8 @@
 - 🔄 Phase 2 — Database & data layer
   - ✅ Set up Prisma module with async config
   - ✅ Design and create User entity
-  - ⬜ Design and create Notification entity (userId, type, channel, status, payload)
-  - ⬜ Write and run initial migrations
+  - ✅ Design and create Notification entity (userId, type, channel, status, payload)
+  - ✅ Write and run initial migrations
   - ⬜ Create repositories and service skeletons for each entity
 - ⬜ Phase 3 — Auth & user context
   - ⬜ Implement register and login endpoints with bcrypt password hashing
