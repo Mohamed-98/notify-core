@@ -20,7 +20,7 @@
   - ✅ Configure environment variables with @nestjs/config and .env.example
   - ✅ Verify app boots and connects to Postgres + Redis via health check
 - 🔄 Phase 2 — Database & data layer
-  - ⬜ Set up TypeORM module with async config
+  - ⬜ Set up Prisma module with async config
   - ⬜ Design and create User entity
   - ⬜ Design and create Notification entity (userId, type, channel, status, payload)
   - ⬜ Write and run initial migrations
