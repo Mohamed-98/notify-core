@@ -19,16 +19,16 @@
   - ✅ Set up docker-compose with app, Postgres, Redis services
   - ✅ Configure environment variables with @nestjs/config and .env.example
   - ✅ Verify app boots and connects to Postgres + Redis via health check
-- 🔄 Phase 2 — Database & data layer
+- ✅ Phase 2 — Database & data layer
   - ✅ Set up Prisma module with async config
   - ✅ Design and create User entity
   - ✅ Design and create Notification entity (userId, type, channel, status, payload)
   - ✅ Write and run initial migrations
-  - ⬜ Create repositories and service skeletons for each entity
-- ⬜ Phase 3 — Auth & user context
-  - ⬜ Implement register and login endpoints with bcrypt password hashing
-  - ⬜ Issue access token (short TTL) + refresh token (long TTL)
-  - ⬜ Implement JWT validation and user extraction inside AuthService
+  - ✅ Create repositories and service skeletons for each entity
+- 🔄 Phase 3 — Auth & user context
+  - ✅ Implement register and login endpoints with bcrypt password hashing
+  - ✅ Issue access token (short TTL) + refresh token (long TTL)
+  - ✅ Implement JWT validation and user extraction inside AuthService
   - ⬜ Implement logout with Redis token blacklist
   - ⬜ Create JwtAuthGuard and attach to protected routes
 - ⬜ Phase 4 — Bull / Redis queues
