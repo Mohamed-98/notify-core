@@ -29,7 +29,7 @@
   - ✅ Implement register and login endpoints with bcrypt password hashing
   - ✅ Issue access token (short TTL) + refresh token (long TTL)
   - ✅ Implement JWT validation and user extraction inside AuthService
-  - ⬜ Implement logout with Redis token blacklist
+  - ✅ Implement logout with Redis token blacklist
   - ⬜ Create JwtAuthGuard and attach to protected routes
 - ⬜ Phase 4 — Bull / Redis queues
   - ⬜ Install and configure @nestjs/bull with Redis connection

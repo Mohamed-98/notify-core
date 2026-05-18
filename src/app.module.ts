@@ -1,4 +1,4 @@
-import { Module } from '@nestjs/common';
+import { Module, NestModule, MiddlewareConsumer } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
 import * as Joi from 'joi';
 import { AppController } from './app.controller';
@@ -7,6 +7,8 @@ import { PrismaModule } from './prisma/prisma.module';
 import { UserModule } from './user/user.module';
 import { NotificationModule } from './notification/notification.module';
 import { AuthModule } from './auth/auth.module';
+import { RedisModule } from './redis/redis.module';
+import { TokenBlacklistMiddleware } from './auth/token-blacklist.middleware';
 
 @Module({
   imports: [
@@ -22,6 +24,7 @@ import { AuthModule } from './auth/auth.module';
       }),
     }),
     PrismaModule,
+    RedisModule,
     UserModule,
     NotificationModule,
     AuthModule,
@@ -29,4 +32,11 @@ import { AuthModule } from './auth/auth.module';
   controllers: [AppController],
   providers: [AppService],
 })
-export class AppModule {}
+export class AppModule implements NestModule {
+  configure(consumer: MiddlewareConsumer) {
+    consumer
+      .apply(TokenBlacklistMiddleware)
+      .forRoutes('*');
+  }
+}
+

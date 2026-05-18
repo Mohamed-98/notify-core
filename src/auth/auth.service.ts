@@ -5,6 +5,7 @@ import * as bcrypt from 'bcrypt';
 import { UserService } from '../user/user.service';
 import { RegisterDto } from './dto/register.dto';
 import { LoginDto } from './dto/login.dto';
+import { RedisService } from '../redis/redis.service';
 
 @Injectable()
 export class AuthService {
@@ -12,6 +13,7 @@ export class AuthService {
     private readonly userService: UserService,
     private readonly jwtService: JwtService,
     private readonly configService: ConfigService,
+    private readonly redisService: RedisService,
   ) {}
 
   async register(registerDto: RegisterDto) {
@@ -78,5 +80,18 @@ export class AuthService {
     }
     const { password: _, ...userWithoutPassword } = user;
     return userWithoutPassword;
+  }
+
+  async logout(token: string) {
+    const decoded = this.jwtService.decode(token) as { exp?: number };
+    if (decoded && decoded.exp) {
+      const now = Math.floor(Date.now() / 1000);
+      const ttl = decoded.exp - now;
+      if (ttl > 0) {
+        await this.redisService.set(`blacklist:${token}`, '1', ttl);
+        return;
+      }
+    }
+    await this.redisService.set(`blacklist:${token}`, '1', 86400);
   }
 }
