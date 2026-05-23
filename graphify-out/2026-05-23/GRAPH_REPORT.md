@@ -1,18 +1,12 @@
-# Graph Report - notify-core  (2026-05-23)
+# Graph Report - .  (2026-05-23)
 
 ## Corpus Check
-- 46 files · ~4,166 words
-- Verdict: corpus is large enough that graph structure adds value.
+- Corpus is ~4,135 words - fits in a single context window. You may not need a graph.
 
 ## Summary
-- 273 nodes · 363 edges · 29 communities (18 shown, 11 thin omitted)
+- 253 nodes · 346 edges · 26 communities (17 shown, 9 thin omitted)
 - Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 11 edges (avg confidence: 0.85)
-- Token cost: 0 input · 0 output
-
-## Graph Freshness
-- Built from commit: `99722630`
-- Run `git rev-parse HEAD` and compare to check if the graph is stale.
-- Run `graphify update .` after code changes (no API cost).
+- Token cost: 1,500 input · 800 output
 
 ## Community Hubs (Navigation)
 - [[_COMMUNITY_User Authentication Module|User Authentication Module]]
@@ -37,9 +31,6 @@
 - [[_COMMUNITY_tsconfig.json Config|tsconfig.json Config]]
 - [[_COMMUNITY_jest-e2e.json Config|jest-e2e.json Config]]
 - [[_COMMUNITY_Database Initialization Migration|Database Initialization Migration]]
-- [[_COMMUNITY_Community 26|Community 26]]
-- [[_COMMUNITY_Community 27|Community 27]]
-- [[_COMMUNITY_Community 28|Community 28]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `compilerOptions` - 22 edges
@@ -68,7 +59,7 @@
 ## Hyperedges (group relationships)
 - **NestJS App Modules** — src_app_module_appmodule, notification_notification_module_notificationmodule, user_user_module_usermodule, auth_auth_module_authmodule, prisma_prisma_module_prismamodule, redis_redis_module_redismodule [INFERRED 0.95]
 
-## Communities (29 total, 11 thin omitted)
+## Communities (26 total, 9 thin omitted)
 
 ### Community 0 - "User Authentication Module"
 Cohesion: 0.11
@@ -91,8 +82,8 @@ Cohesion: 0.09
 Nodes (22): compilerOptions, allowSyntheticDefaultImports, baseUrl, declaration, emitDecoratorMetadata, esModuleInterop, experimentalDecorators, forceConsistentCasingInFileNames (+14 more)
 
 ### Community 5 - "Core App Dependencies"
-Cohesion: 0.09
-Nodes (22): dependencies, bcrypt, bull, class-transformer, class-validator, ioredis, joi, @nestjs/bull (+14 more)
+Cohesion: 0.10
+Nodes (20): dependencies, bcrypt, class-transformer, class-validator, ioredis, joi, @nestjs/common, @nestjs/config (+12 more)
 
 ### Community 6 - "Unit Testing Setup"
 Cohesion: 0.12
@@ -122,26 +113,22 @@ Nodes (6): moduleFileExtensions, rootDir, testEnvironment, testRegex, transform,
 Cohesion: 0.33
 Nodes (5): collection, compilerOptions, deleteOutDir, $schema, sourceRoot
 
-### Community 26 - "Community 26"
-Cohesion: 0.14
-Nodes (13): code:bash ($ npm install), code:bash (# development), code:bash (# unit tests), code:bash ($ npm install -g @nestjs/mau), Compile and run the project, Deployment, Description, License (+5 more)
-
 ## Knowledge Gaps
-- **133 isolated node(s):** `$schema`, `collection`, `sourceRoot`, `deleteOutDir`, `extends` (+128 more)
+- **120 isolated node(s):** `$schema`, `collection`, `sourceRoot`, `deleteOutDir`, `extends` (+115 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **11 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **9 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `UserService` connect `User Management & DTOs` to `User Authentication Module`, `Prisma ORM & DB Client`?**
-  _High betweenness centrality (0.048) - this node is a cross-community bridge._
+  _High betweenness centrality (0.056) - this node is a cross-community bridge._
 - **Why does `devDependencies` connect `Linting and Testing Setup` to `Unit Testing Setup`?**
-  _High betweenness centrality (0.047) - this node is a cross-community bridge._
-- **Why does `dependencies` connect `Core App Dependencies` to `Unit Testing Setup`?**
-  _High betweenness centrality (0.038) - this node is a cross-community bridge._
+  _High betweenness centrality (0.053) - this node is a cross-community bridge._
+- **Why does `PrismaService` connect `Prisma ORM & DB Client` to `User Management & DTOs`, `Notification Endpoints`?**
+  _High betweenness centrality (0.043) - this node is a cross-community bridge._
 - **What connects `$schema`, `collection`, `sourceRoot` to the rest of the system?**
-  _133 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _120 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `User Authentication Module` be split into smaller, more focused modules?**
   _Cohesion score 0.1053763440860215 - nodes in this community are weakly interconnected._
 - **Should `User Management & DTOs` be split into smaller, more focused modules?**
