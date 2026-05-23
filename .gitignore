@@ -41,3 +41,6 @@ lerna-debug.log*
 .env.production
 
 /generated/prisma
+
+# Graphify
+/graphify-out

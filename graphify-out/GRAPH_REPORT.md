@@ -1,16 +1,16 @@
 # Graph Report - notify-core  (2026-05-23)
 
 ## Corpus Check
-- 46 files · ~4,166 words
+- 47 files · ~4,245 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 273 nodes · 363 edges · 29 communities (18 shown, 11 thin omitted)
+- 279 nodes · 370 edges · 29 communities (17 shown, 12 thin omitted)
 - Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 11 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `99722630`
+- Built from commit: `a2cba1a1`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -54,21 +54,21 @@
 10. `AuthController` - 9 edges
 
 ## Surprising Connections (you probably didn't know these)
+- `PrismaService` --conceptually_related_to--> `Prisma Database Access`  [INFERRED]
+  src/prisma/prisma.service.ts → README.md
+- `PrismaModule` --conceptually_related_to--> `Prisma Database Access`  [INFERRED]
+  src/prisma/prisma.module.ts → README.md
 - `AuthController` --conceptually_related_to--> `JWT Authentication Scheme`  [INFERRED]
   src/auth/auth.controller.ts → README.md
 - `JwtAuthGuard` --conceptually_related_to--> `JWT Authentication Scheme`  [INFERRED]
   src/auth/jwt-auth.guard.ts → README.md
 - `AuthService` --conceptually_related_to--> `JWT Authentication Scheme`  [INFERRED]
   src/auth/auth.service.ts → README.md
-- `AuthModule` --conceptually_related_to--> `JWT Authentication Scheme`  [INFERRED]
-  src/auth/auth.module.ts → README.md
-- `PrismaService` --conceptually_related_to--> `Prisma Database Access`  [INFERRED]
-  src/prisma/prisma.service.ts → README.md
 
 ## Hyperedges (group relationships)
 - **NestJS App Modules** — src_app_module_appmodule, notification_notification_module_notificationmodule, user_user_module_usermodule, auth_auth_module_authmodule, prisma_prisma_module_prismamodule, redis_redis_module_redismodule [INFERRED 0.95]
 
-## Communities (29 total, 11 thin omitted)
+## Communities (29 total, 12 thin omitted)
 
 ### Community 0 - "User Authentication Module"
 Cohesion: 0.11
@@ -83,8 +83,8 @@ Cohesion: 0.07
 Nodes (28): devDependencies, eslint, eslint-config-prettier, @eslint/eslintrc, @eslint/js, eslint-plugin-prettier, globals, jest (+20 more)
 
 ### Community 3 - "Notification Endpoints"
-Cohesion: 0.15
-Nodes (5): CreateNotificationDto, UpdateNotificationDto, NotificationController, NotificationModule, NotificationService
+Cohesion: 0.11
+Nodes (8): CreateNotificationDto, UpdateNotificationDto, NotificationController, NotificationModule, EmailJobData, InAppJobData, NotificationProcessor, NotificationService
 
 ### Community 4 - "TypeScript Settings"
 Cohesion: 0.09
@@ -107,12 +107,8 @@ Cohesion: 0.15
 Nodes (13): scripts, build, format, lint, start, start:debug, start:dev, start:prod (+5 more)
 
 ### Community 9 - "Redis Client & Cache"
-Cohesion: 0.21
-Nodes (4): NestJS Modular Architecture, Redis Caching and Blacklist, RedisModule, RedisService
-
-### Community 10 - "Prisma ORM & DB Client"
-Cohesion: 0.33
-Nodes (3): Prisma Database Access, PrismaModule, PrismaService
+Cohesion: 0.20
+Nodes (5): NestJS Modular Architecture, Prisma Database Access, Redis Caching and Blacklist, RedisModule, RedisService
 
 ### Community 11 - "E2E Testing Settings"
 Cohesion: 0.29
@@ -127,21 +123,21 @@ Cohesion: 0.14
 Nodes (13): code:bash ($ npm install), code:bash (# development), code:bash (# unit tests), code:bash ($ npm install -g @nestjs/mau), Compile and run the project, Deployment, Description, License (+5 more)
 
 ## Knowledge Gaps
-- **133 isolated node(s):** `$schema`, `collection`, `sourceRoot`, `deleteOutDir`, `extends` (+128 more)
+- **135 isolated node(s):** `$schema`, `collection`, `sourceRoot`, `deleteOutDir`, `extends` (+130 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **11 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **12 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `UserService` connect `User Management & DTOs` to `User Authentication Module`, `Prisma ORM & DB Client`?**
-  _High betweenness centrality (0.048) - this node is a cross-community bridge._
-- **Why does `devDependencies` connect `Linting and Testing Setup` to `Unit Testing Setup`?**
   _High betweenness centrality (0.047) - this node is a cross-community bridge._
-- **Why does `dependencies` connect `Core App Dependencies` to `Unit Testing Setup`?**
+- **Why does `devDependencies` connect `Linting and Testing Setup` to `Unit Testing Setup`?**
+  _High betweenness centrality (0.045) - this node is a cross-community bridge._
+- **Why does `PrismaService` connect `Prisma ORM & DB Client` to `User Management & DTOs`, `Notification Endpoints`, `Redis Client & Cache`?**
   _High betweenness centrality (0.038) - this node is a cross-community bridge._
 - **What connects `$schema`, `collection`, `sourceRoot` to the rest of the system?**
-  _133 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _135 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `User Authentication Module` be split into smaller, more focused modules?**
   _Cohesion score 0.1053763440860215 - nodes in this community are weakly interconnected._
 - **Should `User Management & DTOs` be split into smaller, more focused modules?**

@@ -1268,10 +1268,64 @@
       "label": "NotificationModule",
       "file_type": "code",
       "source_file": "src/notification/notification.module.ts",
-      "source_location": "L9",
+      "source_location": "L16",
       "id": "notification_notification_module_notificationmodule",
       "community": 3,
       "norm_label": "notificationmodule"
+    },
+    {
+      "label": "notification.processor.ts",
+      "file_type": "code",
+      "source_file": "src/notification/notification.processor.ts",
+      "source_location": "L1",
+      "id": "src_notification_notification_processor_ts",
+      "community": 3,
+      "norm_label": "notification.processor.ts"
+    },
+    {
+      "label": "EmailJobData",
+      "file_type": "code",
+      "source_file": "src/notification/notification.processor.ts",
+      "source_location": "L4",
+      "id": "notification_notification_processor_emailjobdata",
+      "community": 3,
+      "norm_label": "emailjobdata"
+    },
+    {
+      "label": "InAppJobData",
+      "file_type": "code",
+      "source_file": "src/notification/notification.processor.ts",
+      "source_location": "L5",
+      "id": "notification_notification_processor_inappjobdata",
+      "community": 3,
+      "norm_label": "inappjobdata"
+    },
+    {
+      "label": "NotificationProcessor",
+      "file_type": "code",
+      "source_file": "src/notification/notification.processor.ts",
+      "source_location": "L8",
+      "id": "notification_notification_processor_notificationprocessor",
+      "community": 3,
+      "norm_label": "notificationprocessor"
+    },
+    {
+      "label": ".handleEmail()",
+      "file_type": "code",
+      "source_file": "src/notification/notification.processor.ts",
+      "source_location": "L10",
+      "id": "notification_notification_processor_notificationprocessor_handleemail",
+      "community": 3,
+      "norm_label": ".handleemail()"
+    },
+    {
+      "label": ".handleInApp()",
+      "file_type": "code",
+      "source_file": "src/notification/notification.processor.ts",
+      "source_location": "L15",
+      "id": "notification_notification_processor_notificationprocessor_handleinapp",
+      "community": 3,
+      "norm_label": ".handleinapp()"
     },
     {
       "label": "notification.controller.ts",
@@ -2522,7 +2576,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 9,
       "norm_label": "prisma database access",
       "id": "concept_prisma_orm"
     },
@@ -2837,9 +2891,9 @@
       "source_file": "package.json",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "notify_core_package_dependencies",
-      "target": "notify_core_package_dependencies_nestjs_bull",
-      "confidence_score": 1.0
+      "target": "notify_core_package_dependencies_nestjs_bull"
     },
     {
       "relation": "contains",
@@ -2947,9 +3001,9 @@
       "source_file": "package.json",
       "source_location": "L34",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "notify_core_package_dependencies",
-      "target": "notify_core_package_dependencies_bull",
-      "confidence_score": 1.0
+      "target": "notify_core_package_dependencies_bull"
     },
     {
       "relation": "contains",
@@ -4127,6 +4181,28 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/notification/notification.module.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_notification_notification_module_ts",
+      "target": "src_notification_notification_processor_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.module.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_notification_notification_module_ts",
+      "target": "notification_notification_processor_notificationprocessor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.module.ts",
       "source_location": "L3",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -4173,6 +4249,56 @@
       "weight": 1.0,
       "source": "notification_notification_module_notificationmodule",
       "target": "notification_notification_controller_notificationcontroller"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.processor.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_notification_notification_processor_ts",
+      "target": "notification_notification_processor_emailjobdata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.processor.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_notification_notification_processor_ts",
+      "target": "notification_notification_processor_inappjobdata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.processor.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_notification_notification_processor_ts",
+      "target": "notification_notification_processor_notificationprocessor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.processor.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "notification_notification_processor_notificationprocessor",
+      "target": "notification_notification_processor_notificationprocessor_handleemail",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.processor.ts",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "notification_notification_processor_notificationprocessor",
+      "target": "notification_notification_processor_notificationprocessor_handleinapp",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -6089,9 +6215,9 @@
       "source_file": "README.md",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_md",
-      "target": "notify_core_readme_description",
-      "confidence_score": 1.0
+      "target": "notify_core_readme_description"
     },
     {
       "relation": "contains",
@@ -6099,9 +6225,9 @@
       "source_file": "README.md",
       "source_location": "L28",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_md",
-      "target": "notify_core_readme_project_setup",
-      "confidence_score": 1.0
+      "target": "notify_core_readme_project_setup"
     },
     {
       "relation": "contains",
@@ -6109,9 +6235,9 @@
       "source_file": "README.md",
       "source_location": "L34",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_md",
-      "target": "notify_core_readme_compile_and_run_the_project",
-      "confidence_score": 1.0
+      "target": "notify_core_readme_compile_and_run_the_project"
     },
     {
       "relation": "contains",
@@ -6119,9 +6245,9 @@
       "source_file": "README.md",
       "source_location": "L47",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_md",
-      "target": "notify_core_readme_run_tests",
-      "confidence_score": 1.0
+      "target": "notify_core_readme_run_tests"
     },
     {
       "relation": "contains",
@@ -6129,9 +6255,9 @@
       "source_file": "README.md",
       "source_location": "L60",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_md",
-      "target": "notify_core_readme_deployment",
-      "confidence_score": 1.0
+      "target": "notify_core_readme_deployment"
     },
     {
       "relation": "contains",
@@ -6139,9 +6265,9 @@
       "source_file": "README.md",
       "source_location": "L73",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_md",
-      "target": "notify_core_readme_resources",
-      "confidence_score": 1.0
+      "target": "notify_core_readme_resources"
     },
     {
       "relation": "contains",
@@ -6149,9 +6275,9 @@
       "source_file": "README.md",
       "source_location": "L86",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_md",
-      "target": "notify_core_readme_support",
-      "confidence_score": 1.0
+      "target": "notify_core_readme_support"
     },
     {
       "relation": "contains",
@@ -6159,9 +6285,9 @@
       "source_file": "README.md",
       "source_location": "L90",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_md",
-      "target": "notify_core_readme_stay_in_touch",
-      "confidence_score": 1.0
+      "target": "notify_core_readme_stay_in_touch"
     },
     {
       "relation": "contains",
@@ -6169,9 +6295,9 @@
       "source_file": "README.md",
       "source_location": "L96",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_md",
-      "target": "notify_core_readme_license",
-      "confidence_score": 1.0
+      "target": "notify_core_readme_license"
     },
     {
       "relation": "contains",
@@ -6179,9 +6305,9 @@
       "source_file": "README.md",
       "source_location": "L30",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "notify_core_readme_project_setup",
-      "target": "notify_core_readme_codeblock_1",
-      "confidence_score": 1.0
+      "target": "notify_core_readme_codeblock_1"
     },
     {
       "relation": "contains",
@@ -6189,9 +6315,9 @@
       "source_file": "README.md",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "notify_core_readme_compile_and_run_the_project",
-      "target": "notify_core_readme_codeblock_2",
-      "confidence_score": 1.0
+      "target": "notify_core_readme_codeblock_2"
     },
     {
       "relation": "contains",
@@ -6199,9 +6325,9 @@
       "source_file": "README.md",
       "source_location": "L49",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "notify_core_readme_run_tests",
-      "target": "notify_core_readme_codeblock_3",
-      "confidence_score": 1.0
+      "target": "notify_core_readme_codeblock_3"
     },
     {
       "relation": "contains",
@@ -6209,9 +6335,9 @@
       "source_file": "README.md",
       "source_location": "L66",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "notify_core_readme_deployment",
-      "target": "notify_core_readme_codeblock_4",
-      "confidence_score": 1.0
+      "target": "notify_core_readme_codeblock_4"
     },
     {
       "relation": "contains",
@@ -6219,9 +6345,9 @@
       "source_file": ".agents/rules/graphify.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agents_rules_graphify_md",
-      "target": "rules_graphify_graphify",
-      "confidence_score": 1.0
+      "target": "rules_graphify_graphify"
     },
     {
       "relation": "contains",
@@ -6229,9 +6355,9 @@
       "source_file": ".agents/workflows/graphify.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agents_workflows_graphify_md",
-      "target": "workflows_graphify_workflow_graphify",
-      "confidence_score": 1.0
+      "target": "workflows_graphify_workflow_graphify"
     },
     {
       "relation": "references",
@@ -6312,5 +6438,5 @@
       "source_file": "src/app.module.ts"
     }
   ],
-  "built_at_commit": "997226306a3f3f0ac640bd0695783ffe082040be"
+  "built_at_commit": "a2cba1a185263e65b501f30ecaa120bf5d9fb5dc"
 }
