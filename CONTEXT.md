@@ -25,13 +25,13 @@
   - ✅ Design and create Notification entity (userId, type, channel, status, payload)
   - ✅ Write and run initial migrations
   - ✅ Create repositories and service skeletons for each entity
-- 🔄 Phase 3 — Auth & user context
+- ✅ Phase 3 — Auth & user context
   - ✅ Implement register and login endpoints with bcrypt password hashing
   - ✅ Issue access token (short TTL) + refresh token (long TTL)
   - ✅ Implement JWT validation and user extraction inside AuthService
   - ✅ Implement logout with Redis token blacklist
-  - ⬜ Create JwtAuthGuard and attach to protected routes
-- ⬜ Phase 4 — Bull / Redis queues
+  - ✅ Create JwtAuthGuard and attach to protected routes
+- 🔄 Phase 4 — Bull / Redis queues
   - ⬜ Install and configure @nestjs/bull with Redis connection
   - ⬜ Create notification.queue and define job types (email, in-app)
   - ⬜ Implement NotificationProducer to enqueue jobs with priority/delay support

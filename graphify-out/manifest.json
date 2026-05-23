@@ -1,0 +1,237 @@
+{
+  "/home/gado/Documents/notify-core/nest-cli.json": {
+    "mtime": 1778521393.4909515,
+    "ast_hash": "b6c9c4b64b7092bea720263a47b574cf",
+    "semantic_hash": "b6c9c4b64b7092bea720263a47b574cf"
+  },
+  "/home/gado/Documents/notify-core/tsconfig.build.json": {
+    "mtime": 1778521393.4910455,
+    "ast_hash": "f73d0f011ee462dcdf7f02bbdcde284b",
+    "semantic_hash": "f73d0f011ee462dcdf7f02bbdcde284b"
+  },
+  "/home/gado/Documents/notify-core/eslint.config.mjs": {
+    "mtime": 1779043451.2777925,
+    "ast_hash": "e17094028c7f31ea68086dc2fbb5e072",
+    "semantic_hash": "e17094028c7f31ea68086dc2fbb5e072"
+  },
+  "/home/gado/Documents/notify-core/package.json": {
+    "mtime": 1779101119.2048697,
+    "ast_hash": "5bfac7abd2f3d1c1087307cc8392e63c",
+    "semantic_hash": "5bfac7abd2f3d1c1087307cc8392e63c"
+  },
+  "/home/gado/Documents/notify-core/tsconfig.json": {
+    "mtime": 1778521393.4910865,
+    "ast_hash": "397a4e7fd9eb228257a07387005fa770",
+    "semantic_hash": "397a4e7fd9eb228257a07387005fa770"
+  },
+  "/home/gado/Documents/notify-core/prisma.config.ts": {
+    "mtime": 1778713061.889743,
+    "ast_hash": "f6143a6083213d512c0beaa8d98daf63",
+    "semantic_hash": "f6143a6083213d512c0beaa8d98daf63"
+  },
+  "/home/gado/Documents/notify-core/test/jest-e2e.json": {
+    "mtime": 1778521393.4914346,
+    "ast_hash": "9f2f5b0e1da31d7b04e205c944e85e8d",
+    "semantic_hash": "9f2f5b0e1da31d7b04e205c944e85e8d"
+  },
+  "/home/gado/Documents/notify-core/test/app.e2e-spec.ts": {
+    "mtime": 1778521393.4915407,
+    "ast_hash": "91198fa8fc7e238ecc9dacec901d7a15",
+    "semantic_hash": "91198fa8fc7e238ecc9dacec901d7a15"
+  },
+  "/home/gado/Documents/notify-core/prisma/migrations/20260517191152_init/migration.sql": {
+    "mtime": 1779045112.8451993,
+    "ast_hash": "68f0184a895fcf3ff694fe520710ad4c",
+    "semantic_hash": "68f0184a895fcf3ff694fe520710ad4c"
+  },
+  "/home/gado/Documents/notify-core/src/app.module.ts": {
+    "mtime": 1779101152.2861106,
+    "ast_hash": "3e96c20ec535edb205f3674b1e41e713",
+    "semantic_hash": "3e96c20ec535edb205f3674b1e41e713"
+  },
+  "/home/gado/Documents/notify-core/src/app.service.ts": {
+    "mtime": 1778521393.4913342,
+    "ast_hash": "cd3fb7836f10de08a725ee1fd4ab36fe",
+    "semantic_hash": "cd3fb7836f10de08a725ee1fd4ab36fe"
+  },
+  "/home/gado/Documents/notify-core/src/app.controller.ts": {
+    "mtime": 1778711767.40769,
+    "ast_hash": "161a2c9280d606f86c5555a6e0362e3a",
+    "semantic_hash": "161a2c9280d606f86c5555a6e0362e3a"
+  },
+  "/home/gado/Documents/notify-core/src/main.ts": {
+    "mtime": 1778709925.6583438,
+    "ast_hash": "5357c2bc5a45eb3f1d8e53c68b866f83",
+    "semantic_hash": "5357c2bc5a45eb3f1d8e53c68b866f83"
+  },
+  "/home/gado/Documents/notify-core/src/app.controller.spec.ts": {
+    "mtime": 1778521393.4914346,
+    "ast_hash": "4a1c0e1133dbda6f6e8f3e60d984eddf",
+    "semantic_hash": "4a1c0e1133dbda6f6e8f3e60d984eddf"
+  },
+  "/home/gado/Documents/notify-core/src/notification/notification.controller.spec.ts": {
+    "mtime": 1779100528.971031,
+    "ast_hash": "1ce88e2980d26c34c957998bbd31b722",
+    "semantic_hash": "1ce88e2980d26c34c957998bbd31b722"
+  },
+  "/home/gado/Documents/notify-core/src/notification/notification.module.ts": {
+    "mtime": 1779044027.60814,
+    "ast_hash": "af895e42eaac50cb30077e00912f876c",
+    "semantic_hash": "af895e42eaac50cb30077e00912f876c"
+  },
+  "/home/gado/Documents/notify-core/src/notification/notification.controller.ts": {
+    "mtime": 1779255919.0882373,
+    "ast_hash": "76fdce587deb367c453f44033710aafc",
+    "semantic_hash": "76fdce587deb367c453f44033710aafc"
+  },
+  "/home/gado/Documents/notify-core/src/notification/notification.service.ts": {
+    "mtime": 1779044546.8916328,
+    "ast_hash": "35a7e5cc71052f8f921077b34245abe6",
+    "semantic_hash": "35a7e5cc71052f8f921077b34245abe6"
+  },
+  "/home/gado/Documents/notify-core/src/notification/notification.service.spec.ts": {
+    "mtime": 1779100536.3571117,
+    "ast_hash": "112c52a8ffeefcc38713c7aec65353ad",
+    "semantic_hash": "112c52a8ffeefcc38713c7aec65353ad"
+  },
+  "/home/gado/Documents/notify-core/src/notification/dto/update-notification.dto.ts": {
+    "mtime": 1779044092.4518132,
+    "ast_hash": "7c65c38587c000449cfe5e7249ef2714",
+    "semantic_hash": "7c65c38587c000449cfe5e7249ef2714"
+  },
+  "/home/gado/Documents/notify-core/src/notification/dto/create-notification.dto.ts": {
+    "mtime": 1779044087.9677835,
+    "ast_hash": "12aad9bbe73b2d5e4e72f4a0001a239a",
+    "semantic_hash": "12aad9bbe73b2d5e4e72f4a0001a239a"
+  },
+  "/home/gado/Documents/notify-core/src/user/user.controller.spec.ts": {
+    "mtime": 1779100520.0079331,
+    "ast_hash": "bdbfd8933b013b7a9d0352e83cc2b374",
+    "semantic_hash": "bdbfd8933b013b7a9d0352e83cc2b374"
+  },
+  "/home/gado/Documents/notify-core/src/user/user.controller.ts": {
+    "mtime": 1779255917.0802383,
+    "ast_hash": "0ce1ed094aed0efae649b68f8f1ab38c",
+    "semantic_hash": "0ce1ed094aed0efae649b68f8f1ab38c"
+  },
+  "/home/gado/Documents/notify-core/src/user/user.module.ts": {
+    "mtime": 1779100468.3493693,
+    "ast_hash": "32d05fa2b56e064487f34595d8d34cd0",
+    "semantic_hash": "32d05fa2b56e064487f34595d8d34cd0"
+  },
+  "/home/gado/Documents/notify-core/src/user/user.service.ts": {
+    "mtime": 1779100449.5531645,
+    "ast_hash": "15fb9d167016164130fcc652b00c4734",
+    "semantic_hash": "15fb9d167016164130fcc652b00c4734"
+  },
+  "/home/gado/Documents/notify-core/src/user/user.service.spec.ts": {
+    "mtime": 1779043496.1201952,
+    "ast_hash": "68f3a0aad27c7ab0a16d959bed7a8027",
+    "semantic_hash": "68f3a0aad27c7ab0a16d959bed7a8027"
+  },
+  "/home/gado/Documents/notify-core/src/user/dto/create-user.dto.ts": {
+    "mtime": 1779042962.8655622,
+    "ast_hash": "e42713942f729d637043decf521180f6",
+    "semantic_hash": "e42713942f729d637043decf521180f6"
+  },
+  "/home/gado/Documents/notify-core/src/user/dto/update-user.dto.ts": {
+    "mtime": 1779042619.4466605,
+    "ast_hash": "cbf49f6d70de405d8a66ead021b04319",
+    "semantic_hash": "cbf49f6d70de405d8a66ead021b04319"
+  },
+  "/home/gado/Documents/notify-core/src/user/entities/user.entity.ts": {
+    "mtime": 1779042619.446768,
+    "ast_hash": "0eda481066e74096b241683e1cdb654e",
+    "semantic_hash": "0eda481066e74096b241683e1cdb654e"
+  },
+  "/home/gado/Documents/notify-core/src/auth/auth.controller.ts": {
+    "mtime": 1779255906.0432436,
+    "ast_hash": "dc89aee3ccc80f763541d5e36a05615c",
+    "semantic_hash": "dc89aee3ccc80f763541d5e36a05615c"
+  },
+  "/home/gado/Documents/notify-core/src/auth/jwt-auth.guard.ts": {
+    "mtime": 1779255883.1112547,
+    "ast_hash": "184c5bd056e5657c27ecdd69e1e40701",
+    "semantic_hash": "184c5bd056e5657c27ecdd69e1e40701"
+  },
+  "/home/gado/Documents/notify-core/src/auth/auth.service.ts": {
+    "mtime": 1779101142.6229722,
+    "ast_hash": "d75d39a5327948562cf09de1ab0c9762",
+    "semantic_hash": "d75d39a5327948562cf09de1ab0c9762"
+  },
+  "/home/gado/Documents/notify-core/src/auth/jwt.strategy.ts": {
+    "mtime": 1779255885.1242537,
+    "ast_hash": "1724ef40b77aa7c178fdadf5c7d3797b",
+    "semantic_hash": "1724ef40b77aa7c178fdadf5c7d3797b"
+  },
+  "/home/gado/Documents/notify-core/src/auth/auth.controller.spec.ts": {
+    "mtime": 1779100486.6095686,
+    "ast_hash": "8f30c585ad7e9afe95fc403c11eb6862",
+    "semantic_hash": "8f30c585ad7e9afe95fc403c11eb6862"
+  },
+  "/home/gado/Documents/notify-core/src/auth/auth.service.spec.ts": {
+    "mtime": 1779100501.9047353,
+    "ast_hash": "7a6b6738866f4733fc038bbea9f0650c",
+    "semantic_hash": "7a6b6738866f4733fc038bbea9f0650c"
+  },
+  "/home/gado/Documents/notify-core/src/auth/auth.module.ts": {
+    "mtime": 1779255894.3052492,
+    "ast_hash": "3311c486f1bd2413e8d8cbc91bf7468d",
+    "semantic_hash": "3311c486f1bd2413e8d8cbc91bf7468d"
+  },
+  "/home/gado/Documents/notify-core/src/auth/dto/login.dto.ts": {
+    "mtime": 1779100457.0572462,
+    "ast_hash": "82bd0764668dd2849c2cdc8f87a9ca23",
+    "semantic_hash": "82bd0764668dd2849c2cdc8f87a9ca23"
+  },
+  "/home/gado/Documents/notify-core/src/auth/dto/register.dto.ts": {
+    "mtime": 1779100453.5002074,
+    "ast_hash": "5eef49d3e6b62ebca333c21a76e644a9",
+    "semantic_hash": "5eef49d3e6b62ebca333c21a76e644a9"
+  },
+  "/home/gado/Documents/notify-core/src/prisma/prisma.service.ts": {
+    "mtime": 1779100395.0145705,
+    "ast_hash": "a6750343d9426d6f3a1418d669ef4a52",
+    "semantic_hash": "a6750343d9426d6f3a1418d669ef4a52"
+  },
+  "/home/gado/Documents/notify-core/src/prisma/prisma.service.spec.ts": {
+    "mtime": 1778713079.9217367,
+    "ast_hash": "3fcc10df908924d197822601d2e65831",
+    "semantic_hash": "3fcc10df908924d197822601d2e65831"
+  },
+  "/home/gado/Documents/notify-core/src/prisma/prisma.module.ts": {
+    "mtime": 1779042497.3187788,
+    "ast_hash": "3505a1831c78f0a9475e4ce0f0092410",
+    "semantic_hash": "3505a1831c78f0a9475e4ce0f0092410"
+  },
+  "/home/gado/Documents/notify-core/src/redis/redis.module.ts": {
+    "mtime": 1779101130.6678004,
+    "ast_hash": "39df5341b18d4ee26a5dff5c8a0c3543",
+    "semantic_hash": "39df5341b18d4ee26a5dff5c8a0c3543"
+  },
+  "/home/gado/Documents/notify-core/src/redis/redis.service.ts": {
+    "mtime": 1779101126.6467426,
+    "ast_hash": "8911532043107f3601ff3cede267b443",
+    "semantic_hash": "8911532043107f3601ff3cede267b443"
+  },
+  "/home/gado/Documents/notify-core/README.md": {
+    "mtime": 1778521393.4907274,
+    "ast_hash": "f9b30a57e215bc0b63868065fc71a1ac",
+    "semantic_hash": "f9b30a57e215bc0b63868065fc71a1ac"
+  },
+  "/home/gado/Documents/notify-core/docker-compose.yml": {
+    "mtime": 1779101272.1327956,
+    "ast_hash": "f639c09f8496a8a1074883380131bc3a",
+    "semantic_hash": "f639c09f8496a8a1074883380131bc3a"
+  },
+  "/home/gado/Documents/notify-core/.agents/rules/graphify.md": {
+    "mtime": 1779529655.0754,
+    "ast_hash": "f1e53ecc9194573d3c28fc116c743a2e",
+    "semantic_hash": "f1e53ecc9194573d3c28fc116c743a2e"
+  },
+  "/home/gado/Documents/notify-core/.agents/workflows/graphify.md": {
+    "mtime": 1779529655.0756302,
+    "ast_hash": "afa1ffc01aa56ac681c7335686f44767",
+    "semantic_hash": "afa1ffc01aa56ac681c7335686f44767"
+  }
+}
