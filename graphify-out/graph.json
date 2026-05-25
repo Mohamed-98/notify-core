@@ -608,10 +608,19 @@
       "norm_label": "@types/supertest"
     },
     {
-      "label": "eslint",
+      "label": "dotenv",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L58",
+      "id": "notify_core_package_devdependencies_dotenv",
+      "community": 2,
+      "norm_label": "dotenv"
+    },
+    {
+      "label": "eslint",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L59",
       "id": "notify_core_package_devdependencies_eslint",
       "community": 2,
       "norm_label": "eslint"
@@ -620,7 +629,7 @@
       "label": "eslint-config-prettier",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L59",
+      "source_location": "L60",
       "id": "notify_core_package_devdependencies_eslint_config_prettier",
       "community": 2,
       "norm_label": "eslint-config-prettier"
@@ -629,7 +638,7 @@
       "label": "eslint-plugin-prettier",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L60",
+      "source_location": "L61",
       "id": "notify_core_package_devdependencies_eslint_plugin_prettier",
       "community": 2,
       "norm_label": "eslint-plugin-prettier"
@@ -638,7 +647,7 @@
       "label": "globals",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L61",
+      "source_location": "L62",
       "id": "notify_core_package_devdependencies_globals",
       "community": 2,
       "norm_label": "globals"
@@ -647,7 +656,7 @@
       "label": "jest",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L62",
+      "source_location": "L63",
       "id": "notify_core_package_devdependencies_jest",
       "community": 2,
       "norm_label": "jest"
@@ -656,7 +665,7 @@
       "label": "prettier",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L63",
+      "source_location": "L64",
       "id": "notify_core_package_devdependencies_prettier",
       "community": 2,
       "norm_label": "prettier"
@@ -665,7 +674,7 @@
       "label": "prisma",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L64",
+      "source_location": "L65",
       "id": "notify_core_package_devdependencies_prisma",
       "community": 2,
       "norm_label": "prisma"
@@ -674,7 +683,7 @@
       "label": "source-map-support",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L65",
+      "source_location": "L66",
       "id": "notify_core_package_devdependencies_source_map_support",
       "community": 2,
       "norm_label": "source-map-support"
@@ -683,7 +692,7 @@
       "label": "supertest",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L66",
+      "source_location": "L67",
       "id": "notify_core_package_devdependencies_supertest",
       "community": 2,
       "norm_label": "supertest"
@@ -692,7 +701,7 @@
       "label": "ts-jest",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L67",
+      "source_location": "L68",
       "id": "notify_core_package_devdependencies_ts_jest",
       "community": 2,
       "norm_label": "ts-jest"
@@ -701,7 +710,7 @@
       "label": "ts-loader",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L68",
+      "source_location": "L69",
       "id": "notify_core_package_devdependencies_ts_loader",
       "community": 2,
       "norm_label": "ts-loader"
@@ -710,7 +719,7 @@
       "label": "ts-node",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L69",
+      "source_location": "L70",
       "id": "notify_core_package_devdependencies_ts_node",
       "community": 2,
       "norm_label": "ts-node"
@@ -719,7 +728,7 @@
       "label": "tsconfig-paths",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L70",
+      "source_location": "L71",
       "id": "notify_core_package_devdependencies_tsconfig_paths",
       "community": 2,
       "norm_label": "tsconfig-paths"
@@ -728,7 +737,7 @@
       "label": "typescript",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L71",
+      "source_location": "L72",
       "id": "notify_core_package_devdependencies_typescript",
       "community": 2,
       "norm_label": "typescript"
@@ -737,7 +746,7 @@
       "label": "typescript-eslint",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L72",
+      "source_location": "L73",
       "id": "notify_core_package_devdependencies_typescript_eslint",
       "community": 2,
       "norm_label": "typescript-eslint"
@@ -746,7 +755,7 @@
       "label": "jest",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L74",
+      "source_location": "L75",
       "id": "notify_core_package_jest",
       "community": 6,
       "norm_label": "jest"
@@ -755,7 +764,7 @@
       "label": "moduleFileExtensions",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L75",
+      "source_location": "L76",
       "id": "notify_core_package_jest_modulefileextensions",
       "community": 6,
       "norm_label": "modulefileextensions"
@@ -764,7 +773,7 @@
       "label": "rootDir",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L80",
+      "source_location": "L81",
       "id": "notify_core_package_jest_rootdir",
       "community": 6,
       "norm_label": "rootdir"
@@ -773,7 +782,7 @@
       "label": "testRegex",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L81",
+      "source_location": "L82",
       "id": "notify_core_package_jest_testregex",
       "community": 6,
       "norm_label": "testregex"
@@ -782,7 +791,7 @@
       "label": "transform",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L82",
+      "source_location": "L83",
       "id": "notify_core_package_jest_transform",
       "community": 6,
       "norm_label": "transform"
@@ -791,7 +800,7 @@
       "label": "^.+\\\\.(t|j)s$",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L83",
+      "source_location": "L84",
       "id": "notify_core_package_transform_t_j_s",
       "community": 6,
       "norm_label": "^.+\\\\.(t|j)s$"
@@ -800,7 +809,7 @@
       "label": "collectCoverageFrom",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L85",
+      "source_location": "L86",
       "id": "notify_core_package_jest_collectcoveragefrom",
       "community": 6,
       "norm_label": "collectcoveragefrom"
@@ -809,7 +818,7 @@
       "label": "coverageDirectory",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L88",
+      "source_location": "L89",
       "id": "notify_core_package_jest_coveragedirectory",
       "community": 6,
       "norm_label": "coveragedirectory"
@@ -818,7 +827,7 @@
       "label": "testEnvironment",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L89",
+      "source_location": "L90",
       "id": "notify_core_package_jest_testenvironment",
       "community": 6,
       "norm_label": "testenvironment"
@@ -1268,7 +1277,7 @@
       "label": "NotificationModule",
       "file_type": "code",
       "source_file": "src/notification/notification.module.ts",
-      "source_location": "L16",
+      "source_location": "L18",
       "id": "notification_notification_module_notificationmodule",
       "community": 3,
       "norm_label": "notificationmodule"
@@ -1326,6 +1335,51 @@
       "id": "notification_notification_processor_notificationprocessor_handleinapp",
       "community": 3,
       "norm_label": ".handleinapp()"
+    },
+    {
+      "label": "notification.producer.ts",
+      "file_type": "code",
+      "source_file": "src/notification/notification.producer.ts",
+      "source_location": "L1",
+      "id": "src_notification_notification_producer_ts",
+      "community": 3,
+      "norm_label": "notification.producer.ts"
+    },
+    {
+      "label": "EnqueueJobOptions",
+      "file_type": "code",
+      "source_file": "src/notification/notification.producer.ts",
+      "source_location": "L5",
+      "id": "notification_notification_producer_enqueuejoboptions",
+      "community": 3,
+      "norm_label": "enqueuejoboptions"
+    },
+    {
+      "label": "NotificationProducer",
+      "file_type": "code",
+      "source_file": "src/notification/notification.producer.ts",
+      "source_location": "L11",
+      "id": "notification_notification_producer_notificationproducer",
+      "community": 3,
+      "norm_label": "notificationproducer"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/notification/notification.producer.ts",
+      "source_location": "L12",
+      "id": "notification_notification_producer_notificationproducer_constructor",
+      "community": 3,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".enqueueJob()",
+      "file_type": "code",
+      "source_file": "src/notification/notification.producer.ts",
+      "source_location": "L16",
+      "id": "notification_notification_producer_notificationproducer_enqueuejob",
+      "community": 3,
+      "norm_label": ".enqueuejob()"
     },
     {
       "label": "notification.controller.ts",
@@ -2576,7 +2630,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 10,
       "norm_label": "prisma database access",
       "id": "concept_prisma_orm"
     },
@@ -3214,6 +3268,16 @@
       "confidence_score": 1.0,
       "source": "notify_core_package_devdependencies",
       "target": "notify_core_package_devdependencies_types_supertest"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "notify_core_package_devdependencies",
+      "target": "notify_core_package_devdependencies_dotenv",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4183,9 +4247,9 @@
       "source_file": "src/notification/notification.module.ts",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_notification_notification_module_ts",
-      "target": "src_notification_notification_processor_ts",
-      "confidence_score": 1.0
+      "target": "src_notification_notification_processor_ts"
     },
     {
       "relation": "imports",
@@ -4194,8 +4258,30 @@
       "source_file": "src/notification/notification.module.ts",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_notification_notification_module_ts",
-      "target": "notification_notification_processor_notificationprocessor",
+      "target": "notification_notification_processor_notificationprocessor"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.module.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_notification_notification_module_ts",
+      "target": "src_notification_notification_producer_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.module.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_notification_notification_module_ts",
+      "target": "notification_notification_producer_notificationproducer",
       "confidence_score": 1.0
     },
     {
@@ -4256,9 +4342,9 @@
       "source_file": "src/notification/notification.processor.ts",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_notification_notification_processor_ts",
-      "target": "notification_notification_processor_emailjobdata",
-      "confidence_score": 1.0
+      "target": "notification_notification_processor_emailjobdata"
     },
     {
       "relation": "contains",
@@ -4266,9 +4352,9 @@
       "source_file": "src/notification/notification.processor.ts",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_notification_notification_processor_ts",
-      "target": "notification_notification_processor_inappjobdata",
-      "confidence_score": 1.0
+      "target": "notification_notification_processor_inappjobdata"
     },
     {
       "relation": "contains",
@@ -4276,9 +4362,9 @@
       "source_file": "src/notification/notification.processor.ts",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_notification_notification_processor_ts",
-      "target": "notification_notification_processor_notificationprocessor",
-      "confidence_score": 1.0
+      "target": "notification_notification_processor_notificationprocessor"
     },
     {
       "relation": "method",
@@ -4286,9 +4372,9 @@
       "source_file": "src/notification/notification.processor.ts",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "notification_notification_processor_notificationprocessor",
-      "target": "notification_notification_processor_notificationprocessor_handleemail",
-      "confidence_score": 1.0
+      "target": "notification_notification_processor_notificationprocessor_handleemail"
     },
     {
       "relation": "method",
@@ -4296,8 +4382,48 @@
       "source_file": "src/notification/notification.processor.ts",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "notification_notification_processor_notificationprocessor",
-      "target": "notification_notification_processor_notificationprocessor_handleinapp",
+      "target": "notification_notification_processor_notificationprocessor_handleinapp"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.producer.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_notification_notification_producer_ts",
+      "target": "notification_notification_producer_enqueuejoboptions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.producer.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_notification_notification_producer_ts",
+      "target": "notification_notification_producer_notificationproducer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.producer.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "notification_notification_producer_notificationproducer",
+      "target": "notification_notification_producer_notificationproducer_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.producer.ts",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "notification_notification_producer_notificationproducer",
+      "target": "notification_notification_producer_notificationproducer_enqueuejob",
       "confidence_score": 1.0
     },
     {
@@ -6438,5 +6564,5 @@
       "source_file": "src/app.module.ts"
     }
   ],
-  "built_at_commit": "a2cba1a185263e65b501f30ecaa120bf5d9fb5dc"
+  "built_at_commit": "364a6657d1ab1e99d0898e5bcc35c2a31a72b5cb"
 }

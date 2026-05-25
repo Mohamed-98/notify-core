@@ -1,5 +1,5 @@
 import { Process, Processor } from '@nestjs/bull';
-import { Job } from 'bull';
+import type { Job } from 'bull';
 
 export type EmailJobData = { to: string; subject: string; body: string };
 export type InAppJobData = { userId: string; message: string };

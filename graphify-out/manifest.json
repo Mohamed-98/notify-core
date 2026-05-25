@@ -15,8 +15,8 @@
     "semantic_hash": "e17094028c7f31ea68086dc2fbb5e072"
   },
   "/home/gado/Documents/notify-core/package.json": {
-    "mtime": 1779551844.9614587,
-    "ast_hash": "18d04b340755cd4e3a878769ed4cb59c",
+    "mtime": 1779552438.3059187,
+    "ast_hash": "a008c6244ca836b4165d38c49de396a4",
     "semantic_hash": ""
   },
   "/home/gado/Documents/notify-core/tsconfig.json": {
@@ -75,8 +75,8 @@
     "semantic_hash": "1ce88e2980d26c34c957998bbd31b722"
   },
   "/home/gado/Documents/notify-core/src/notification/notification.module.ts": {
-    "mtime": 1779552138.1315458,
-    "ast_hash": "25f4a0625dc3ae33c46d0aa7511685e3",
+    "mtime": 1779552915.5580263,
+    "ast_hash": "ce8ca36489d337f703e9a9f33623a401",
     "semantic_hash": ""
   },
   "/home/gado/Documents/notify-core/src/notification/notification.controller.ts": {
@@ -235,8 +235,13 @@
     "semantic_hash": "afa1ffc01aa56ac681c7335686f44767"
   },
   "/home/gado/Documents/notify-core/src/notification/notification.processor.ts": {
-    "mtime": 1779552131.2335372,
-    "ast_hash": "f57f93132878a4af21e19f0aa25b1aa3",
+    "mtime": 1779552742.207364,
+    "ast_hash": "f9b9516330026ced99ebe267ec0a9c2b",
+    "semantic_hash": ""
+  },
+  "/home/gado/Documents/notify-core/src/notification/notification.producer.ts": {
+    "mtime": 1779552904.0468328,
+    "ast_hash": "37cca751687d0d9f276024470de65d7f",
     "semantic_hash": ""
   }
 }
