@@ -1,6 +1,7 @@
 # Graph Report - .  (2026-06-02)
 
 ## Corpus Check
+<<<<<<< HEAD
 - 3 files · ~4,448 words
 - Verdict: corpus is large enough that graph structure adds value.
 
@@ -9,6 +10,21 @@
 - Extraction: 96% EXTRACTED · 4% INFERRED · 0% AMBIGUOUS · INFERRED: 11 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
+=======
+- 48 files · ~4,448 words
+- Verdict: corpus is large enough that graph structure adds value.
+
+## Summary
+- 262 nodes · 293 edges · 27 communities (15 shown, 12 thin omitted)
+- Extraction: 96% EXTRACTED · 4% INFERRED · 0% AMBIGUOUS · INFERRED: 11 edges (avg confidence: 0.85)
+- Token cost: 0 input · 0 output
+
+## Graph Freshness
+- Built from commit: `bf6e6d3b`
+- Run `git rev-parse HEAD` and compare to check if the graph is stale.
+- Run `graphify update .` after code changes (no API cost).
+
+>>>>>>> 8e333da (chore: update graph visualization, report, and labels to reflect system structure changes)
 ## Community Hubs (Navigation)
 - [[_COMMUNITY_Testing & Mock Setup|Testing & Mock Setup]]
 - [[_COMMUNITY_Dev Tooling & ESLint|Dev Tooling & ESLint]]
@@ -39,12 +55,21 @@
 2. `UserService` - 14 edges
 3. `scripts` - 13 edges
 4. `jest` - 9 edges
+<<<<<<< HEAD
 5. `JWT Authentication Scheme` - 5 edges
 6. `Prisma Database Access` - 4 edges
 7. `Redis Caching and Blacklist` - 4 edges
 8. `compilerOptions` - 2 edges
 9. `transform` - 2 edges
 10. `transform` - 2 edges
+=======
+5. `NotificationConsumer` - 6 edges
+6. `JWT Authentication Scheme` - 5 edges
+7. `NotificationProducer` - 4 edges
+8. `Prisma Database Access` - 4 edges
+9. `Redis Caching and Blacklist` - 4 edges
+10. `compilerOptions` - 2 edges
+>>>>>>> 8e333da (chore: update graph visualization, report, and labels to reflect system structure changes)
 
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
@@ -72,8 +97,13 @@ Cohesion: 0.13
 Nodes (6): dto, mockAuthService, mockLoginResponse, mockUser, JWT Authentication Scheme, LoginDto
 
 ### Community 7 - "Queue Consumers"
+<<<<<<< HEAD
 Cohesion: 0.12
 Nodes (5): EmailJobData, InAppJobData, EmailJobData, InAppJobData, EnqueueJobOptions
+=======
+Cohesion: 0.14
+Nodes (8): EmailJobData, InAppJobData, NotificationConsumer, NotificationModule, EmailJobData, InAppJobData, EnqueueJobOptions, NotificationProducer
+>>>>>>> 8e333da (chore: update graph visualization, report, and labels to reflect system structure changes)
 
 ### Community 8 - "Jest Test Config"
 Cohesion: 0.12
@@ -96,7 +126,11 @@ Cohesion: 0.33
 Nodes (5): collection, compilerOptions, deleteOutDir, $schema, sourceRoot
 
 ## Knowledge Gaps
+<<<<<<< HEAD
 - **138 isolated node(s):** `$schema`, `collection`, `sourceRoot`, `deleteOutDir`, `extends` (+133 more)
+=======
+- **139 isolated node(s):** `EmailJobData`, `InAppJobData`, `NotificationModule`, `EnqueueJobOptions`, `$schema` (+134 more)
+>>>>>>> 8e333da (chore: update graph visualization, report, and labels to reflect system structure changes)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **12 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -104,6 +138,7 @@ Nodes (5): collection, compilerOptions, deleteOutDir, $schema, sourceRoot
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `devDependencies` connect `Dev Tooling & ESLint` to `Jest Test Config`?**
+<<<<<<< HEAD
   _High betweenness centrality (0.052) - this node is a cross-community bridge._
 - **Why does `dependencies` connect `Core Dependencies` to `Jest Test Config`?**
   _High betweenness centrality (0.042) - this node is a cross-community bridge._
@@ -111,6 +146,15 @@ _Questions this graph is uniquely positioned to answer:_
   _High betweenness centrality (0.037) - this node is a cross-community bridge._
 - **What connects `$schema`, `collection`, `sourceRoot` to the rest of the system?**
   _138 weakly-connected nodes found - possible documentation gaps or missing edges._
+=======
+  _High betweenness centrality (0.051) - this node is a cross-community bridge._
+- **Why does `dependencies` connect `Core Dependencies` to `Jest Test Config`?**
+  _High betweenness centrality (0.041) - this node is a cross-community bridge._
+- **Why does `UserService` connect `Testing & Mock Setup` to `Auth Module`, `App Bootstrap & Health`?**
+  _High betweenness centrality (0.037) - this node is a cross-community bridge._
+- **What connects `EmailJobData`, `InAppJobData`, `NotificationModule` to the rest of the system?**
+  _139 weakly-connected nodes found - possible documentation gaps or missing edges._
+>>>>>>> 8e333da (chore: update graph visualization, report, and labels to reflect system structure changes)
 - **Should `Testing & Mock Setup` be split into smaller, more focused modules?**
   _Cohesion score 0.08387096774193549 - nodes in this community are weakly interconnected._
 - **Should `Dev Tooling & ESLint` be split into smaller, more focused modules?**
