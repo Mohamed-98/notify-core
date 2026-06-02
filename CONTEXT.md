@@ -36,7 +36,7 @@
   - ✅ Create notification.queue and define job types (email, in-app)
   - ✅ Implement NotificationProducer to enqueue jobs with priority/delay support
   - ✅ Implement NotificationConsumer with @Process handlers per job type
-  - ⬜ Add retry logic and dead-letter handling for failed jobs
+  - ✅ Add retry logic and dead-letter handling for failed jobs
 - ⬜ Phase 5 — Email channel — SendGrid
   - ⬜ Install @sendgrid/mail and create EmailService
   - ⬜ Build sendEmail() with template support (subject, body, dynamic vars)
