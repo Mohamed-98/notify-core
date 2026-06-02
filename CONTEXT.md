@@ -37,12 +37,12 @@
   - ✅ Implement NotificationProducer to enqueue jobs with priority/delay support
   - ✅ Implement NotificationConsumer with @Process handlers per job type
   - ✅ Add retry logic and dead-letter handling for failed jobs
-- 🔄 Phase 5 — Email channel — SendGrid
-  - ⬜ Install @sendgrid/mail and create EmailService
-  - ⬜ Build sendEmail() with template support (subject, body, dynamic vars)
-  - ⬜ Wire email job consumer to EmailService
-  - ⬜ Test real email delivery in dev with a sandbox/verified sender
-- ⬜ Phase 6 — WebSocket — real-time
+- ✅ Phase 5 — Email channel — SendGrid
+  - ✅ Install @sendgrid/mail and create EmailService
+  - ✅ Build sendEmail() with template support (subject, body, dynamic vars)
+  - ✅ Wire email job consumer to EmailService
+  - ✅ Test real email delivery in dev with a sandbox/verified sender
+- 🔄 Phase 6 — WebSocket — real-time
   - ⬜ Create NotificationGateway with @WebSocketGateway()
   - ⬜ Implement JWT handshake auth in handleConnection()
   - ⬜ Map authenticated users to socket IDs in-memory (or via Redis)
