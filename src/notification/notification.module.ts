@@ -4,6 +4,7 @@ import { NotificationService } from './notification.service';
 import { NotificationConsumer } from './notification.consumer';
 import { NotificationProducer } from './notification.producer';
 import { NotificationController } from './notification.controller';
+import { NotificationGateway } from './notification.gateway';
 import { EmailModule } from '../email/email.module';
 
 @Module({
@@ -14,7 +15,12 @@ import { EmailModule } from '../email/email.module';
       { name: 'notification-dlq' },
     ),
   ],
-  providers: [NotificationService, NotificationConsumer, NotificationProducer],
+  providers: [
+    NotificationService,
+    NotificationConsumer,
+    NotificationProducer,
+    NotificationGateway,
+  ],
   controllers: [NotificationController],
   exports: [NotificationProducer]
 })
