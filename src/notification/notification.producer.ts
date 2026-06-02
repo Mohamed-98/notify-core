@@ -5,6 +5,8 @@ import type { Queue } from 'bull';
 export interface EnqueueJobOptions {
   priority?: number;
   delay?: number;
+  attempts?: number;
+  backoff?: number | { type: string; delay: number };
 }
 
 @Injectable()
@@ -17,6 +19,11 @@ export class NotificationProducer {
     return this.notificationQueue.add(name, data, {
       priority: options?.priority,
       delay: options?.delay,
+      attempts: options?.attempts ?? 3,
+      backoff: options?.backoff ?? {
+        type: 'exponential',
+        delay: 1000,
+      },
     });
   }
 }

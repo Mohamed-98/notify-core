@@ -7,9 +7,10 @@ import { NotificationController } from './notification.controller';
 
 @Module({
   imports: [
-    BullModule.registerQueue({
-      name: 'notification',
-    }),
+    BullModule.registerQueue(
+      { name: 'notification' },
+      { name: 'notification-dlq' },
+    ),
   ],
   providers: [NotificationService, NotificationConsumer, NotificationProducer],
   controllers: [NotificationController],

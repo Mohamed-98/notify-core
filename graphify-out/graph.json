@@ -4,78 +4,6 @@
   "graph": {},
   "nodes": [
     {
-      "label": "notification.consumer.ts",
-      "file_type": "code",
-      "source_file": "src/notification/notification.consumer.ts",
-      "source_location": "L1",
-      "id": "src_notification_notification_consumer_ts",
-      "community": 9,
-      "norm_label": "notification.consumer.ts"
-    },
-    {
-      "label": "EmailJobData",
-      "file_type": "code",
-      "source_file": "src/notification/notification.consumer.ts",
-      "source_location": "L4",
-      "id": "notification_notification_consumer_emailjobdata",
-      "community": 9,
-      "norm_label": "emailjobdata"
-    },
-    {
-      "label": "InAppJobData",
-      "file_type": "code",
-      "source_file": "src/notification/notification.consumer.ts",
-      "source_location": "L5",
-      "id": "notification_notification_consumer_inappjobdata",
-      "community": 9,
-      "norm_label": "inappjobdata"
-    },
-    {
-      "label": "NotificationConsumer",
-      "file_type": "code",
-      "source_file": "src/notification/notification.consumer.ts",
-      "source_location": "L8",
-      "id": "notification_notification_consumer_notificationconsumer",
-      "community": 9,
-      "norm_label": "notificationconsumer"
-    },
-    {
-      "label": ".handleEmail()",
-      "file_type": "code",
-      "source_file": "src/notification/notification.consumer.ts",
-      "source_location": "L10",
-      "id": "notification_notification_consumer_notificationconsumer_handleemail",
-      "community": 9,
-      "norm_label": ".handleemail()"
-    },
-    {
-      "label": ".handleInApp()",
-      "file_type": "code",
-      "source_file": "src/notification/notification.consumer.ts",
-      "source_location": "L15",
-      "id": "notification_notification_consumer_notificationconsumer_handleinapp",
-      "community": 9,
-      "norm_label": ".handleinapp()"
-    },
-    {
-      "label": "notification.module.ts",
-      "file_type": "code",
-      "source_file": "src/notification/notification.module.ts",
-      "source_location": "L1",
-      "id": "src_notification_notification_module_ts",
-      "community": 9,
-      "norm_label": "notification.module.ts"
-    },
-    {
-      "label": "NotificationModule",
-      "file_type": "code",
-      "source_file": "src/notification/notification.module.ts",
-      "source_location": "L18",
-      "id": "notification_notification_module_notificationmodule",
-      "community": 9,
-      "norm_label": "notificationmodule"
-    },
-    {
       "label": "nest-cli.json",
       "file_type": "code",
       "source_file": "nest-cli.json",
@@ -170,7 +98,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L1",
-      "community": 7,
+      "community": 8,
       "norm_label": "package.json",
       "id": "package_json"
     },
@@ -179,7 +107,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L2",
-      "community": 7,
+      "community": 8,
       "norm_label": "name",
       "id": "notify_core_package_name"
     },
@@ -188,7 +116,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L3",
-      "community": 7,
+      "community": 8,
       "norm_label": "version",
       "id": "notify_core_package_version"
     },
@@ -197,7 +125,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L4",
-      "community": 7,
+      "community": 8,
       "norm_label": "description",
       "id": "notify_core_package_description"
     },
@@ -206,7 +134,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L5",
-      "community": 7,
+      "community": 8,
       "norm_label": "author",
       "id": "notify_core_package_author"
     },
@@ -215,7 +143,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L6",
-      "community": 7,
+      "community": 8,
       "norm_label": "private",
       "id": "notify_core_package_private"
     },
@@ -224,7 +152,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L7",
-      "community": 7,
+      "community": 8,
       "norm_label": "license",
       "id": "notify_core_package_license"
     },
@@ -800,7 +728,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L75",
-      "community": 7,
+      "community": 8,
       "norm_label": "jest",
       "id": "notify_core_package_jest"
     },
@@ -809,7 +737,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L76",
-      "community": 7,
+      "community": 8,
       "norm_label": "modulefileextensions",
       "id": "notify_core_package_jest_modulefileextensions"
     },
@@ -818,7 +746,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L81",
-      "community": 7,
+      "community": 8,
       "norm_label": "rootdir",
       "id": "notify_core_package_jest_rootdir"
     },
@@ -827,7 +755,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L82",
-      "community": 7,
+      "community": 8,
       "norm_label": "testregex",
       "id": "notify_core_package_jest_testregex"
     },
@@ -836,7 +764,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L83",
-      "community": 7,
+      "community": 8,
       "norm_label": "transform",
       "id": "notify_core_package_jest_transform"
     },
@@ -845,7 +773,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L84",
-      "community": 7,
+      "community": 8,
       "norm_label": "^.+\\\\.(t|j)s$",
       "id": "notify_core_package_transform_t_j_s"
     },
@@ -854,7 +782,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L86",
-      "community": 7,
+      "community": 8,
       "norm_label": "collectcoveragefrom",
       "id": "notify_core_package_jest_collectcoveragefrom"
     },
@@ -863,7 +791,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L89",
-      "community": 7,
+      "community": 8,
       "norm_label": "coveragedirectory",
       "id": "notify_core_package_jest_coveragedirectory"
     },
@@ -872,7 +800,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L90",
-      "community": 7,
+      "community": 8,
       "norm_label": "testenvironment",
       "id": "notify_core_package_jest_testenvironment"
     },
@@ -1160,7 +1088,7 @@
       "file_type": "code",
       "source_file": "test/app.e2e-spec.ts",
       "source_location": "L1",
-      "community": 6,
+      "community": 5,
       "norm_label": "app.e2e-spec.ts",
       "id": "test_app_e2e_spec_ts"
     },
@@ -1169,7 +1097,7 @@
       "file_type": "code",
       "source_file": "src/app.module.ts",
       "source_location": "L1",
-      "community": 6,
+      "community": 5,
       "norm_label": "app.module.ts",
       "id": "src_app_module_ts"
     },
@@ -1178,7 +1106,7 @@
       "file_type": "code",
       "source_file": "src/app.module.ts",
       "source_location": "L47",
-      "community": 6,
+      "community": 5,
       "norm_label": ".configure()",
       "id": "src_app_module_appmodule_configure"
     },
@@ -1187,7 +1115,7 @@
       "file_type": "code",
       "source_file": "src/app.service.ts",
       "source_location": "L1",
-      "community": 6,
+      "community": 5,
       "norm_label": "app.service.ts",
       "id": "src_app_service_ts"
     },
@@ -1196,7 +1124,7 @@
       "file_type": "code",
       "source_file": "src/app.service.ts",
       "source_location": "L5",
-      "community": 6,
+      "community": 5,
       "norm_label": ".gethello()",
       "id": "src_app_service_appservice_gethello"
     },
@@ -1205,7 +1133,7 @@
       "file_type": "code",
       "source_file": "src/app.controller.ts",
       "source_location": "L1",
-      "community": 6,
+      "community": 5,
       "norm_label": "app.controller.ts",
       "id": "src_app_controller_ts"
     },
@@ -1214,7 +1142,7 @@
       "file_type": "code",
       "source_file": "src/app.controller.ts",
       "source_location": "L7",
-      "community": 6,
+      "community": 5,
       "norm_label": ".constructor()",
       "id": "src_app_controller_appcontroller_constructor"
     },
@@ -1223,7 +1151,7 @@
       "file_type": "code",
       "source_file": "src/app.controller.ts",
       "source_location": "L10",
-      "community": 6,
+      "community": 5,
       "norm_label": ".gethello()",
       "id": "src_app_controller_appcontroller_gethello"
     },
@@ -1232,7 +1160,7 @@
       "file_type": "code",
       "source_file": "src/app.controller.ts",
       "source_location": "L15",
-      "community": 6,
+      "community": 5,
       "norm_label": ".gethealth()",
       "id": "src_app_controller_appcontroller_gethealth"
     },
@@ -1241,7 +1169,7 @@
       "file_type": "code",
       "source_file": "src/app.controller.ts",
       "source_location": "L39",
-      "community": 6,
+      "community": 5,
       "norm_label": ".checkconnection()",
       "id": "src_app_controller_appcontroller_checkconnection"
     },
@@ -1250,7 +1178,7 @@
       "file_type": "code",
       "source_file": "src/main.ts",
       "source_location": "L1",
-      "community": 6,
+      "community": 5,
       "norm_label": "main.ts",
       "id": "src_main_ts"
     },
@@ -1259,7 +1187,7 @@
       "file_type": "code",
       "source_file": "src/main.ts",
       "source_location": "L5",
-      "community": 6,
+      "community": 5,
       "norm_label": "bootstrap()",
       "id": "src_main_bootstrap"
     },
@@ -1268,16 +1196,25 @@
       "file_type": "code",
       "source_file": "src/app.controller.spec.ts",
       "source_location": "L1",
-      "community": 6,
+      "community": 5,
       "norm_label": "app.controller.spec.ts",
       "id": "src_app_controller_spec_ts"
+    },
+    {
+      "label": "notification.module.ts",
+      "file_type": "code",
+      "source_file": "src/notification/notification.module.ts",
+      "source_location": "L1",
+      "community": 7,
+      "norm_label": "notification.module.ts",
+      "id": "src_notification_notification_module_ts"
     },
     {
       "label": "notification.producer.ts",
       "file_type": "code",
       "source_file": "src/notification/notification.producer.ts",
       "source_location": "L1",
-      "community": 9,
+      "community": 7,
       "norm_label": "notification.producer.ts",
       "id": "src_notification_notification_producer_ts"
     },
@@ -1286,7 +1223,7 @@
       "file_type": "code",
       "source_file": "src/notification/notification.producer.ts",
       "source_location": "L5",
-      "community": 9,
+      "community": 7,
       "norm_label": "enqueuejoboptions",
       "id": "notification_notification_producer_enqueuejoboptions"
     },
@@ -1294,8 +1231,8 @@
       "label": ".constructor()",
       "file_type": "code",
       "source_file": "src/notification/notification.producer.ts",
-      "source_location": "L12",
-      "community": 9,
+      "source_location": "L14",
+      "community": 7,
       "norm_label": ".constructor()",
       "id": "notification_notification_producer_notificationproducer_constructor"
     },
@@ -1303,8 +1240,8 @@
       "label": ".enqueueJob()",
       "file_type": "code",
       "source_file": "src/notification/notification.producer.ts",
-      "source_location": "L16",
-      "community": 9,
+      "source_location": "L18",
+      "community": 7,
       "norm_label": ".enqueuejob()",
       "id": "notification_notification_producer_notificationproducer_enqueuejob"
     },
@@ -1313,7 +1250,7 @@
       "file_type": "code",
       "source_file": "src/notification/notification.controller.ts",
       "source_location": "L1",
-      "community": 5,
+      "community": 6,
       "norm_label": "notification.controller.ts",
       "id": "src_notification_notification_controller_ts"
     },
@@ -1322,7 +1259,7 @@
       "file_type": "code",
       "source_file": "src/notification/notification.controller.ts",
       "source_location": "L19",
-      "community": 5,
+      "community": 6,
       "norm_label": ".constructor()",
       "id": "notification_notification_controller_notificationcontroller_constructor"
     },
@@ -1331,7 +1268,7 @@
       "file_type": "code",
       "source_file": "src/notification/notification.controller.ts",
       "source_location": "L22",
-      "community": 5,
+      "community": 6,
       "norm_label": ".create()",
       "id": "notification_notification_controller_notificationcontroller_create"
     },
@@ -1340,7 +1277,7 @@
       "file_type": "code",
       "source_file": "src/notification/notification.controller.ts",
       "source_location": "L27",
-      "community": 5,
+      "community": 6,
       "norm_label": ".findall()",
       "id": "notification_notification_controller_notificationcontroller_findall"
     },
@@ -1349,7 +1286,7 @@
       "file_type": "code",
       "source_file": "src/notification/notification.controller.ts",
       "source_location": "L32",
-      "community": 5,
+      "community": 6,
       "norm_label": ".findbyuser()",
       "id": "notification_notification_controller_notificationcontroller_findbyuser"
     },
@@ -1358,7 +1295,7 @@
       "file_type": "code",
       "source_file": "src/notification/notification.controller.ts",
       "source_location": "L37",
-      "community": 5,
+      "community": 6,
       "norm_label": ".findone()",
       "id": "notification_notification_controller_notificationcontroller_findone"
     },
@@ -1367,7 +1304,7 @@
       "file_type": "code",
       "source_file": "src/notification/notification.controller.ts",
       "source_location": "L42",
-      "community": 5,
+      "community": 6,
       "norm_label": ".update()",
       "id": "notification_notification_controller_notificationcontroller_update"
     },
@@ -1376,7 +1313,7 @@
       "file_type": "code",
       "source_file": "src/notification/notification.controller.ts",
       "source_location": "L50",
-      "community": 5,
+      "community": 6,
       "norm_label": ".remove()",
       "id": "notification_notification_controller_notificationcontroller_remove"
     },
@@ -1385,7 +1322,7 @@
       "file_type": "code",
       "source_file": "src/notification/notification.service.ts",
       "source_location": "L1",
-      "community": 5,
+      "community": 6,
       "norm_label": "notification.service.ts",
       "id": "src_notification_notification_service_ts"
     },
@@ -1394,7 +1331,7 @@
       "file_type": "code",
       "source_file": "src/notification/notification.service.ts",
       "source_location": "L9",
-      "community": 5,
+      "community": 6,
       "norm_label": ".constructor()",
       "id": "notification_notification_service_notificationservice_constructor"
     },
@@ -1403,7 +1340,7 @@
       "file_type": "code",
       "source_file": "src/notification/notification.service.ts",
       "source_location": "L10",
-      "community": 5,
+      "community": 6,
       "norm_label": ".create()",
       "id": "notification_notification_service_notificationservice_create"
     },
@@ -1412,7 +1349,7 @@
       "file_type": "code",
       "source_file": "src/notification/notification.service.ts",
       "source_location": "L22",
-      "community": 5,
+      "community": 6,
       "norm_label": ".findall()",
       "id": "notification_notification_service_notificationservice_findall"
     },
@@ -1421,7 +1358,7 @@
       "file_type": "code",
       "source_file": "src/notification/notification.service.ts",
       "source_location": "L28",
-      "community": 5,
+      "community": 6,
       "norm_label": ".findbyuser()",
       "id": "notification_notification_service_notificationservice_findbyuser"
     },
@@ -1430,7 +1367,7 @@
       "file_type": "code",
       "source_file": "src/notification/notification.service.ts",
       "source_location": "L34",
-      "community": 5,
+      "community": 6,
       "norm_label": ".findone()",
       "id": "notification_notification_service_notificationservice_findone"
     },
@@ -1439,7 +1376,7 @@
       "file_type": "code",
       "source_file": "src/notification/notification.service.ts",
       "source_location": "L44",
-      "community": 5,
+      "community": 6,
       "norm_label": ".update()",
       "id": "notification_notification_service_notificationservice_update"
     },
@@ -1448,16 +1385,79 @@
       "file_type": "code",
       "source_file": "src/notification/notification.service.ts",
       "source_location": "L58",
-      "community": 5,
+      "community": 6,
       "norm_label": ".remove()",
       "id": "notification_notification_service_notificationservice_remove"
+    },
+    {
+      "label": "notification.consumer.ts",
+      "file_type": "code",
+      "source_file": "src/notification/notification.consumer.ts",
+      "source_location": "L1",
+      "community": 7,
+      "norm_label": "notification.consumer.ts",
+      "id": "src_notification_notification_consumer_ts"
+    },
+    {
+      "label": "EmailJobData",
+      "file_type": "code",
+      "source_file": "src/notification/notification.consumer.ts",
+      "source_location": "L4",
+      "community": 7,
+      "norm_label": "emailjobdata",
+      "id": "notification_notification_consumer_emailjobdata"
+    },
+    {
+      "label": "InAppJobData",
+      "file_type": "code",
+      "source_file": "src/notification/notification.consumer.ts",
+      "source_location": "L5",
+      "community": 7,
+      "norm_label": "inappjobdata",
+      "id": "notification_notification_consumer_inappjobdata"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/notification/notification.consumer.ts",
+      "source_location": "L9",
+      "community": 7,
+      "norm_label": ".constructor()",
+      "id": "notification_notification_consumer_notificationconsumer_constructor"
+    },
+    {
+      "label": ".handleEmail()",
+      "file_type": "code",
+      "source_file": "src/notification/notification.consumer.ts",
+      "source_location": "L14",
+      "community": 7,
+      "norm_label": ".handleemail()",
+      "id": "notification_notification_consumer_notificationconsumer_handleemail"
+    },
+    {
+      "label": ".handleInApp()",
+      "file_type": "code",
+      "source_file": "src/notification/notification.consumer.ts",
+      "source_location": "L22",
+      "community": 7,
+      "norm_label": ".handleinapp()",
+      "id": "notification_notification_consumer_notificationconsumer_handleinapp"
+    },
+    {
+      "label": ".handleFailed()",
+      "file_type": "code",
+      "source_file": "src/notification/notification.consumer.ts",
+      "source_location": "L30",
+      "community": 7,
+      "norm_label": ".handlefailed()",
+      "id": "notification_notification_consumer_notificationconsumer_handlefailed"
     },
     {
       "label": "update-notification.dto.ts",
       "file_type": "code",
       "source_file": "src/notification/dto/update-notification.dto.ts",
       "source_location": "L1",
-      "community": 5,
+      "community": 6,
       "norm_label": "update-notification.dto.ts",
       "id": "src_notification_dto_update_notification_dto_ts"
     },
@@ -1466,7 +1466,7 @@
       "file_type": "code",
       "source_file": "src/notification/dto/create-notification.dto.ts",
       "source_location": "L1",
-      "community": 5,
+      "community": 6,
       "norm_label": "create-notification.dto.ts",
       "id": "src_notification_dto_create_notification_dto_ts"
     },
@@ -1538,7 +1538,7 @@
       "file_type": "code",
       "source_file": "src/user/user.module.ts",
       "source_location": "L1",
-      "community": 4,
+      "community": 5,
       "norm_label": "user.module.ts",
       "id": "src_user_user_module_ts"
     },
@@ -1781,7 +1781,7 @@
       "file_type": "code",
       "source_file": "src/auth/jwt.strategy.ts",
       "source_location": "L1",
-      "community": 4,
+      "community": 5,
       "norm_label": "jwt.strategy.ts",
       "id": "src_auth_jwt_strategy_ts"
     },
@@ -1790,7 +1790,7 @@
       "file_type": "code",
       "source_file": "src/auth/jwt.strategy.ts",
       "source_location": "L8",
-      "community": 4,
+      "community": 5,
       "norm_label": ".constructor()",
       "id": "auth_jwt_strategy_jwtstrategy_constructor"
     },
@@ -1799,7 +1799,7 @@
       "file_type": "code",
       "source_file": "src/auth/jwt.strategy.ts",
       "source_location": "L16",
-      "community": 4,
+      "community": 5,
       "norm_label": ".validate()",
       "id": "auth_jwt_strategy_jwtstrategy_validate"
     },
@@ -1889,7 +1889,7 @@
       "file_type": "code",
       "source_file": "src/auth/auth.module.ts",
       "source_location": "L1",
-      "community": 4,
+      "community": 5,
       "norm_label": "auth.module.ts",
       "id": "src_auth_auth_module_ts"
     },
@@ -2024,7 +2024,7 @@
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L1",
-      "community": 8,
+      "community": 9,
       "norm_label": "readme.md",
       "id": "readme_md"
     },
@@ -2033,7 +2033,7 @@
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L24",
-      "community": 8,
+      "community": 9,
       "norm_label": "description",
       "id": "notify_core_readme_description"
     },
@@ -2042,7 +2042,7 @@
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L28",
-      "community": 8,
+      "community": 9,
       "norm_label": "project setup",
       "id": "notify_core_readme_project_setup"
     },
@@ -2051,7 +2051,7 @@
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L30",
-      "community": 8,
+      "community": 9,
       "norm_label": "code:bash ($ npm install)",
       "id": "notify_core_readme_codeblock_1"
     },
@@ -2060,7 +2060,7 @@
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L34",
-      "community": 8,
+      "community": 9,
       "norm_label": "compile and run the project",
       "id": "notify_core_readme_compile_and_run_the_project"
     },
@@ -2069,7 +2069,7 @@
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L36",
-      "community": 8,
+      "community": 9,
       "norm_label": "code:bash (# development)",
       "id": "notify_core_readme_codeblock_2"
     },
@@ -2078,7 +2078,7 @@
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L47",
-      "community": 8,
+      "community": 9,
       "norm_label": "run tests",
       "id": "notify_core_readme_run_tests"
     },
@@ -2087,7 +2087,7 @@
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L49",
-      "community": 8,
+      "community": 9,
       "norm_label": "code:bash (# unit tests)",
       "id": "notify_core_readme_codeblock_3"
     },
@@ -2096,7 +2096,7 @@
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L60",
-      "community": 8,
+      "community": 9,
       "norm_label": "deployment",
       "id": "notify_core_readme_deployment"
     },
@@ -2105,7 +2105,7 @@
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L66",
-      "community": 8,
+      "community": 9,
       "norm_label": "code:bash ($ npm install -g @nestjs/mau)",
       "id": "notify_core_readme_codeblock_4"
     },
@@ -2114,7 +2114,7 @@
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L73",
-      "community": 8,
+      "community": 9,
       "norm_label": "resources",
       "id": "notify_core_readme_resources"
     },
@@ -2123,7 +2123,7 @@
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L86",
-      "community": 8,
+      "community": 9,
       "norm_label": "support",
       "id": "notify_core_readme_support"
     },
@@ -2132,7 +2132,7 @@
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L90",
-      "community": 8,
+      "community": 9,
       "norm_label": "stay in touch",
       "id": "notify_core_readme_stay_in_touch"
     },
@@ -2141,7 +2141,7 @@
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L96",
-      "community": 8,
+      "community": 9,
       "norm_label": "license",
       "id": "notify_core_readme_license"
     },
@@ -2168,7 +2168,7 @@
       "file_type": "code",
       "source_file": "src/notification/notification.processor.ts",
       "source_location": "L1",
-      "community": 9,
+      "community": 7,
       "norm_label": "notification.processor.ts",
       "id": "src_notification_notification_processor_ts"
     },
@@ -2177,7 +2177,7 @@
       "file_type": "code",
       "source_file": "src/notification/notification.processor.ts",
       "source_location": "L4",
-      "community": 9,
+      "community": 7,
       "norm_label": "emailjobdata",
       "id": "notification_notification_processor_emailjobdata"
     },
@@ -2186,7 +2186,7 @@
       "file_type": "code",
       "source_file": "src/notification/notification.processor.ts",
       "source_location": "L5",
-      "community": 9,
+      "community": 7,
       "norm_label": "inappjobdata",
       "id": "notification_notification_processor_inappjobdata"
     },
@@ -2195,7 +2195,7 @@
       "file_type": "code",
       "source_file": "src/notification/notification.processor.ts",
       "source_location": "L10",
-      "community": 9,
+      "community": 7,
       "norm_label": ".handleemail()",
       "id": "notification_notification_processor_notificationprocessor_handleemail"
     },
@@ -2204,7 +2204,7 @@
       "file_type": "code",
       "source_file": "src/notification/notification.processor.ts",
       "source_location": "L15",
-      "community": 9,
+      "community": 7,
       "norm_label": ".handleinapp()",
       "id": "notification_notification_processor_notificationprocessor_handleinapp"
     },
@@ -2347,7 +2347,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 9,
       "norm_label": "nestjs modular architecture",
       "id": "concept_nestjs_arch"
     },
@@ -2392,163 +2392,6 @@
     }
   ],
   "links": [
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/notification/notification.consumer.ts",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_notification_notification_consumer_ts",
-      "target": "notification_notification_consumer_emailjobdata"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/notification/notification.consumer.ts",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_notification_notification_consumer_ts",
-      "target": "notification_notification_consumer_inappjobdata"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/notification/notification.consumer.ts",
-      "source_location": "L8",
-      "weight": 1.0,
-      "source": "src_notification_notification_consumer_ts",
-      "target": "notification_notification_consumer_notificationconsumer",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/notification/notification.module.ts",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_notification_notification_module_ts",
-      "target": "src_notification_notification_consumer_ts"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/notification/notification.consumer.ts",
-      "source_location": "L10",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_notification_notification_consumer_ts",
-      "target": "notification_notification_consumer_notificationconsumer_handleemail"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/notification/notification.consumer.ts",
-      "source_location": "L15",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_notification_notification_consumer_ts",
-      "target": "notification_notification_consumer_notificationconsumer_handleinapp"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/notification/notification.consumer.ts",
-      "source_location": "L10",
-      "weight": 1.0,
-      "source": "notification_notification_consumer_notificationconsumer",
-      "target": "notification_notification_consumer_notificationconsumer_handleemail",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/notification/notification.consumer.ts",
-      "source_location": "L15",
-      "weight": 1.0,
-      "source": "notification_notification_consumer_notificationconsumer",
-      "target": "notification_notification_consumer_notificationconsumer_handleinapp",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/notification/notification.module.ts",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "src_notification_notification_module_ts",
-      "target": "notification_notification_consumer_notificationconsumer",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/notification/notification.module.ts",
-      "source_location": "L18",
-      "weight": 1.0,
-      "source": "src_notification_notification_module_ts",
-      "target": "notification_notification_module_notificationmodule",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app.module.ts",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_module_ts",
-      "target": "src_notification_notification_module_ts"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/notification/notification.module.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_notification_notification_module_ts",
-      "target": "src_notification_notification_service_ts"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/notification/notification.module.ts",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_notification_notification_module_ts",
-      "target": "src_notification_notification_producer_ts"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/notification/notification.module.ts",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_notification_notification_module_ts",
-      "target": "src_notification_notification_controller_ts"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/notification/notification.module.ts",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_notification_notification_module_ts",
-      "target": "src_notification_notification_processor_ts"
-    },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
@@ -3749,6 +3592,17 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/app.module.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_module_ts",
+      "target": "src_notification_notification_module_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.module.ts",
       "source_location": "L10",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -3788,11 +3642,11 @@
       "target": "src_app_module_appmodule_configure"
     },
     {
-      "relation": "calls",
+      "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/app.controller.ts",
-      "source_location": null,
+      "source_location": "L2",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "src_app_controller_ts",
@@ -3892,6 +3746,61 @@
       "target": "src_main_bootstrap"
     },
     {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.module.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_notification_notification_module_ts",
+      "target": "src_notification_notification_service_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.module.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_notification_notification_module_ts",
+      "target": "src_notification_notification_consumer_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.module.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_notification_notification_module_ts",
+      "target": "src_notification_notification_producer_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.module.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_notification_notification_module_ts",
+      "target": "src_notification_notification_controller_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.module.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_notification_notification_module_ts",
+      "target": "src_notification_notification_processor_ts"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/notification/notification.producer.ts",
@@ -3905,7 +3814,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/notification/notification.producer.ts",
-      "source_location": "L12",
+      "source_location": "L14",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "src_notification_notification_producer_ts",
@@ -3915,18 +3824,18 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/notification/notification.producer.ts",
-      "source_location": "L16",
+      "source_location": "L18",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "src_notification_notification_producer_ts",
       "target": "notification_notification_producer_notificationproducer_enqueuejob"
     },
     {
-      "relation": "calls",
+      "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/notification/notification.controller.ts",
-      "source_location": null,
+      "source_location": "L11",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "src_notification_notification_controller_ts",
@@ -4161,6 +4070,66 @@
       "target": "notification_notification_service_notificationservice_findone"
     },
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.consumer.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_notification_notification_consumer_ts",
+      "target": "notification_notification_consumer_emailjobdata"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.consumer.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_notification_notification_consumer_ts",
+      "target": "notification_notification_consumer_inappjobdata"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.consumer.ts",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_notification_notification_consumer_ts",
+      "target": "notification_notification_consumer_notificationconsumer_handleemail"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.consumer.ts",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_notification_notification_consumer_ts",
+      "target": "notification_notification_consumer_notificationconsumer_handleinapp"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.consumer.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_notification_notification_consumer_ts",
+      "target": "notification_notification_consumer_notificationconsumer_constructor"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.consumer.ts",
+      "source_location": "L30",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_notification_notification_consumer_ts",
+      "target": "notification_notification_consumer_notificationconsumer_handlefailed"
+    },
+    {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -4227,11 +4196,11 @@
       "target": "src_auth_jwt_auth_guard_ts"
     },
     {
-      "relation": "references",
+      "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/user/user.module.ts",
-      "source_location": null,
+      "source_location": "L3",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "src_user_user_module_ts",
@@ -4729,11 +4698,11 @@
       "target": "dto_login_dto_logindto"
     },
     {
-      "relation": "calls",
+      "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/auth/auth.service.ts",
-      "source_location": null,
+      "source_location": "L8",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "src_auth_auth_service_ts",
@@ -4914,11 +4883,11 @@
       "target": "src_prisma_prisma_service_ts"
     },
     {
-      "relation": "references",
+      "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/prisma/prisma.module.ts",
-      "source_location": null,
+      "source_location": "L2",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "src_prisma_prisma_module_ts",
@@ -4965,11 +4934,11 @@
       "target": "concept_prisma_orm"
     },
     {
-      "relation": "references",
+      "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/redis/redis.module.ts",
-      "source_location": null,
+      "source_location": "L2",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "src_redis_redis_module_ts",
@@ -5308,5 +5277,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "1a89d7e1635354f642c6027ee815fce7796d1adf"
+  "built_at_commit": "1d4e6751f558a850414776f2e1bdfd5151380668"
 }
