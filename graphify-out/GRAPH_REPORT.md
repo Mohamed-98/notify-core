@@ -1,13 +1,18 @@
-# Graph Report - .  (2026-06-02)
+# Graph Report - notify-core  (2026-06-02)
 
 ## Corpus Check
-- 5 files · ~4,319 words
+- 48 files · ~4,319 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 257 nodes · 280 edges · 27 communities (15 shown, 12 thin omitted)
+- 259 nodes · 285 edges · 27 communities (15 shown, 12 thin omitted)
 - Extraction: 96% EXTRACTED · 4% INFERRED · 0% AMBIGUOUS · INFERRED: 11 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
+
+## Graph Freshness
+- Built from commit: `1a89d7e1`
+- Run `git rev-parse HEAD` and compare to check if the graph is stale.
+- Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - [[_COMMUNITY_User Management & DTOs|User Management & DTOs]]
@@ -40,10 +45,10 @@
 3. `scripts` - 13 edges
 4. `jest` - 9 edges
 5. `JWT Authentication Scheme` - 5 edges
-6. `Prisma Database Access` - 4 edges
-7. `Redis Caching and Blacklist` - 4 edges
-8. `compilerOptions` - 2 edges
-9. `transform` - 2 edges
+6. `NotificationConsumer` - 4 edges
+7. `Prisma Database Access` - 4 edges
+8. `Redis Caching and Blacklist` - 4 edges
+9. `compilerOptions` - 2 edges
 10. `transform` - 2 edges
 
 ## Surprising Connections (you probably didn't know these)
@@ -68,7 +73,7 @@ Cohesion: 0.09
 Nodes (22): dependencies, bcrypt, bull, class-transformer, class-validator, ioredis, joi, @nestjs/bull (+14 more)
 
 ### Community 4 - "User Authentication Module"
-Cohesion: 0.13
+Cohesion: 0.11
 Nodes (6): dto, mockAuthService, mockLoginResponse, mockUser, JWT Authentication Scheme, LoginDto
 
 ### Community 7 - "package.json Config"
@@ -80,8 +85,8 @@ Cohesion: 0.13
 Nodes (14): NestJS Modular Architecture, code:bash ($ npm install), code:bash (# development), code:bash (# unit tests), code:bash ($ npm install -g @nestjs/mau), Compile and run the project, Deployment, Description (+6 more)
 
 ### Community 9 - "Notification Queue & Consumers"
-Cohesion: 0.13
-Nodes (5): EmailJobData, InAppJobData, EmailJobData, InAppJobData, EnqueueJobOptions
+Cohesion: 0.14
+Nodes (7): EmailJobData, InAppJobData, NotificationConsumer, NotificationModule, EmailJobData, InAppJobData, EnqueueJobOptions
 
 ### Community 10 - "Build & Execution Scripts"
 Cohesion: 0.15
@@ -96,7 +101,7 @@ Cohesion: 0.33
 Nodes (5): collection, compilerOptions, deleteOutDir, $schema, sourceRoot
 
 ## Knowledge Gaps
-- **138 isolated node(s):** `$schema`, `collection`, `sourceRoot`, `deleteOutDir`, `extends` (+133 more)
+- **139 isolated node(s):** `EmailJobData`, `InAppJobData`, `NotificationModule`, `$schema`, `collection` (+134 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **12 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -104,13 +109,13 @@ Nodes (5): collection, compilerOptions, deleteOutDir, $schema, sourceRoot
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `devDependencies` connect `Linting and Testing Setup` to `package.json Config`?**
-  _High betweenness centrality (0.053) - this node is a cross-community bridge._
+  _High betweenness centrality (0.052) - this node is a cross-community bridge._
 - **Why does `dependencies` connect `Core App Dependencies` to `package.json Config`?**
-  _High betweenness centrality (0.043) - this node is a cross-community bridge._
-- **Why does `UserService` connect `User Management & DTOs` to `User Authentication Module`, `Health Check & App Root`?**
+  _High betweenness centrality (0.042) - this node is a cross-community bridge._
+- **Why does `UserService` connect `User Management & DTOs` to `User Authentication Module`?**
   _High betweenness centrality (0.037) - this node is a cross-community bridge._
-- **What connects `$schema`, `collection`, `sourceRoot` to the rest of the system?**
-  _138 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **What connects `EmailJobData`, `InAppJobData`, `NotificationModule` to the rest of the system?**
+  _139 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `User Management & DTOs` be split into smaller, more focused modules?**
   _Cohesion score 0.08387096774193549 - nodes in this community are weakly interconnected._
 - **Should `Linting and Testing Setup` be split into smaller, more focused modules?**

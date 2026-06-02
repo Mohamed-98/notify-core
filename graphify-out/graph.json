@@ -4,6 +4,78 @@
   "graph": {},
   "nodes": [
     {
+      "label": "notification.consumer.ts",
+      "file_type": "code",
+      "source_file": "src/notification/notification.consumer.ts",
+      "source_location": "L1",
+      "id": "src_notification_notification_consumer_ts",
+      "community": 9,
+      "norm_label": "notification.consumer.ts"
+    },
+    {
+      "label": "EmailJobData",
+      "file_type": "code",
+      "source_file": "src/notification/notification.consumer.ts",
+      "source_location": "L4",
+      "id": "notification_notification_consumer_emailjobdata",
+      "community": 9,
+      "norm_label": "emailjobdata"
+    },
+    {
+      "label": "InAppJobData",
+      "file_type": "code",
+      "source_file": "src/notification/notification.consumer.ts",
+      "source_location": "L5",
+      "id": "notification_notification_consumer_inappjobdata",
+      "community": 9,
+      "norm_label": "inappjobdata"
+    },
+    {
+      "label": "NotificationConsumer",
+      "file_type": "code",
+      "source_file": "src/notification/notification.consumer.ts",
+      "source_location": "L8",
+      "id": "notification_notification_consumer_notificationconsumer",
+      "community": 9,
+      "norm_label": "notificationconsumer"
+    },
+    {
+      "label": ".handleEmail()",
+      "file_type": "code",
+      "source_file": "src/notification/notification.consumer.ts",
+      "source_location": "L10",
+      "id": "notification_notification_consumer_notificationconsumer_handleemail",
+      "community": 9,
+      "norm_label": ".handleemail()"
+    },
+    {
+      "label": ".handleInApp()",
+      "file_type": "code",
+      "source_file": "src/notification/notification.consumer.ts",
+      "source_location": "L15",
+      "id": "notification_notification_consumer_notificationconsumer_handleinapp",
+      "community": 9,
+      "norm_label": ".handleinapp()"
+    },
+    {
+      "label": "notification.module.ts",
+      "file_type": "code",
+      "source_file": "src/notification/notification.module.ts",
+      "source_location": "L1",
+      "id": "src_notification_notification_module_ts",
+      "community": 9,
+      "norm_label": "notification.module.ts"
+    },
+    {
+      "label": "NotificationModule",
+      "file_type": "code",
+      "source_file": "src/notification/notification.module.ts",
+      "source_location": "L18",
+      "id": "notification_notification_module_notificationmodule",
+      "community": 9,
+      "norm_label": "notificationmodule"
+    },
+    {
       "label": "nest-cli.json",
       "file_type": "code",
       "source_file": "nest-cli.json",
@@ -1201,15 +1273,6 @@
       "id": "src_app_controller_spec_ts"
     },
     {
-      "label": "notification.module.ts",
-      "file_type": "code",
-      "source_file": "src/notification/notification.module.ts",
-      "source_location": "L1",
-      "community": 9,
-      "norm_label": "notification.module.ts",
-      "id": "src_notification_notification_module_ts"
-    },
-    {
       "label": "notification.producer.ts",
       "file_type": "code",
       "source_file": "src/notification/notification.producer.ts",
@@ -1390,51 +1453,6 @@
       "id": "notification_notification_service_notificationservice_remove"
     },
     {
-      "label": "notification.consumer.ts",
-      "file_type": "code",
-      "source_file": "src/notification/notification.consumer.ts",
-      "source_location": "L1",
-      "community": 9,
-      "norm_label": "notification.consumer.ts",
-      "id": "src_notification_notification_consumer_ts"
-    },
-    {
-      "label": "EmailJobData",
-      "file_type": "code",
-      "source_file": "src/notification/notification.consumer.ts",
-      "source_location": "L4",
-      "community": 9,
-      "norm_label": "emailjobdata",
-      "id": "notification_notification_consumer_emailjobdata"
-    },
-    {
-      "label": "InAppJobData",
-      "file_type": "code",
-      "source_file": "src/notification/notification.consumer.ts",
-      "source_location": "L5",
-      "community": 9,
-      "norm_label": "inappjobdata",
-      "id": "notification_notification_consumer_inappjobdata"
-    },
-    {
-      "label": ".handleEmail()",
-      "file_type": "code",
-      "source_file": "src/notification/notification.consumer.ts",
-      "source_location": "L10",
-      "community": 9,
-      "norm_label": ".handleemail()",
-      "id": "notification_notification_consumer_notificationconsumer_handleemail"
-    },
-    {
-      "label": ".handleInApp()",
-      "file_type": "code",
-      "source_file": "src/notification/notification.consumer.ts",
-      "source_location": "L15",
-      "community": 9,
-      "norm_label": ".handleinapp()",
-      "id": "notification_notification_consumer_notificationconsumer_handleinapp"
-    },
-    {
       "label": "update-notification.dto.ts",
       "file_type": "code",
       "source_file": "src/notification/dto/update-notification.dto.ts",
@@ -1520,7 +1538,7 @@
       "file_type": "code",
       "source_file": "src/user/user.module.ts",
       "source_location": "L1",
-      "community": 6,
+      "community": 4,
       "norm_label": "user.module.ts",
       "id": "src_user_user_module_ts"
     },
@@ -1763,7 +1781,7 @@
       "file_type": "code",
       "source_file": "src/auth/jwt.strategy.ts",
       "source_location": "L1",
-      "community": 6,
+      "community": 4,
       "norm_label": "jwt.strategy.ts",
       "id": "src_auth_jwt_strategy_ts"
     },
@@ -1772,7 +1790,7 @@
       "file_type": "code",
       "source_file": "src/auth/jwt.strategy.ts",
       "source_location": "L8",
-      "community": 6,
+      "community": 4,
       "norm_label": ".constructor()",
       "id": "auth_jwt_strategy_jwtstrategy_constructor"
     },
@@ -1781,7 +1799,7 @@
       "file_type": "code",
       "source_file": "src/auth/jwt.strategy.ts",
       "source_location": "L16",
-      "community": 6,
+      "community": 4,
       "norm_label": ".validate()",
       "id": "auth_jwt_strategy_jwtstrategy_validate"
     },
@@ -1871,7 +1889,7 @@
       "file_type": "code",
       "source_file": "src/auth/auth.module.ts",
       "source_location": "L1",
-      "community": 6,
+      "community": 4,
       "norm_label": "auth.module.ts",
       "id": "src_auth_auth_module_ts"
     },
@@ -2374,6 +2392,163 @@
     }
   ],
   "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.consumer.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_notification_notification_consumer_ts",
+      "target": "notification_notification_consumer_emailjobdata"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.consumer.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_notification_notification_consumer_ts",
+      "target": "notification_notification_consumer_inappjobdata"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.consumer.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_notification_notification_consumer_ts",
+      "target": "notification_notification_consumer_notificationconsumer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.module.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_notification_notification_module_ts",
+      "target": "src_notification_notification_consumer_ts"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.consumer.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_notification_notification_consumer_ts",
+      "target": "notification_notification_consumer_notificationconsumer_handleemail"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.consumer.ts",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_notification_notification_consumer_ts",
+      "target": "notification_notification_consumer_notificationconsumer_handleinapp"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.consumer.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "notification_notification_consumer_notificationconsumer",
+      "target": "notification_notification_consumer_notificationconsumer_handleemail",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.consumer.ts",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "notification_notification_consumer_notificationconsumer",
+      "target": "notification_notification_consumer_notificationconsumer_handleinapp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.module.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_notification_notification_module_ts",
+      "target": "notification_notification_consumer_notificationconsumer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.module.ts",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "src_notification_notification_module_ts",
+      "target": "notification_notification_module_notificationmodule",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.module.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_module_ts",
+      "target": "src_notification_notification_module_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.module.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_notification_notification_module_ts",
+      "target": "src_notification_notification_service_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.module.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_notification_notification_module_ts",
+      "target": "src_notification_notification_producer_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.module.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_notification_notification_module_ts",
+      "target": "src_notification_notification_controller_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.module.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_notification_notification_module_ts",
+      "target": "src_notification_notification_processor_ts"
+    },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
@@ -3574,17 +3749,6 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/app.module.ts",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_module_ts",
-      "target": "src_notification_notification_module_ts"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app.module.ts",
       "source_location": "L10",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -3726,61 +3890,6 @@
       "confidence_score": 1.0,
       "source": "src_main_ts",
       "target": "src_main_bootstrap"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/notification/notification.module.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_notification_notification_module_ts",
-      "target": "src_notification_notification_service_ts"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/notification/notification.module.ts",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_notification_notification_module_ts",
-      "target": "src_notification_notification_consumer_ts"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/notification/notification.module.ts",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_notification_notification_module_ts",
-      "target": "src_notification_notification_producer_ts"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/notification/notification.module.ts",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_notification_notification_module_ts",
-      "target": "src_notification_notification_controller_ts"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/notification/notification.module.ts",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_notification_notification_module_ts",
-      "target": "src_notification_notification_processor_ts"
     },
     {
       "relation": "contains",
@@ -4050,46 +4159,6 @@
       "confidence_score": 1.0,
       "source": "notification_notification_service_notificationservice_remove",
       "target": "notification_notification_service_notificationservice_findone"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/notification/notification.consumer.ts",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_notification_notification_consumer_ts",
-      "target": "notification_notification_consumer_emailjobdata"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/notification/notification.consumer.ts",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_notification_notification_consumer_ts",
-      "target": "notification_notification_consumer_inappjobdata"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/notification/notification.consumer.ts",
-      "source_location": "L10",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_notification_notification_consumer_ts",
-      "target": "notification_notification_consumer_notificationconsumer_handleemail"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/notification/notification.consumer.ts",
-      "source_location": "L15",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_notification_notification_consumer_ts",
-      "target": "notification_notification_consumer_notificationconsumer_handleinapp"
     },
     {
       "relation": "imports",
@@ -5239,5 +5308,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "c5361f7aed47bbab00ca3bed5daef312f09cf73c"
+  "built_at_commit": "1a89d7e1635354f642c6027ee815fce7796d1adf"
 }
