@@ -15,9 +15,9 @@
     "semantic_hash": "e17094028c7f31ea68086dc2fbb5e072"
   },
   "/home/gado/Documents/notify-core/package.json": {
-    "mtime": 1779552438.3059187,
-    "ast_hash": "a008c6244ca836b4165d38c49de396a4",
-    "semantic_hash": "a008c6244ca836b4165d38c49de396a4"
+    "mtime": 1780439185.9907973,
+    "ast_hash": "c9fce5f8f1e3acacb1b0fc26bd249ce2",
+    "semantic_hash": ""
   },
   "/home/gado/Documents/notify-core/tsconfig.json": {
     "mtime": 1778521393.4910865,
@@ -75,9 +75,9 @@
     "semantic_hash": "1ce88e2980d26c34c957998bbd31b722"
   },
   "/home/gado/Documents/notify-core/src/notification/notification.module.ts": {
-    "mtime": 1780421579.2057855,
-    "ast_hash": "61e0c450b3d74ed84630f6a9513ae2db",
-    "semantic_hash": "61e0c450b3d74ed84630f6a9513ae2db"
+    "mtime": 1780439201.6137242,
+    "ast_hash": "df24933a99574d3155794ad57f3c66f6",
+    "semantic_hash": ""
   },
   "/home/gado/Documents/notify-core/src/notification/notification.controller.ts": {
     "mtime": 1779255919.0882373,
@@ -240,8 +240,23 @@
     "semantic_hash": "b2e4ad085607e3f7658a7e91279b157e"
   },
   "/home/gado/Documents/notify-core/src/notification/notification.consumer.ts": {
-    "mtime": 1780421575.0727894,
-    "ast_hash": "36c729d794a3fb01816a8584ab950e05",
-    "semantic_hash": "36c729d794a3fb01816a8584ab950e05"
+    "mtime": 1780439205.6087148,
+    "ast_hash": "e8290d3b1a8c85e9b823e0a7dbc0fb53",
+    "semantic_hash": ""
+  },
+  "/home/gado/Documents/notify-core/src/email/email.module.ts": {
+    "mtime": 1780439196.4097364,
+    "ast_hash": "c65c37b0594ffc4daf65d05ee9fe21b4",
+    "semantic_hash": ""
+  },
+  "/home/gado/Documents/notify-core/src/email/email.service.ts": {
+    "mtime": 1780439214.123695,
+    "ast_hash": "6888d08cb7a2e876fa66413d3c2a5952",
+    "semantic_hash": ""
+  },
+  "/home/gado/Documents/notify-core/src/email/email.service.spec.ts": {
+    "mtime": 1780439228.8556612,
+    "ast_hash": "4c45bc492ae4b44f84ef362fdddafa1c",
+    "semantic_hash": ""
   }
 }

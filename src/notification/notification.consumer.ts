@@ -1,13 +1,21 @@
 import { Process, Processor, OnQueueFailed, InjectQueue } from '@nestjs/bull';
 import type { Job, Queue } from 'bull';
+import { EmailService } from '../email/email.service';
 
-export type EmailJobData = { to: string; subject: string; body: string };
+export type EmailJobData = {
+  to: string;
+  subject?: string;
+  body?: string;
+  templateId?: string;
+  dynamicVars?: Record<string, any>;
+};
 export type InAppJobData = { userId: string; message: string };
 
 @Processor('notification')
 export class NotificationConsumer {
   constructor(
     @InjectQueue('notification-dlq') private readonly dlqQueue: Queue,
+    private readonly emailService: EmailService,
   ) {}
 
   @Process('email')
@@ -16,6 +24,13 @@ export class NotificationConsumer {
     if (!job.data.to) {
       throw new Error('Missing recipient email address');
     }
+    await this.emailService.sendEmail({
+      to: job.data.to,
+      subject: job.data.subject,
+      body: job.data.body,
+      templateId: job.data.templateId,
+      dynamicVars: job.data.dynamicVars,
+    });
   }
 
   @Process('in-app')

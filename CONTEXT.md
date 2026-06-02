@@ -31,13 +31,13 @@
   - ✅ Implement JWT validation and user extraction inside AuthService
   - ✅ Implement logout with Redis token blacklist
   - ✅ Create JwtAuthGuard and attach to protected routes
-- 🔄 Phase 4 — Bull / Redis queues
+- ✅ Phase 4 — Bull / Redis queues
   - ✅ Install and configure @nestjs/bull with Redis connection
   - ✅ Create notification.queue and define job types (email, in-app)
   - ✅ Implement NotificationProducer to enqueue jobs with priority/delay support
   - ✅ Implement NotificationConsumer with @Process handlers per job type
   - ✅ Add retry logic and dead-letter handling for failed jobs
-- ⬜ Phase 5 — Email channel — SendGrid
+- 🔄 Phase 5 — Email channel — SendGrid
   - ⬜ Install @sendgrid/mail and create EmailService
   - ⬜ Build sendEmail() with template support (subject, body, dynamic vars)
   - ⬜ Wire email job consumer to EmailService
