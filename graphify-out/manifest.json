@@ -17,7 +17,7 @@
   "/home/gado/Documents/notify-core/package.json": {
     "mtime": 1779552438.3059187,
     "ast_hash": "a008c6244ca836b4165d38c49de396a4",
-    "semantic_hash": ""
+    "semantic_hash": "a008c6244ca836b4165d38c49de396a4"
   },
   "/home/gado/Documents/notify-core/tsconfig.json": {
     "mtime": 1778521393.4910865,
@@ -47,7 +47,7 @@
   "/home/gado/Documents/notify-core/src/app.module.ts": {
     "mtime": 1779551882.482227,
     "ast_hash": "d06bbc221a167615098a2e80cb9f95e9",
-    "semantic_hash": ""
+    "semantic_hash": "d06bbc221a167615098a2e80cb9f95e9"
   },
   "/home/gado/Documents/notify-core/src/app.service.ts": {
     "mtime": 1778521393.4913342,
@@ -75,9 +75,9 @@
     "semantic_hash": "1ce88e2980d26c34c957998bbd31b722"
   },
   "/home/gado/Documents/notify-core/src/notification/notification.module.ts": {
-    "mtime": 1779552915.5580263,
-    "ast_hash": "ce8ca36489d337f703e9a9f33623a401",
-    "semantic_hash": ""
+    "mtime": 1780420010.1215785,
+    "ast_hash": "7484e552233e08463b0f8aefd6da4810",
+    "semantic_hash": "7484e552233e08463b0f8aefd6da4810"
   },
   "/home/gado/Documents/notify-core/src/notification/notification.controller.ts": {
     "mtime": 1779255919.0882373,
@@ -234,14 +234,14 @@
     "ast_hash": "afa1ffc01aa56ac681c7335686f44767",
     "semantic_hash": "afa1ffc01aa56ac681c7335686f44767"
   },
-  "/home/gado/Documents/notify-core/src/notification/notification.processor.ts": {
-    "mtime": 1779552742.207364,
-    "ast_hash": "f9b9516330026ced99ebe267ec0a9c2b",
-    "semantic_hash": ""
-  },
   "/home/gado/Documents/notify-core/src/notification/notification.producer.ts": {
-    "mtime": 1779552904.0468328,
-    "ast_hash": "37cca751687d0d9f276024470de65d7f",
-    "semantic_hash": ""
+    "mtime": 1779552954.9470494,
+    "ast_hash": "189ab254c3195d529bb4cb6ef0b6b3d2",
+    "semantic_hash": "189ab254c3195d529bb4cb6ef0b6b3d2"
+  },
+  "/home/gado/Documents/notify-core/src/notification/notification.consumer.ts": {
+    "mtime": 1780420006.170576,
+    "ast_hash": "171d78c6924a729132dd8a81e2796587",
+    "semantic_hash": "171d78c6924a729132dd8a81e2796587"
   }
 }

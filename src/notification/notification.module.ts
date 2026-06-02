@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
 import { BullModule } from '@nestjs/bull';
 import { NotificationService } from './notification.service';
-import { NotificationProcessor } from './notification.processor';
+import { NotificationConsumer } from './notification.consumer';
 import { NotificationProducer } from './notification.producer';
 import { NotificationController } from './notification.controller';
 
@@ -11,7 +11,7 @@ import { NotificationController } from './notification.controller';
       name: 'notification',
     }),
   ],
-  providers: [NotificationService, NotificationProcessor, NotificationProducer],
+  providers: [NotificationService, NotificationConsumer, NotificationProducer],
   controllers: [NotificationController],
   exports: [NotificationProducer]
 })

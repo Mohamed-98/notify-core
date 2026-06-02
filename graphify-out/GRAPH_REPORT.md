@@ -1,150 +1,119 @@
-# Graph Report - notify-core  (2026-05-23)
+# Graph Report - .  (2026-06-02)
 
 ## Corpus Check
-- 48 files · ~4,318 words
+- 5 files · ~4,319 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 285 nodes · 377 edges · 29 communities (18 shown, 11 thin omitted)
-- Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 11 edges (avg confidence: 0.85)
+- 257 nodes · 280 edges · 27 communities (15 shown, 12 thin omitted)
+- Extraction: 96% EXTRACTED · 4% INFERRED · 0% AMBIGUOUS · INFERRED: 11 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
-## Graph Freshness
-- Built from commit: `364a6657`
-- Run `git rev-parse HEAD` and compare to check if the graph is stale.
-- Run `graphify update .` after code changes (no API cost).
-
 ## Community Hubs (Navigation)
-- [[_COMMUNITY_User Authentication Module|User Authentication Module]]
 - [[_COMMUNITY_User Management & DTOs|User Management & DTOs]]
 - [[_COMMUNITY_Linting and Testing Setup|Linting and Testing Setup]]
-- [[_COMMUNITY_Notification Endpoints|Notification Endpoints]]
 - [[_COMMUNITY_TypeScript Settings|TypeScript Settings]]
 - [[_COMMUNITY_Core App Dependencies|Core App Dependencies]]
-- [[_COMMUNITY_Unit Testing Setup|Unit Testing Setup]]
-- [[_COMMUNITY_Health Check & App Root|Health Check & App Root]]
+- [[_COMMUNITY_User Authentication Module|User Authentication Module]]
+- [[_COMMUNITY_package.json Config|package.json Config]]
+- [[_COMMUNITY_README Documentation|README Documentation]]
+- [[_COMMUNITY_Notification Queue & Consumers|Notification Queue & Consumers]]
 - [[_COMMUNITY_Build & Execution Scripts|Build & Execution Scripts]]
 - [[_COMMUNITY_Redis Client & Cache|Redis Client & Cache]]
-- [[_COMMUNITY_Prisma ORM & DB Client|Prisma ORM & DB Client]]
 - [[_COMMUNITY_E2E Testing Settings|E2E Testing Settings]]
 - [[_COMMUNITY_NestJS CLI Config|NestJS CLI Config]]
-- [[_COMMUNITY_TypeScript Build Scope|TypeScript Build Scope]]
-- [[_COMMUNITY_User Entity Model|User Entity Model]]
-- [[_COMMUNITY_Nest CLI JSON|Nest CLI JSON]]
 - [[_COMMUNITY_tsconfig.build.json Config|tsconfig.build.json Config]]
-- [[_COMMUNITY_eslint.config.mjs Config|eslint.config.mjs Config]]
-- [[_COMMUNITY_package.json Config|package.json Config]]
-- [[_COMMUNITY_tsconfig.json Config|tsconfig.json Config]]
-- [[_COMMUNITY_jest-e2e.json Config|jest-e2e.json Config]]
+- [[_COMMUNITY_User Entity Model|User Entity Model]]
+- [[_COMMUNITY_Graphify Rules|Graphify Rules]]
+- [[_COMMUNITY_Graphify Workflows|Graphify Workflows]]
+- [[_COMMUNITY_Nest CLI Config Node|Nest CLI Config Node]]
+- [[_COMMUNITY_tsconfig.build Config Node|tsconfig.build Config Node]]
+- [[_COMMUNITY_eslint Config Node|eslint Config Node]]
+- [[_COMMUNITY_package.json Config Node|package.json Config Node]]
+- [[_COMMUNITY_tsconfig Config Node|tsconfig Config Node]]
+- [[_COMMUNITY_jest-e2e Config Node|jest-e2e Config Node]]
 - [[_COMMUNITY_Database Initialization Migration|Database Initialization Migration]]
-- [[_COMMUNITY_Community 26|Community 26]]
-- [[_COMMUNITY_Community 27|Community 27]]
-- [[_COMMUNITY_Community 28|Community 28]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `compilerOptions` - 22 edges
-2. `UserService` - 18 edges
-3. `NotificationService` - 15 edges
-4. `AuthService` - 14 edges
-5. `scripts` - 13 edges
-6. `PrismaService` - 13 edges
-7. `NotificationController` - 12 edges
-8. `UserController` - 11 edges
-9. `RedisService` - 11 edges
-10. `AuthController` - 9 edges
+2. `UserService` - 14 edges
+3. `scripts` - 13 edges
+4. `jest` - 9 edges
+5. `JWT Authentication Scheme` - 5 edges
+6. `Prisma Database Access` - 4 edges
+7. `Redis Caching and Blacklist` - 4 edges
+8. `compilerOptions` - 2 edges
+9. `transform` - 2 edges
+10. `transform` - 2 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `AuthController` --conceptually_related_to--> `JWT Authentication Scheme`  [INFERRED]
-  src/auth/auth.controller.ts → README.md
-- `JwtAuthGuard` --conceptually_related_to--> `JWT Authentication Scheme`  [INFERRED]
-  src/auth/jwt-auth.guard.ts → README.md
-- `AuthService` --conceptually_related_to--> `JWT Authentication Scheme`  [INFERRED]
-  src/auth/auth.service.ts → README.md
-- `AuthModule` --conceptually_related_to--> `JWT Authentication Scheme`  [INFERRED]
-  src/auth/auth.module.ts → README.md
-- `PrismaService` --conceptually_related_to--> `Prisma Database Access`  [INFERRED]
-  src/prisma/prisma.service.ts → README.md
+- None detected - all connections are within the same source files.
 
-## Hyperedges (group relationships)
-- **NestJS App Modules** — src_app_module_appmodule, notification_notification_module_notificationmodule, user_user_module_usermodule, auth_auth_module_authmodule, prisma_prisma_module_prismamodule, redis_redis_module_redismodule [INFERRED 0.95]
+## Communities (27 total, 12 thin omitted)
 
-## Communities (29 total, 11 thin omitted)
+### Community 0 - "User Management & DTOs"
+Cohesion: 0.08
+Nodes (6): mockConfigService, mockJwtService, mockUser, mockUserService, Prisma Database Access, UserService
 
-### Community 0 - "User Authentication Module"
-Cohesion: 0.11
-Nodes (12): AuthController, dto, mockAuthService, mockLoginResponse, mockUser, AuthModule, AuthService, JwtAuthGuard (+4 more)
-
-### Community 1 - "User Management & DTOs"
-Cohesion: 0.12
-Nodes (9): mockConfigService, mockJwtService, mockUser, mockUserService, CreateUserDto, UpdateUserDto, UserController, UserModule (+1 more)
-
-### Community 2 - "Linting and Testing Setup"
+### Community 1 - "Linting and Testing Setup"
 Cohesion: 0.07
-Nodes (29): devDependencies, dotenv, eslint, eslint-config-prettier, @eslint/eslintrc, @eslint/js, eslint-plugin-prettier, globals (+21 more)
+Nodes (28): devDependencies, dotenv, eslint, eslint-config-prettier, @eslint/eslintrc, @eslint/js, eslint-plugin-prettier, globals (+20 more)
 
-### Community 3 - "Notification Endpoints"
-Cohesion: 0.09
-Nodes (10): CreateNotificationDto, UpdateNotificationDto, NotificationController, NotificationModule, EmailJobData, InAppJobData, NotificationProcessor, EnqueueJobOptions (+2 more)
-
-### Community 4 - "TypeScript Settings"
+### Community 2 - "TypeScript Settings"
 Cohesion: 0.09
 Nodes (22): compilerOptions, allowSyntheticDefaultImports, baseUrl, declaration, emitDecoratorMetadata, esModuleInterop, experimentalDecorators, forceConsistentCasingInFileNames (+14 more)
 
-### Community 5 - "Core App Dependencies"
+### Community 3 - "Core App Dependencies"
 Cohesion: 0.09
 Nodes (22): dependencies, bcrypt, bull, class-transformer, class-validator, ioredis, joi, @nestjs/bull (+14 more)
 
-### Community 6 - "Unit Testing Setup"
+### Community 4 - "User Authentication Module"
+Cohesion: 0.13
+Nodes (6): dto, mockAuthService, mockLoginResponse, mockUser, JWT Authentication Scheme, LoginDto
+
+### Community 7 - "package.json Config"
 Cohesion: 0.12
 Nodes (15): author, description, jest, collectCoverageFrom, coverageDirectory, moduleFileExtensions, rootDir, testEnvironment (+7 more)
 
-### Community 7 - "Health Check & App Root"
-Cohesion: 0.22
-Nodes (3): AppController, AppModule, AppService
+### Community 8 - "README Documentation"
+Cohesion: 0.13
+Nodes (14): NestJS Modular Architecture, code:bash ($ npm install), code:bash (# development), code:bash (# unit tests), code:bash ($ npm install -g @nestjs/mau), Compile and run the project, Deployment, Description (+6 more)
 
-### Community 8 - "Build & Execution Scripts"
+### Community 9 - "Notification Queue & Consumers"
+Cohesion: 0.13
+Nodes (5): EmailJobData, InAppJobData, EmailJobData, InAppJobData, EnqueueJobOptions
+
+### Community 10 - "Build & Execution Scripts"
 Cohesion: 0.15
 Nodes (13): scripts, build, format, lint, start, start:debug, start:dev, start:prod (+5 more)
 
-### Community 9 - "Redis Client & Cache"
-Cohesion: 0.21
-Nodes (4): NestJS Modular Architecture, Redis Caching and Blacklist, RedisModule, RedisService
-
-### Community 10 - "Prisma ORM & DB Client"
-Cohesion: 0.33
-Nodes (3): Prisma Database Access, PrismaModule, PrismaService
-
-### Community 11 - "E2E Testing Settings"
+### Community 12 - "E2E Testing Settings"
 Cohesion: 0.29
 Nodes (6): moduleFileExtensions, rootDir, testEnvironment, testRegex, transform, ^.+\\.(t|j)s$
 
-### Community 12 - "NestJS CLI Config"
+### Community 13 - "NestJS CLI Config"
 Cohesion: 0.33
 Nodes (5): collection, compilerOptions, deleteOutDir, $schema, sourceRoot
 
-### Community 26 - "Community 26"
-Cohesion: 0.14
-Nodes (13): code:bash ($ npm install), code:bash (# development), code:bash (# unit tests), code:bash ($ npm install -g @nestjs/mau), Compile and run the project, Deployment, Description, License (+5 more)
-
 ## Knowledge Gaps
-- **137 isolated node(s):** `$schema`, `collection`, `sourceRoot`, `deleteOutDir`, `extends` (+132 more)
+- **138 isolated node(s):** `$schema`, `collection`, `sourceRoot`, `deleteOutDir`, `extends` (+133 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **11 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **12 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `UserService` connect `User Management & DTOs` to `User Authentication Module`, `Prisma ORM & DB Client`?**
-  _High betweenness centrality (0.047) - this node is a cross-community bridge._
-- **Why does `devDependencies` connect `Linting and Testing Setup` to `Unit Testing Setup`?**
-  _High betweenness centrality (0.045) - this node is a cross-community bridge._
-- **Why does `PrismaService` connect `Prisma ORM & DB Client` to `User Management & DTOs`, `Notification Endpoints`?**
-  _High betweenness centrality (0.038) - this node is a cross-community bridge._
+- **Why does `devDependencies` connect `Linting and Testing Setup` to `package.json Config`?**
+  _High betweenness centrality (0.053) - this node is a cross-community bridge._
+- **Why does `dependencies` connect `Core App Dependencies` to `package.json Config`?**
+  _High betweenness centrality (0.043) - this node is a cross-community bridge._
+- **Why does `UserService` connect `User Management & DTOs` to `User Authentication Module`, `Health Check & App Root`?**
+  _High betweenness centrality (0.037) - this node is a cross-community bridge._
 - **What connects `$schema`, `collection`, `sourceRoot` to the rest of the system?**
-  _137 weakly-connected nodes found - possible documentation gaps or missing edges._
-- **Should `User Authentication Module` be split into smaller, more focused modules?**
-  _Cohesion score 0.1053763440860215 - nodes in this community are weakly interconnected._
+  _138 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `User Management & DTOs` be split into smaller, more focused modules?**
-  _Cohesion score 0.11576354679802955 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.08387096774193549 - nodes in this community are weakly interconnected._
 - **Should `Linting and Testing Setup` be split into smaller, more focused modules?**
-  _Cohesion score 0.06896551724137931 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.07142857142857142 - nodes in this community are weakly interconnected._
+- **Should `TypeScript Settings` be split into smaller, more focused modules?**
+  _Cohesion score 0.08695652173913043 - nodes in this community are weakly interconnected._
