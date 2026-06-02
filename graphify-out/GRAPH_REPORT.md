@@ -1,16 +1,16 @@
 # Graph Report - notify-core  (2026-06-03)
 
 ## Corpus Check
-- 51 files · ~4,889 words
+- 52 files · ~4,939 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 280 nodes · 364 edges · 21 communities (15 shown, 6 thin omitted)
+- 285 nodes · 370 edges · 20 communities (15 shown, 5 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `1e2b330b`
+- Built from commit: `95a7e092`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -27,7 +27,6 @@
 - [[_COMMUNITY_Community 9|Community 9]]
 - [[_COMMUNITY_Community 10|Community 10]]
 - [[_COMMUNITY_Community 11|Community 11]]
-- [[_COMMUNITY_Community 12|Community 12]]
 - [[_COMMUNITY_Community 13|Community 13]]
 - [[_COMMUNITY_Community 14|Community 14]]
 - [[_COMMUNITY_Community 15|Community 15]]
@@ -50,39 +49,39 @@
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
 
-## Communities (21 total, 6 thin omitted)
+## Communities (20 total, 5 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.07
 Nodes (29): devDependencies, dotenv, eslint, eslint-config-prettier, @eslint/eslintrc, @eslint/js, eslint-plugin-prettier, globals (+21 more)
 
 ### Community 1 - "Community 1"
-Cohesion: 0.11
-Nodes (12): AuthController, dto, mockAuthService, mockLoginResponse, mockUser, AuthService, mockConfigService, mockJwtService (+4 more)
+Cohesion: 0.12
+Nodes (9): AuthController, dto, mockAuthService, mockLoginResponse, mockUser, AuthService, JwtAuthGuard, LoginDto (+1 more)
 
 ### Community 2 - "Community 2"
 Cohesion: 0.14
 Nodes (6): AuthModule, JwtStrategy, AppController, AppModule, AppService, UserModule
 
 ### Community 3 - "Community 3"
-Cohesion: 0.16
-Nodes (5): CreateNotificationDto, UpdateNotificationDto, NotificationService, PrismaModule, PrismaService
+Cohesion: 0.10
+Nodes (6): CreateNotificationDto, UpdateNotificationDto, NotificationController, NotificationService, PrismaModule, PrismaService
 
 ### Community 4 - "Community 4"
-Cohesion: 0.13
-Nodes (5): JwtAuthGuard, CreateUserDto, UpdateUserDto, UserController, UserService
+Cohesion: 0.11
+Nodes (8): mockConfigService, mockJwtService, mockUser, mockUserService, CreateUserDto, UpdateUserDto, UserController, UserService
 
 ### Community 5 - "Community 5"
-Cohesion: 0.09
-Nodes (23): dependencies, bcrypt, bull, class-transformer, class-validator, ioredis, joi, @nestjs/bull (+15 more)
+Cohesion: 0.08
+Nodes (25): dependencies, bcrypt, bull, class-transformer, class-validator, ioredis, joi, @nestjs/bull (+17 more)
 
 ### Community 6 - "Community 6"
 Cohesion: 0.09
 Nodes (22): compilerOptions, allowSyntheticDefaultImports, baseUrl, declaration, emitDecoratorMetadata, esModuleInterop, experimentalDecorators, forceConsistentCasingInFileNames (+14 more)
 
 ### Community 7 - "Community 7"
-Cohesion: 0.12
-Nodes (8): EmailModule, EmailService, EmailJobData, InAppJobData, NotificationConsumer, NotificationModule, EnqueueJobOptions, NotificationProducer
+Cohesion: 0.11
+Nodes (9): EmailModule, EmailService, EmailJobData, InAppJobData, NotificationConsumer, NotificationGateway, NotificationModule, EnqueueJobOptions (+1 more)
 
 ### Community 8 - "Community 8"
 Cohesion: 0.12
@@ -105,9 +104,9 @@ Cohesion: 0.33
 Nodes (5): collection, compilerOptions, deleteOutDir, $schema, sourceRoot
 
 ## Knowledge Gaps
-- **130 isolated node(s):** `$schema`, `collection`, `sourceRoot`, `deleteOutDir`, `extends` (+125 more)
+- **132 isolated node(s):** `name`, `version`, `description`, `author`, `private` (+127 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **6 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **5 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
@@ -115,14 +114,14 @@ _Questions this graph is uniquely positioned to answer:_
 - **Why does `devDependencies` connect `Community 0` to `Community 8`?**
   _High betweenness centrality (0.047) - this node is a cross-community bridge._
 - **Why does `dependencies` connect `Community 5` to `Community 8`?**
-  _High betweenness centrality (0.039) - this node is a cross-community bridge._
+  _High betweenness centrality (0.042) - this node is a cross-community bridge._
 - **Why does `UserService` connect `Community 4` to `Community 1`, `Community 2`, `Community 3`?**
-  _High betweenness centrality (0.029) - this node is a cross-community bridge._
-- **What connects `$schema`, `collection`, `sourceRoot` to the rest of the system?**
-  _130 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _High betweenness centrality (0.028) - this node is a cross-community bridge._
+- **What connects `name`, `version`, `description` to the rest of the system?**
+  _132 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.06896551724137931 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
-  _Cohesion score 0.10541310541310542 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.12318840579710146 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
   _Cohesion score 0.13768115942028986 - nodes in this community are weakly interconnected._
