@@ -4,6 +4,96 @@
   "graph": {},
   "nodes": [
     {
+      "label": "nest-cli.json",
+      "file_type": "code",
+      "source_file": "nest-cli.json",
+      "source_location": "L1",
+      "id": "nest_cli_json",
+      "community": 14,
+      "norm_label": "nest-cli.json"
+    },
+    {
+      "label": "$schema",
+      "file_type": "code",
+      "source_file": "nest-cli.json",
+      "source_location": "L2",
+      "id": "notify_core_nest_cli_schema",
+      "community": 14,
+      "norm_label": "$schema"
+    },
+    {
+      "label": "collection",
+      "file_type": "code",
+      "source_file": "nest-cli.json",
+      "source_location": "L3",
+      "id": "notify_core_nest_cli_collection",
+      "community": 14,
+      "norm_label": "collection"
+    },
+    {
+      "label": "sourceRoot",
+      "file_type": "code",
+      "source_file": "nest-cli.json",
+      "source_location": "L4",
+      "id": "notify_core_nest_cli_sourceroot",
+      "community": 14,
+      "norm_label": "sourceroot"
+    },
+    {
+      "label": "compilerOptions",
+      "file_type": "code",
+      "source_file": "nest-cli.json",
+      "source_location": "L5",
+      "id": "notify_core_nest_cli_compileroptions",
+      "community": 14,
+      "norm_label": "compileroptions"
+    },
+    {
+      "label": "deleteOutDir",
+      "file_type": "code",
+      "source_file": "nest-cli.json",
+      "source_location": "L6",
+      "id": "notify_core_nest_cli_compileroptions_deleteoutdir",
+      "community": 14,
+      "norm_label": "deleteoutdir"
+    },
+    {
+      "label": "tsconfig.build.json",
+      "file_type": "code",
+      "source_file": "tsconfig.build.json",
+      "source_location": "L1",
+      "id": "tsconfig_build_json",
+      "community": 15,
+      "norm_label": "tsconfig.build.json"
+    },
+    {
+      "label": "extends",
+      "file_type": "code",
+      "source_file": "tsconfig.build.json",
+      "source_location": "L2",
+      "id": "notify_core_tsconfig_build_extends",
+      "community": 15,
+      "norm_label": "extends"
+    },
+    {
+      "label": "exclude",
+      "file_type": "code",
+      "source_file": "tsconfig.build.json",
+      "source_location": "L3",
+      "id": "notify_core_tsconfig_build_exclude",
+      "community": 15,
+      "norm_label": "exclude"
+    },
+    {
+      "label": "eslint.config.mjs",
+      "file_type": "code",
+      "source_file": "eslint.config.mjs",
+      "source_location": "L1",
+      "id": "eslint_config_mjs",
+      "community": 19,
+      "norm_label": "eslint.config.mjs"
+    },
+    {
       "label": "package.json",
       "file_type": "code",
       "source_file": "package.json",
@@ -751,31 +841,436 @@
       "norm_label": "testenvironment"
     },
     {
-      "label": "notification.gateway.ts",
+      "label": "tsconfig.json",
       "file_type": "code",
-      "source_file": "src/notification/notification.gateway.ts",
+      "source_file": "tsconfig.json",
       "source_location": "L1",
-      "id": "src_notification_notification_gateway_ts",
-      "community": 7,
-      "norm_label": "notification.gateway.ts"
+      "id": "tsconfig_json",
+      "community": 6,
+      "norm_label": "tsconfig.json"
     },
     {
-      "label": "NotificationGateway",
+      "label": "compilerOptions",
       "file_type": "code",
-      "source_file": "src/notification/notification.gateway.ts",
+      "source_file": "tsconfig.json",
+      "source_location": "L2",
+      "id": "notify_core_tsconfig_compileroptions",
+      "community": 6,
+      "norm_label": "compileroptions"
+    },
+    {
+      "label": "module",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L3",
+      "id": "notify_core_tsconfig_compileroptions_module",
+      "community": 6,
+      "norm_label": "module"
+    },
+    {
+      "label": "moduleResolution",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L4",
+      "id": "notify_core_tsconfig_compileroptions_moduleresolution",
+      "community": 6,
+      "norm_label": "moduleresolution"
+    },
+    {
+      "label": "resolvePackageJsonExports",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L5",
+      "id": "notify_core_tsconfig_compileroptions_resolvepackagejsonexports",
+      "community": 6,
+      "norm_label": "resolvepackagejsonexports"
+    },
+    {
+      "label": "esModuleInterop",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L6",
+      "id": "notify_core_tsconfig_compileroptions_esmoduleinterop",
+      "community": 6,
+      "norm_label": "esmoduleinterop"
+    },
+    {
+      "label": "isolatedModules",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L7",
+      "id": "notify_core_tsconfig_compileroptions_isolatedmodules",
+      "community": 6,
+      "norm_label": "isolatedmodules"
+    },
+    {
+      "label": "declaration",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L8",
+      "id": "notify_core_tsconfig_compileroptions_declaration",
+      "community": 6,
+      "norm_label": "declaration"
+    },
+    {
+      "label": "removeComments",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L9",
+      "id": "notify_core_tsconfig_compileroptions_removecomments",
+      "community": 6,
+      "norm_label": "removecomments"
+    },
+    {
+      "label": "emitDecoratorMetadata",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L10",
+      "id": "notify_core_tsconfig_compileroptions_emitdecoratormetadata",
+      "community": 6,
+      "norm_label": "emitdecoratormetadata"
+    },
+    {
+      "label": "experimentalDecorators",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L11",
+      "id": "notify_core_tsconfig_compileroptions_experimentaldecorators",
+      "community": 6,
+      "norm_label": "experimentaldecorators"
+    },
+    {
+      "label": "allowSyntheticDefaultImports",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L12",
+      "id": "notify_core_tsconfig_compileroptions_allowsyntheticdefaultimports",
+      "community": 6,
+      "norm_label": "allowsyntheticdefaultimports"
+    },
+    {
+      "label": "target",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L13",
+      "id": "notify_core_tsconfig_compileroptions_target",
+      "community": 6,
+      "norm_label": "target"
+    },
+    {
+      "label": "sourceMap",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
       "source_location": "L14",
-      "id": "notification_notification_gateway_notificationgateway",
-      "community": 7,
-      "norm_label": "notificationgateway"
+      "id": "notify_core_tsconfig_compileroptions_sourcemap",
+      "community": 6,
+      "norm_label": "sourcemap"
     },
     {
-      "label": ".handleEvent()",
+      "label": "outDir",
       "file_type": "code",
-      "source_file": "src/notification/notification.gateway.ts",
+      "source_file": "tsconfig.json",
+      "source_location": "L15",
+      "id": "notify_core_tsconfig_compileroptions_outdir",
+      "community": 6,
+      "norm_label": "outdir"
+    },
+    {
+      "label": "baseUrl",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L16",
+      "id": "notify_core_tsconfig_compileroptions_baseurl",
+      "community": 6,
+      "norm_label": "baseurl"
+    },
+    {
+      "label": "incremental",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L17",
+      "id": "notify_core_tsconfig_compileroptions_incremental",
+      "community": 6,
+      "norm_label": "incremental"
+    },
+    {
+      "label": "skipLibCheck",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L18",
+      "id": "notify_core_tsconfig_compileroptions_skiplibcheck",
+      "community": 6,
+      "norm_label": "skiplibcheck"
+    },
+    {
+      "label": "strictNullChecks",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
       "source_location": "L19",
-      "id": "notification_notification_gateway_notificationgateway_handleevent",
-      "community": 7,
-      "norm_label": ".handleevent()"
+      "id": "notify_core_tsconfig_compileroptions_strictnullchecks",
+      "community": 6,
+      "norm_label": "strictnullchecks"
+    },
+    {
+      "label": "forceConsistentCasingInFileNames",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L20",
+      "id": "notify_core_tsconfig_compileroptions_forceconsistentcasinginfilenames",
+      "community": 6,
+      "norm_label": "forceconsistentcasinginfilenames"
+    },
+    {
+      "label": "noImplicitAny",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L21",
+      "id": "notify_core_tsconfig_compileroptions_noimplicitany",
+      "community": 6,
+      "norm_label": "noimplicitany"
+    },
+    {
+      "label": "strictBindCallApply",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L22",
+      "id": "notify_core_tsconfig_compileroptions_strictbindcallapply",
+      "community": 6,
+      "norm_label": "strictbindcallapply"
+    },
+    {
+      "label": "noFallthroughCasesInSwitch",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L23",
+      "id": "notify_core_tsconfig_compileroptions_nofallthroughcasesinswitch",
+      "community": 6,
+      "norm_label": "nofallthroughcasesinswitch"
+    },
+    {
+      "label": "prisma.config.ts",
+      "file_type": "code",
+      "source_file": "prisma.config.ts",
+      "source_location": "L1",
+      "id": "prisma_config_ts",
+      "community": 20,
+      "norm_label": "prisma.config.ts"
+    },
+    {
+      "label": "jest-e2e.json",
+      "file_type": "code",
+      "source_file": "test/jest-e2e.json",
+      "source_location": "L1",
+      "id": "test_jest_e2e_json",
+      "community": 13,
+      "norm_label": "jest-e2e.json"
+    },
+    {
+      "label": "moduleFileExtensions",
+      "file_type": "code",
+      "source_file": "test/jest-e2e.json",
+      "source_location": "L2",
+      "id": "test_jest_e2e_modulefileextensions",
+      "community": 13,
+      "norm_label": "modulefileextensions"
+    },
+    {
+      "label": "rootDir",
+      "file_type": "code",
+      "source_file": "test/jest-e2e.json",
+      "source_location": "L3",
+      "id": "test_jest_e2e_rootdir",
+      "community": 13,
+      "norm_label": "rootdir"
+    },
+    {
+      "label": "testEnvironment",
+      "file_type": "code",
+      "source_file": "test/jest-e2e.json",
+      "source_location": "L4",
+      "id": "test_jest_e2e_testenvironment",
+      "community": 13,
+      "norm_label": "testenvironment"
+    },
+    {
+      "label": "testRegex",
+      "file_type": "code",
+      "source_file": "test/jest-e2e.json",
+      "source_location": "L5",
+      "id": "test_jest_e2e_testregex",
+      "community": 13,
+      "norm_label": "testregex"
+    },
+    {
+      "label": "transform",
+      "file_type": "code",
+      "source_file": "test/jest-e2e.json",
+      "source_location": "L6",
+      "id": "test_jest_e2e_transform",
+      "community": 13,
+      "norm_label": "transform"
+    },
+    {
+      "label": "^.+\\\\.(t|j)s$",
+      "file_type": "code",
+      "source_file": "test/jest-e2e.json",
+      "source_location": "L7",
+      "id": "test_jest_e2e_transform_t_j_s",
+      "community": 13,
+      "norm_label": "^.+\\\\.(t|j)s$"
+    },
+    {
+      "label": "app.e2e-spec.ts",
+      "file_type": "code",
+      "source_file": "test/app.e2e-spec.ts",
+      "source_location": "L1",
+      "id": "test_app_e2e_spec_ts",
+      "community": 2,
+      "norm_label": "app.e2e-spec.ts"
+    },
+    {
+      "label": "app.module.ts",
+      "file_type": "code",
+      "source_file": "src/app.module.ts",
+      "source_location": "L1",
+      "id": "src_app_module_ts",
+      "community": 2,
+      "norm_label": "app.module.ts"
+    },
+    {
+      "label": "AppModule",
+      "file_type": "code",
+      "source_file": "src/app.module.ts",
+      "source_location": "L46",
+      "id": "src_app_module_appmodule",
+      "community": 2,
+      "norm_label": "appmodule"
+    },
+    {
+      "label": ".configure()",
+      "file_type": "code",
+      "source_file": "src/app.module.ts",
+      "source_location": "L47",
+      "id": "src_app_module_appmodule_configure",
+      "community": 2,
+      "norm_label": ".configure()"
+    },
+    {
+      "label": "app.service.ts",
+      "file_type": "code",
+      "source_file": "src/app.service.ts",
+      "source_location": "L1",
+      "id": "src_app_service_ts",
+      "community": 2,
+      "norm_label": "app.service.ts"
+    },
+    {
+      "label": "AppService",
+      "file_type": "code",
+      "source_file": "src/app.service.ts",
+      "source_location": "L4",
+      "id": "src_app_service_appservice",
+      "community": 2,
+      "norm_label": "appservice"
+    },
+    {
+      "label": ".getHello()",
+      "file_type": "code",
+      "source_file": "src/app.service.ts",
+      "source_location": "L5",
+      "id": "src_app_service_appservice_gethello",
+      "community": 2,
+      "norm_label": ".gethello()"
+    },
+    {
+      "label": "app.controller.ts",
+      "file_type": "code",
+      "source_file": "src/app.controller.ts",
+      "source_location": "L1",
+      "id": "src_app_controller_ts",
+      "community": 2,
+      "norm_label": "app.controller.ts"
+    },
+    {
+      "label": "AppController",
+      "file_type": "code",
+      "source_file": "src/app.controller.ts",
+      "source_location": "L6",
+      "id": "src_app_controller_appcontroller",
+      "community": 2,
+      "norm_label": "appcontroller"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/app.controller.ts",
+      "source_location": "L7",
+      "id": "src_app_controller_appcontroller_constructor",
+      "community": 2,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".getHello()",
+      "file_type": "code",
+      "source_file": "src/app.controller.ts",
+      "source_location": "L10",
+      "id": "src_app_controller_appcontroller_gethello",
+      "community": 2,
+      "norm_label": ".gethello()"
+    },
+    {
+      "label": ".getHealth()",
+      "file_type": "code",
+      "source_file": "src/app.controller.ts",
+      "source_location": "L15",
+      "id": "src_app_controller_appcontroller_gethealth",
+      "community": 2,
+      "norm_label": ".gethealth()"
+    },
+    {
+      "label": ".checkConnection()",
+      "file_type": "code",
+      "source_file": "src/app.controller.ts",
+      "source_location": "L39",
+      "id": "src_app_controller_appcontroller_checkconnection",
+      "community": 2,
+      "norm_label": ".checkconnection()"
+    },
+    {
+      "label": "main.ts",
+      "file_type": "code",
+      "source_file": "src/main.ts",
+      "source_location": "L1",
+      "id": "src_main_ts",
+      "community": 2,
+      "norm_label": "main.ts"
+    },
+    {
+      "label": "bootstrap()",
+      "file_type": "code",
+      "source_file": "src/main.ts",
+      "source_location": "L5",
+      "id": "src_main_bootstrap",
+      "community": 2,
+      "norm_label": "bootstrap()"
+    },
+    {
+      "label": "app.controller.spec.ts",
+      "file_type": "code",
+      "source_file": "src/app.controller.spec.ts",
+      "source_location": "L1",
+      "id": "src_app_controller_spec_ts",
+      "community": 2,
+      "norm_label": "app.controller.spec.ts"
+    },
+    {
+      "label": "notification.controller.spec.ts",
+      "file_type": "code",
+      "source_file": "src/notification/notification.controller.spec.ts",
+      "source_location": "L1",
+      "id": "src_notification_notification_controller_spec_ts",
+      "community": 3,
+      "norm_label": "notification.controller.spec.ts"
     },
     {
       "label": "notification.module.ts",
@@ -790,1786 +1285,1379 @@
       "label": "NotificationModule",
       "file_type": "code",
       "source_file": "src/notification/notification.module.ts",
-      "source_location": "L27",
+      "source_location": "L29",
       "id": "notification_notification_module_notificationmodule",
       "community": 7,
       "norm_label": "notificationmodule"
-    },
-    {
-      "label": "nest-cli.json",
-      "file_type": "code",
-      "source_file": "nest-cli.json",
-      "source_location": "L1",
-      "community": 14,
-      "norm_label": "nest-cli.json",
-      "id": "nest_cli_json"
-    },
-    {
-      "label": "$schema",
-      "file_type": "code",
-      "source_file": "nest-cli.json",
-      "source_location": "L2",
-      "community": 14,
-      "norm_label": "$schema",
-      "id": "notify_core_nest_cli_schema"
-    },
-    {
-      "label": "collection",
-      "file_type": "code",
-      "source_file": "nest-cli.json",
-      "source_location": "L3",
-      "community": 14,
-      "norm_label": "collection",
-      "id": "notify_core_nest_cli_collection"
-    },
-    {
-      "label": "sourceRoot",
-      "file_type": "code",
-      "source_file": "nest-cli.json",
-      "source_location": "L4",
-      "community": 14,
-      "norm_label": "sourceroot",
-      "id": "notify_core_nest_cli_sourceroot"
-    },
-    {
-      "label": "compilerOptions",
-      "file_type": "code",
-      "source_file": "nest-cli.json",
-      "source_location": "L5",
-      "community": 14,
-      "norm_label": "compileroptions",
-      "id": "notify_core_nest_cli_compileroptions"
-    },
-    {
-      "label": "deleteOutDir",
-      "file_type": "code",
-      "source_file": "nest-cli.json",
-      "source_location": "L6",
-      "community": 14,
-      "norm_label": "deleteoutdir",
-      "id": "notify_core_nest_cli_compileroptions_deleteoutdir"
-    },
-    {
-      "label": "tsconfig.build.json",
-      "file_type": "code",
-      "source_file": "tsconfig.build.json",
-      "source_location": "L1",
-      "community": 15,
-      "norm_label": "tsconfig.build.json",
-      "id": "tsconfig_build_json"
-    },
-    {
-      "label": "extends",
-      "file_type": "code",
-      "source_file": "tsconfig.build.json",
-      "source_location": "L2",
-      "community": 15,
-      "norm_label": "extends",
-      "id": "notify_core_tsconfig_build_extends"
-    },
-    {
-      "label": "exclude",
-      "file_type": "code",
-      "source_file": "tsconfig.build.json",
-      "source_location": "L3",
-      "community": 15,
-      "norm_label": "exclude",
-      "id": "notify_core_tsconfig_build_exclude"
-    },
-    {
-      "label": "eslint.config.mjs",
-      "file_type": "code",
-      "source_file": "eslint.config.mjs",
-      "source_location": "L1",
-      "community": 19,
-      "norm_label": "eslint.config.mjs",
-      "id": "eslint_config_mjs"
-    },
-    {
-      "label": "tsconfig.json",
-      "file_type": "code",
-      "source_file": "tsconfig.json",
-      "source_location": "L1",
-      "community": 6,
-      "norm_label": "tsconfig.json",
-      "id": "tsconfig_json"
-    },
-    {
-      "label": "compilerOptions",
-      "file_type": "code",
-      "source_file": "tsconfig.json",
-      "source_location": "L2",
-      "community": 6,
-      "norm_label": "compileroptions",
-      "id": "notify_core_tsconfig_compileroptions"
-    },
-    {
-      "label": "module",
-      "file_type": "code",
-      "source_file": "tsconfig.json",
-      "source_location": "L3",
-      "community": 6,
-      "norm_label": "module",
-      "id": "notify_core_tsconfig_compileroptions_module"
-    },
-    {
-      "label": "moduleResolution",
-      "file_type": "code",
-      "source_file": "tsconfig.json",
-      "source_location": "L4",
-      "community": 6,
-      "norm_label": "moduleresolution",
-      "id": "notify_core_tsconfig_compileroptions_moduleresolution"
-    },
-    {
-      "label": "resolvePackageJsonExports",
-      "file_type": "code",
-      "source_file": "tsconfig.json",
-      "source_location": "L5",
-      "community": 6,
-      "norm_label": "resolvepackagejsonexports",
-      "id": "notify_core_tsconfig_compileroptions_resolvepackagejsonexports"
-    },
-    {
-      "label": "esModuleInterop",
-      "file_type": "code",
-      "source_file": "tsconfig.json",
-      "source_location": "L6",
-      "community": 6,
-      "norm_label": "esmoduleinterop",
-      "id": "notify_core_tsconfig_compileroptions_esmoduleinterop"
-    },
-    {
-      "label": "isolatedModules",
-      "file_type": "code",
-      "source_file": "tsconfig.json",
-      "source_location": "L7",
-      "community": 6,
-      "norm_label": "isolatedmodules",
-      "id": "notify_core_tsconfig_compileroptions_isolatedmodules"
-    },
-    {
-      "label": "declaration",
-      "file_type": "code",
-      "source_file": "tsconfig.json",
-      "source_location": "L8",
-      "community": 6,
-      "norm_label": "declaration",
-      "id": "notify_core_tsconfig_compileroptions_declaration"
-    },
-    {
-      "label": "removeComments",
-      "file_type": "code",
-      "source_file": "tsconfig.json",
-      "source_location": "L9",
-      "community": 6,
-      "norm_label": "removecomments",
-      "id": "notify_core_tsconfig_compileroptions_removecomments"
-    },
-    {
-      "label": "emitDecoratorMetadata",
-      "file_type": "code",
-      "source_file": "tsconfig.json",
-      "source_location": "L10",
-      "community": 6,
-      "norm_label": "emitdecoratormetadata",
-      "id": "notify_core_tsconfig_compileroptions_emitdecoratormetadata"
-    },
-    {
-      "label": "experimentalDecorators",
-      "file_type": "code",
-      "source_file": "tsconfig.json",
-      "source_location": "L11",
-      "community": 6,
-      "norm_label": "experimentaldecorators",
-      "id": "notify_core_tsconfig_compileroptions_experimentaldecorators"
-    },
-    {
-      "label": "allowSyntheticDefaultImports",
-      "file_type": "code",
-      "source_file": "tsconfig.json",
-      "source_location": "L12",
-      "community": 6,
-      "norm_label": "allowsyntheticdefaultimports",
-      "id": "notify_core_tsconfig_compileroptions_allowsyntheticdefaultimports"
-    },
-    {
-      "label": "target",
-      "file_type": "code",
-      "source_file": "tsconfig.json",
-      "source_location": "L13",
-      "community": 6,
-      "norm_label": "target",
-      "id": "notify_core_tsconfig_compileroptions_target"
-    },
-    {
-      "label": "sourceMap",
-      "file_type": "code",
-      "source_file": "tsconfig.json",
-      "source_location": "L14",
-      "community": 6,
-      "norm_label": "sourcemap",
-      "id": "notify_core_tsconfig_compileroptions_sourcemap"
-    },
-    {
-      "label": "outDir",
-      "file_type": "code",
-      "source_file": "tsconfig.json",
-      "source_location": "L15",
-      "community": 6,
-      "norm_label": "outdir",
-      "id": "notify_core_tsconfig_compileroptions_outdir"
-    },
-    {
-      "label": "baseUrl",
-      "file_type": "code",
-      "source_file": "tsconfig.json",
-      "source_location": "L16",
-      "community": 6,
-      "norm_label": "baseurl",
-      "id": "notify_core_tsconfig_compileroptions_baseurl"
-    },
-    {
-      "label": "incremental",
-      "file_type": "code",
-      "source_file": "tsconfig.json",
-      "source_location": "L17",
-      "community": 6,
-      "norm_label": "incremental",
-      "id": "notify_core_tsconfig_compileroptions_incremental"
-    },
-    {
-      "label": "skipLibCheck",
-      "file_type": "code",
-      "source_file": "tsconfig.json",
-      "source_location": "L18",
-      "community": 6,
-      "norm_label": "skiplibcheck",
-      "id": "notify_core_tsconfig_compileroptions_skiplibcheck"
-    },
-    {
-      "label": "strictNullChecks",
-      "file_type": "code",
-      "source_file": "tsconfig.json",
-      "source_location": "L19",
-      "community": 6,
-      "norm_label": "strictnullchecks",
-      "id": "notify_core_tsconfig_compileroptions_strictnullchecks"
-    },
-    {
-      "label": "forceConsistentCasingInFileNames",
-      "file_type": "code",
-      "source_file": "tsconfig.json",
-      "source_location": "L20",
-      "community": 6,
-      "norm_label": "forceconsistentcasinginfilenames",
-      "id": "notify_core_tsconfig_compileroptions_forceconsistentcasinginfilenames"
-    },
-    {
-      "label": "noImplicitAny",
-      "file_type": "code",
-      "source_file": "tsconfig.json",
-      "source_location": "L21",
-      "community": 6,
-      "norm_label": "noimplicitany",
-      "id": "notify_core_tsconfig_compileroptions_noimplicitany"
-    },
-    {
-      "label": "strictBindCallApply",
-      "file_type": "code",
-      "source_file": "tsconfig.json",
-      "source_location": "L22",
-      "community": 6,
-      "norm_label": "strictbindcallapply",
-      "id": "notify_core_tsconfig_compileroptions_strictbindcallapply"
-    },
-    {
-      "label": "noFallthroughCasesInSwitch",
-      "file_type": "code",
-      "source_file": "tsconfig.json",
-      "source_location": "L23",
-      "community": 6,
-      "norm_label": "nofallthroughcasesinswitch",
-      "id": "notify_core_tsconfig_compileroptions_nofallthroughcasesinswitch"
-    },
-    {
-      "label": "prisma.config.ts",
-      "file_type": "code",
-      "source_file": "prisma.config.ts",
-      "source_location": "L1",
-      "community": 20,
-      "norm_label": "prisma.config.ts",
-      "id": "prisma_config_ts"
-    },
-    {
-      "label": "jest-e2e.json",
-      "file_type": "code",
-      "source_file": "test/jest-e2e.json",
-      "source_location": "L1",
-      "community": 13,
-      "norm_label": "jest-e2e.json",
-      "id": "test_jest_e2e_json"
-    },
-    {
-      "label": "moduleFileExtensions",
-      "file_type": "code",
-      "source_file": "test/jest-e2e.json",
-      "source_location": "L2",
-      "community": 13,
-      "norm_label": "modulefileextensions",
-      "id": "test_jest_e2e_modulefileextensions"
-    },
-    {
-      "label": "rootDir",
-      "file_type": "code",
-      "source_file": "test/jest-e2e.json",
-      "source_location": "L3",
-      "community": 13,
-      "norm_label": "rootdir",
-      "id": "test_jest_e2e_rootdir"
-    },
-    {
-      "label": "testEnvironment",
-      "file_type": "code",
-      "source_file": "test/jest-e2e.json",
-      "source_location": "L4",
-      "community": 13,
-      "norm_label": "testenvironment",
-      "id": "test_jest_e2e_testenvironment"
-    },
-    {
-      "label": "testRegex",
-      "file_type": "code",
-      "source_file": "test/jest-e2e.json",
-      "source_location": "L5",
-      "community": 13,
-      "norm_label": "testregex",
-      "id": "test_jest_e2e_testregex"
-    },
-    {
-      "label": "transform",
-      "file_type": "code",
-      "source_file": "test/jest-e2e.json",
-      "source_location": "L6",
-      "community": 13,
-      "norm_label": "transform",
-      "id": "test_jest_e2e_transform"
-    },
-    {
-      "label": "^.+\\\\.(t|j)s$",
-      "file_type": "code",
-      "source_file": "test/jest-e2e.json",
-      "source_location": "L7",
-      "community": 13,
-      "norm_label": "^.+\\\\.(t|j)s$",
-      "id": "test_jest_e2e_transform_t_j_s"
-    },
-    {
-      "label": "app.e2e-spec.ts",
-      "file_type": "code",
-      "source_file": "test/app.e2e-spec.ts",
-      "source_location": "L1",
-      "community": 2,
-      "norm_label": "app.e2e-spec.ts",
-      "id": "test_app_e2e_spec_ts"
-    },
-    {
-      "label": "app.module.ts",
-      "file_type": "code",
-      "source_file": "src/app.module.ts",
-      "source_location": "L1",
-      "community": 2,
-      "norm_label": "app.module.ts",
-      "id": "src_app_module_ts"
-    },
-    {
-      "label": "AppModule",
-      "file_type": "code",
-      "source_file": "src/app.module.ts",
-      "source_location": "L46",
-      "community": 2,
-      "norm_label": "appmodule",
-      "id": "src_app_module_appmodule"
-    },
-    {
-      "label": ".configure()",
-      "file_type": "code",
-      "source_file": "src/app.module.ts",
-      "source_location": "L47",
-      "community": 2,
-      "norm_label": ".configure()",
-      "id": "src_app_module_appmodule_configure"
-    },
-    {
-      "label": "app.service.ts",
-      "file_type": "code",
-      "source_file": "src/app.service.ts",
-      "source_location": "L1",
-      "community": 2,
-      "norm_label": "app.service.ts",
-      "id": "src_app_service_ts"
-    },
-    {
-      "label": "AppService",
-      "file_type": "code",
-      "source_file": "src/app.service.ts",
-      "source_location": "L4",
-      "community": 2,
-      "norm_label": "appservice",
-      "id": "src_app_service_appservice"
-    },
-    {
-      "label": ".getHello()",
-      "file_type": "code",
-      "source_file": "src/app.service.ts",
-      "source_location": "L5",
-      "community": 2,
-      "norm_label": ".gethello()",
-      "id": "src_app_service_appservice_gethello"
-    },
-    {
-      "label": "app.controller.ts",
-      "file_type": "code",
-      "source_file": "src/app.controller.ts",
-      "source_location": "L1",
-      "community": 2,
-      "norm_label": "app.controller.ts",
-      "id": "src_app_controller_ts"
-    },
-    {
-      "label": "AppController",
-      "file_type": "code",
-      "source_file": "src/app.controller.ts",
-      "source_location": "L6",
-      "community": 2,
-      "norm_label": "appcontroller",
-      "id": "src_app_controller_appcontroller"
-    },
-    {
-      "label": ".constructor()",
-      "file_type": "code",
-      "source_file": "src/app.controller.ts",
-      "source_location": "L7",
-      "community": 2,
-      "norm_label": ".constructor()",
-      "id": "src_app_controller_appcontroller_constructor"
-    },
-    {
-      "label": ".getHello()",
-      "file_type": "code",
-      "source_file": "src/app.controller.ts",
-      "source_location": "L10",
-      "community": 2,
-      "norm_label": ".gethello()",
-      "id": "src_app_controller_appcontroller_gethello"
-    },
-    {
-      "label": ".getHealth()",
-      "file_type": "code",
-      "source_file": "src/app.controller.ts",
-      "source_location": "L15",
-      "community": 2,
-      "norm_label": ".gethealth()",
-      "id": "src_app_controller_appcontroller_gethealth"
-    },
-    {
-      "label": ".checkConnection()",
-      "file_type": "code",
-      "source_file": "src/app.controller.ts",
-      "source_location": "L39",
-      "community": 2,
-      "norm_label": ".checkconnection()",
-      "id": "src_app_controller_appcontroller_checkconnection"
-    },
-    {
-      "label": "main.ts",
-      "file_type": "code",
-      "source_file": "src/main.ts",
-      "source_location": "L1",
-      "community": 2,
-      "norm_label": "main.ts",
-      "id": "src_main_ts"
-    },
-    {
-      "label": "bootstrap()",
-      "file_type": "code",
-      "source_file": "src/main.ts",
-      "source_location": "L5",
-      "community": 2,
-      "norm_label": "bootstrap()",
-      "id": "src_main_bootstrap"
-    },
-    {
-      "label": "app.controller.spec.ts",
-      "file_type": "code",
-      "source_file": "src/app.controller.spec.ts",
-      "source_location": "L1",
-      "community": 2,
-      "norm_label": "app.controller.spec.ts",
-      "id": "src_app_controller_spec_ts"
-    },
-    {
-      "label": "notification.controller.spec.ts",
-      "file_type": "code",
-      "source_file": "src/notification/notification.controller.spec.ts",
-      "source_location": "L1",
-      "community": 3,
-      "norm_label": "notification.controller.spec.ts",
-      "id": "src_notification_notification_controller_spec_ts"
     },
     {
       "label": "notification.producer.ts",
       "file_type": "code",
       "source_file": "src/notification/notification.producer.ts",
       "source_location": "L1",
+      "id": "src_notification_notification_producer_ts",
       "community": 7,
-      "norm_label": "notification.producer.ts",
-      "id": "src_notification_notification_producer_ts"
+      "norm_label": "notification.producer.ts"
     },
     {
       "label": "EnqueueJobOptions",
       "file_type": "code",
       "source_file": "src/notification/notification.producer.ts",
       "source_location": "L5",
+      "id": "notification_notification_producer_enqueuejoboptions",
       "community": 7,
-      "norm_label": "enqueuejoboptions",
-      "id": "notification_notification_producer_enqueuejoboptions"
+      "norm_label": "enqueuejoboptions"
     },
     {
       "label": "NotificationProducer",
       "file_type": "code",
       "source_file": "src/notification/notification.producer.ts",
       "source_location": "L13",
+      "id": "notification_notification_producer_notificationproducer",
       "community": 7,
-      "norm_label": "notificationproducer",
-      "id": "notification_notification_producer_notificationproducer"
+      "norm_label": "notificationproducer"
     },
     {
       "label": ".constructor()",
       "file_type": "code",
       "source_file": "src/notification/notification.producer.ts",
       "source_location": "L14",
+      "id": "notification_notification_producer_notificationproducer_constructor",
       "community": 7,
-      "norm_label": ".constructor()",
-      "id": "notification_notification_producer_notificationproducer_constructor"
+      "norm_label": ".constructor()"
     },
     {
       "label": ".enqueueJob()",
       "file_type": "code",
       "source_file": "src/notification/notification.producer.ts",
       "source_location": "L18",
+      "id": "notification_notification_producer_notificationproducer_enqueuejob",
       "community": 7,
-      "norm_label": ".enqueuejob()",
-      "id": "notification_notification_producer_notificationproducer_enqueuejob"
+      "norm_label": ".enqueuejob()"
+    },
+    {
+      "label": "notification.gateway.ts",
+      "file_type": "code",
+      "source_file": "src/notification/notification.gateway.ts",
+      "source_location": "L1",
+      "id": "src_notification_notification_gateway_ts",
+      "community": 7,
+      "norm_label": "notification.gateway.ts"
+    },
+    {
+      "label": "NotificationGateway",
+      "file_type": "code",
+      "source_file": "src/notification/notification.gateway.ts",
+      "source_location": "L16",
+      "id": "notification_notification_gateway_notificationgateway",
+      "community": 7,
+      "norm_label": "notificationgateway"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/notification/notification.gateway.ts",
+      "source_location": "L20",
+      "id": "notification_notification_gateway_notificationgateway_constructor",
+      "community": 7,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".handleConnection()",
+      "file_type": "code",
+      "source_file": "src/notification/notification.gateway.ts",
+      "source_location": "L22",
+      "id": "notification_notification_gateway_notificationgateway_handleconnection",
+      "community": 7,
+      "norm_label": ".handleconnection()"
+    },
+    {
+      "label": ".handleEvent()",
+      "file_type": "code",
+      "source_file": "src/notification/notification.gateway.ts",
+      "source_location": "L39",
+      "id": "notification_notification_gateway_notificationgateway_handleevent",
+      "community": 7,
+      "norm_label": ".handleevent()"
     },
     {
       "label": "notification.controller.ts",
       "file_type": "code",
       "source_file": "src/notification/notification.controller.ts",
       "source_location": "L1",
+      "id": "src_notification_notification_controller_ts",
       "community": 3,
-      "norm_label": "notification.controller.ts",
-      "id": "src_notification_notification_controller_ts"
+      "norm_label": "notification.controller.ts"
     },
     {
       "label": "NotificationController",
       "file_type": "code",
       "source_file": "src/notification/notification.controller.ts",
       "source_location": "L18",
+      "id": "notification_notification_controller_notificationcontroller",
       "community": 3,
-      "norm_label": "notificationcontroller",
-      "id": "notification_notification_controller_notificationcontroller"
+      "norm_label": "notificationcontroller"
     },
     {
       "label": ".constructor()",
       "file_type": "code",
       "source_file": "src/notification/notification.controller.ts",
       "source_location": "L19",
+      "id": "notification_notification_controller_notificationcontroller_constructor",
       "community": 3,
-      "norm_label": ".constructor()",
-      "id": "notification_notification_controller_notificationcontroller_constructor"
+      "norm_label": ".constructor()"
     },
     {
       "label": ".create()",
       "file_type": "code",
       "source_file": "src/notification/notification.controller.ts",
       "source_location": "L22",
+      "id": "notification_notification_controller_notificationcontroller_create",
       "community": 3,
-      "norm_label": ".create()",
-      "id": "notification_notification_controller_notificationcontroller_create"
+      "norm_label": ".create()"
     },
     {
       "label": ".findAll()",
       "file_type": "code",
       "source_file": "src/notification/notification.controller.ts",
       "source_location": "L27",
+      "id": "notification_notification_controller_notificationcontroller_findall",
       "community": 3,
-      "norm_label": ".findall()",
-      "id": "notification_notification_controller_notificationcontroller_findall"
+      "norm_label": ".findall()"
     },
     {
       "label": ".findByUser()",
       "file_type": "code",
       "source_file": "src/notification/notification.controller.ts",
       "source_location": "L32",
+      "id": "notification_notification_controller_notificationcontroller_findbyuser",
       "community": 3,
-      "norm_label": ".findbyuser()",
-      "id": "notification_notification_controller_notificationcontroller_findbyuser"
+      "norm_label": ".findbyuser()"
     },
     {
       "label": ".findOne()",
       "file_type": "code",
       "source_file": "src/notification/notification.controller.ts",
       "source_location": "L37",
+      "id": "notification_notification_controller_notificationcontroller_findone",
       "community": 3,
-      "norm_label": ".findone()",
-      "id": "notification_notification_controller_notificationcontroller_findone"
+      "norm_label": ".findone()"
     },
     {
       "label": ".update()",
       "file_type": "code",
       "source_file": "src/notification/notification.controller.ts",
       "source_location": "L42",
+      "id": "notification_notification_controller_notificationcontroller_update",
       "community": 3,
-      "norm_label": ".update()",
-      "id": "notification_notification_controller_notificationcontroller_update"
+      "norm_label": ".update()"
     },
     {
       "label": ".remove()",
       "file_type": "code",
       "source_file": "src/notification/notification.controller.ts",
       "source_location": "L50",
+      "id": "notification_notification_controller_notificationcontroller_remove",
       "community": 3,
-      "norm_label": ".remove()",
-      "id": "notification_notification_controller_notificationcontroller_remove"
+      "norm_label": ".remove()"
     },
     {
       "label": "notification.service.ts",
       "file_type": "code",
       "source_file": "src/notification/notification.service.ts",
       "source_location": "L1",
+      "id": "src_notification_notification_service_ts",
       "community": 3,
-      "norm_label": "notification.service.ts",
-      "id": "src_notification_notification_service_ts"
+      "norm_label": "notification.service.ts"
     },
     {
       "label": "NotificationService",
       "file_type": "code",
       "source_file": "src/notification/notification.service.ts",
       "source_location": "L8",
+      "id": "notification_notification_service_notificationservice",
       "community": 3,
-      "norm_label": "notificationservice",
-      "id": "notification_notification_service_notificationservice"
+      "norm_label": "notificationservice"
     },
     {
       "label": ".constructor()",
       "file_type": "code",
       "source_file": "src/notification/notification.service.ts",
       "source_location": "L9",
+      "id": "notification_notification_service_notificationservice_constructor",
       "community": 3,
-      "norm_label": ".constructor()",
-      "id": "notification_notification_service_notificationservice_constructor"
+      "norm_label": ".constructor()"
     },
     {
       "label": ".create()",
       "file_type": "code",
       "source_file": "src/notification/notification.service.ts",
       "source_location": "L10",
+      "id": "notification_notification_service_notificationservice_create",
       "community": 3,
-      "norm_label": ".create()",
-      "id": "notification_notification_service_notificationservice_create"
+      "norm_label": ".create()"
     },
     {
       "label": ".findAll()",
       "file_type": "code",
       "source_file": "src/notification/notification.service.ts",
       "source_location": "L22",
+      "id": "notification_notification_service_notificationservice_findall",
       "community": 3,
-      "norm_label": ".findall()",
-      "id": "notification_notification_service_notificationservice_findall"
+      "norm_label": ".findall()"
     },
     {
       "label": ".findByUser()",
       "file_type": "code",
       "source_file": "src/notification/notification.service.ts",
       "source_location": "L28",
+      "id": "notification_notification_service_notificationservice_findbyuser",
       "community": 3,
-      "norm_label": ".findbyuser()",
-      "id": "notification_notification_service_notificationservice_findbyuser"
+      "norm_label": ".findbyuser()"
     },
     {
       "label": ".findOne()",
       "file_type": "code",
       "source_file": "src/notification/notification.service.ts",
       "source_location": "L34",
+      "id": "notification_notification_service_notificationservice_findone",
       "community": 3,
-      "norm_label": ".findone()",
-      "id": "notification_notification_service_notificationservice_findone"
+      "norm_label": ".findone()"
     },
     {
       "label": ".update()",
       "file_type": "code",
       "source_file": "src/notification/notification.service.ts",
       "source_location": "L44",
+      "id": "notification_notification_service_notificationservice_update",
       "community": 3,
-      "norm_label": ".update()",
-      "id": "notification_notification_service_notificationservice_update"
+      "norm_label": ".update()"
     },
     {
       "label": ".remove()",
       "file_type": "code",
       "source_file": "src/notification/notification.service.ts",
       "source_location": "L58",
+      "id": "notification_notification_service_notificationservice_remove",
       "community": 3,
-      "norm_label": ".remove()",
-      "id": "notification_notification_service_notificationservice_remove"
+      "norm_label": ".remove()"
     },
     {
       "label": "notification.consumer.ts",
       "file_type": "code",
       "source_file": "src/notification/notification.consumer.ts",
       "source_location": "L1",
+      "id": "src_notification_notification_consumer_ts",
       "community": 7,
-      "norm_label": "notification.consumer.ts",
-      "id": "src_notification_notification_consumer_ts"
+      "norm_label": "notification.consumer.ts"
     },
     {
       "label": "EmailJobData",
       "file_type": "code",
       "source_file": "src/notification/notification.consumer.ts",
       "source_location": "L5",
+      "id": "notification_notification_consumer_emailjobdata",
       "community": 7,
-      "norm_label": "emailjobdata",
-      "id": "notification_notification_consumer_emailjobdata"
+      "norm_label": "emailjobdata"
     },
     {
       "label": "InAppJobData",
       "file_type": "code",
       "source_file": "src/notification/notification.consumer.ts",
       "source_location": "L12",
+      "id": "notification_notification_consumer_inappjobdata",
       "community": 7,
-      "norm_label": "inappjobdata",
-      "id": "notification_notification_consumer_inappjobdata"
+      "norm_label": "inappjobdata"
     },
     {
       "label": "NotificationConsumer",
       "file_type": "code",
       "source_file": "src/notification/notification.consumer.ts",
       "source_location": "L15",
+      "id": "notification_notification_consumer_notificationconsumer",
       "community": 7,
-      "norm_label": "notificationconsumer",
-      "id": "notification_notification_consumer_notificationconsumer"
+      "norm_label": "notificationconsumer"
     },
     {
       "label": ".constructor()",
       "file_type": "code",
       "source_file": "src/notification/notification.consumer.ts",
       "source_location": "L16",
+      "id": "notification_notification_consumer_notificationconsumer_constructor",
       "community": 7,
-      "norm_label": ".constructor()",
-      "id": "notification_notification_consumer_notificationconsumer_constructor"
+      "norm_label": ".constructor()"
     },
     {
       "label": ".handleEmail()",
       "file_type": "code",
       "source_file": "src/notification/notification.consumer.ts",
       "source_location": "L22",
+      "id": "notification_notification_consumer_notificationconsumer_handleemail",
       "community": 7,
-      "norm_label": ".handleemail()",
-      "id": "notification_notification_consumer_notificationconsumer_handleemail"
+      "norm_label": ".handleemail()"
     },
     {
       "label": ".handleInApp()",
       "file_type": "code",
       "source_file": "src/notification/notification.consumer.ts",
       "source_location": "L37",
+      "id": "notification_notification_consumer_notificationconsumer_handleinapp",
       "community": 7,
-      "norm_label": ".handleinapp()",
-      "id": "notification_notification_consumer_notificationconsumer_handleinapp"
+      "norm_label": ".handleinapp()"
     },
     {
       "label": ".handleFailed()",
       "file_type": "code",
       "source_file": "src/notification/notification.consumer.ts",
       "source_location": "L45",
+      "id": "notification_notification_consumer_notificationconsumer_handlefailed",
       "community": 7,
-      "norm_label": ".handlefailed()",
-      "id": "notification_notification_consumer_notificationconsumer_handlefailed"
+      "norm_label": ".handlefailed()"
     },
     {
       "label": "notification.service.spec.ts",
       "file_type": "code",
       "source_file": "src/notification/notification.service.spec.ts",
       "source_location": "L1",
-      "community": 3,
-      "norm_label": "notification.service.spec.ts",
-      "id": "src_notification_notification_service_spec_ts"
+      "id": "src_notification_notification_service_spec_ts",
+      "community": 4,
+      "norm_label": "notification.service.spec.ts"
     },
     {
       "label": "update-notification.dto.ts",
       "file_type": "code",
       "source_file": "src/notification/dto/update-notification.dto.ts",
       "source_location": "L1",
+      "id": "src_notification_dto_update_notification_dto_ts",
       "community": 3,
-      "norm_label": "update-notification.dto.ts",
-      "id": "src_notification_dto_update_notification_dto_ts"
+      "norm_label": "update-notification.dto.ts"
     },
     {
       "label": "UpdateNotificationDto",
       "file_type": "code",
       "source_file": "src/notification/dto/update-notification.dto.ts",
       "source_location": "L4",
+      "id": "dto_update_notification_dto_updatenotificationdto",
       "community": 3,
-      "norm_label": "updatenotificationdto",
-      "id": "dto_update_notification_dto_updatenotificationdto"
+      "norm_label": "updatenotificationdto"
     },
     {
       "label": "create-notification.dto.ts",
       "file_type": "code",
       "source_file": "src/notification/dto/create-notification.dto.ts",
       "source_location": "L1",
+      "id": "src_notification_dto_create_notification_dto_ts",
       "community": 3,
-      "norm_label": "create-notification.dto.ts",
-      "id": "src_notification_dto_create_notification_dto_ts"
+      "norm_label": "create-notification.dto.ts"
     },
     {
       "label": "CreateNotificationDto",
       "file_type": "code",
       "source_file": "src/notification/dto/create-notification.dto.ts",
       "source_location": "L4",
+      "id": "dto_create_notification_dto_createnotificationdto",
       "community": 3,
-      "norm_label": "createnotificationdto",
-      "id": "dto_create_notification_dto_createnotificationdto"
+      "norm_label": "createnotificationdto"
     },
     {
       "label": "email.module.ts",
       "file_type": "code",
       "source_file": "src/email/email.module.ts",
       "source_location": "L1",
+      "id": "src_email_email_module_ts",
       "community": 7,
-      "norm_label": "email.module.ts",
-      "id": "src_email_email_module_ts"
+      "norm_label": "email.module.ts"
     },
     {
       "label": "EmailModule",
       "file_type": "code",
       "source_file": "src/email/email.module.ts",
       "source_location": "L8",
+      "id": "email_email_module_emailmodule",
       "community": 7,
-      "norm_label": "emailmodule",
-      "id": "email_email_module_emailmodule"
+      "norm_label": "emailmodule"
     },
     {
       "label": "email.service.ts",
       "file_type": "code",
       "source_file": "src/email/email.service.ts",
       "source_location": "L1",
+      "id": "src_email_email_service_ts",
       "community": 7,
-      "norm_label": "email.service.ts",
-      "id": "src_email_email_service_ts"
+      "norm_label": "email.service.ts"
     },
     {
       "label": "EmailService",
       "file_type": "code",
       "source_file": "src/email/email.service.ts",
       "source_location": "L6",
+      "id": "email_email_service_emailservice",
       "community": 7,
-      "norm_label": "emailservice",
-      "id": "email_email_service_emailservice"
+      "norm_label": "emailservice"
     },
     {
       "label": ".constructor()",
       "file_type": "code",
       "source_file": "src/email/email.service.ts",
       "source_location": "L9",
+      "id": "email_email_service_emailservice_constructor",
       "community": 7,
-      "norm_label": ".constructor()",
-      "id": "email_email_service_emailservice_constructor"
+      "norm_label": ".constructor()"
     },
     {
       "label": ".sendEmail()",
       "file_type": "code",
       "source_file": "src/email/email.service.ts",
       "source_location": "L14",
+      "id": "email_email_service_emailservice_sendemail",
       "community": 7,
-      "norm_label": ".sendemail()",
-      "id": "email_email_service_emailservice_sendemail"
+      "norm_label": ".sendemail()"
     },
     {
       "label": "email.service.spec.ts",
       "file_type": "code",
       "source_file": "src/email/email.service.spec.ts",
       "source_location": "L1",
+      "id": "src_email_email_service_spec_ts",
       "community": 7,
-      "norm_label": "email.service.spec.ts",
-      "id": "src_email_email_service_spec_ts"
+      "norm_label": "email.service.spec.ts"
     },
     {
       "label": "user.controller.spec.ts",
       "file_type": "code",
       "source_file": "src/user/user.controller.spec.ts",
       "source_location": "L1",
+      "id": "src_user_user_controller_spec_ts",
       "community": 4,
-      "norm_label": "user.controller.spec.ts",
-      "id": "src_user_user_controller_spec_ts"
+      "norm_label": "user.controller.spec.ts"
     },
     {
       "label": "user.controller.ts",
       "file_type": "code",
       "source_file": "src/user/user.controller.ts",
       "source_location": "L1",
+      "id": "src_user_user_controller_ts",
       "community": 4,
-      "norm_label": "user.controller.ts",
-      "id": "src_user_user_controller_ts"
+      "norm_label": "user.controller.ts"
     },
     {
       "label": "UserController",
       "file_type": "code",
       "source_file": "src/user/user.controller.ts",
       "source_location": "L9",
+      "id": "user_user_controller_usercontroller",
       "community": 4,
-      "norm_label": "usercontroller",
-      "id": "user_user_controller_usercontroller"
+      "norm_label": "usercontroller"
     },
     {
       "label": ".constructor()",
       "file_type": "code",
       "source_file": "src/user/user.controller.ts",
       "source_location": "L10",
+      "id": "user_user_controller_usercontroller_constructor",
       "community": 4,
-      "norm_label": ".constructor()",
-      "id": "user_user_controller_usercontroller_constructor"
+      "norm_label": ".constructor()"
     },
     {
       "label": ".create()",
       "file_type": "code",
       "source_file": "src/user/user.controller.ts",
       "source_location": "L13",
+      "id": "user_user_controller_usercontroller_create",
       "community": 4,
-      "norm_label": ".create()",
-      "id": "user_user_controller_usercontroller_create"
+      "norm_label": ".create()"
     },
     {
       "label": ".findAll()",
       "file_type": "code",
       "source_file": "src/user/user.controller.ts",
       "source_location": "L18",
+      "id": "user_user_controller_usercontroller_findall",
       "community": 4,
-      "norm_label": ".findall()",
-      "id": "user_user_controller_usercontroller_findall"
+      "norm_label": ".findall()"
     },
     {
       "label": ".findOne()",
       "file_type": "code",
       "source_file": "src/user/user.controller.ts",
       "source_location": "L23",
+      "id": "user_user_controller_usercontroller_findone",
       "community": 4,
-      "norm_label": ".findone()",
-      "id": "user_user_controller_usercontroller_findone"
+      "norm_label": ".findone()"
     },
     {
       "label": ".update()",
       "file_type": "code",
       "source_file": "src/user/user.controller.ts",
       "source_location": "L28",
+      "id": "user_user_controller_usercontroller_update",
       "community": 4,
-      "norm_label": ".update()",
-      "id": "user_user_controller_usercontroller_update"
+      "norm_label": ".update()"
     },
     {
       "label": ".remove()",
       "file_type": "code",
       "source_file": "src/user/user.controller.ts",
       "source_location": "L33",
+      "id": "user_user_controller_usercontroller_remove",
       "community": 4,
-      "norm_label": ".remove()",
-      "id": "user_user_controller_usercontroller_remove"
+      "norm_label": ".remove()"
     },
     {
       "label": "user.module.ts",
       "file_type": "code",
       "source_file": "src/user/user.module.ts",
       "source_location": "L1",
+      "id": "src_user_user_module_ts",
       "community": 2,
-      "norm_label": "user.module.ts",
-      "id": "src_user_user_module_ts"
+      "norm_label": "user.module.ts"
     },
     {
       "label": "UserModule",
       "file_type": "code",
       "source_file": "src/user/user.module.ts",
       "source_location": "L10",
+      "id": "user_user_module_usermodule",
       "community": 2,
-      "norm_label": "usermodule",
-      "id": "user_user_module_usermodule"
+      "norm_label": "usermodule"
     },
     {
       "label": "user.service.ts",
       "file_type": "code",
       "source_file": "src/user/user.service.ts",
       "source_location": "L1",
+      "id": "src_user_user_service_ts",
       "community": 4,
-      "norm_label": "user.service.ts",
-      "id": "src_user_user_service_ts"
+      "norm_label": "user.service.ts"
     },
     {
       "label": "UserService",
       "file_type": "code",
       "source_file": "src/user/user.service.ts",
       "source_location": "L7",
+      "id": "user_user_service_userservice",
       "community": 4,
-      "norm_label": "userservice",
-      "id": "user_user_service_userservice"
+      "norm_label": "userservice"
     },
     {
       "label": ".constructor()",
       "file_type": "code",
       "source_file": "src/user/user.service.ts",
       "source_location": "L8",
+      "id": "user_user_service_userservice_constructor",
       "community": 4,
-      "norm_label": ".constructor()",
-      "id": "user_user_service_userservice_constructor"
+      "norm_label": ".constructor()"
     },
     {
       "label": ".create()",
       "file_type": "code",
       "source_file": "src/user/user.service.ts",
       "source_location": "L10",
+      "id": "user_user_service_userservice_create",
       "community": 4,
-      "norm_label": ".create()",
-      "id": "user_user_service_userservice_create"
+      "norm_label": ".create()"
     },
     {
       "label": ".findAll()",
       "file_type": "code",
       "source_file": "src/user/user.service.ts",
       "source_location": "L16",
+      "id": "user_user_service_userservice_findall",
       "community": 4,
-      "norm_label": ".findall()",
-      "id": "user_user_service_userservice_findall"
+      "norm_label": ".findall()"
     },
     {
       "label": ".findOne()",
       "file_type": "code",
       "source_file": "src/user/user.service.ts",
       "source_location": "L20",
+      "id": "user_user_service_userservice_findone",
       "community": 4,
-      "norm_label": ".findone()",
-      "id": "user_user_service_userservice_findone"
+      "norm_label": ".findone()"
     },
     {
       "label": ".findByEmail()",
       "file_type": "code",
       "source_file": "src/user/user.service.ts",
       "source_location": "L26",
+      "id": "user_user_service_userservice_findbyemail",
       "community": 4,
-      "norm_label": ".findbyemail()",
-      "id": "user_user_service_userservice_findbyemail"
+      "norm_label": ".findbyemail()"
     },
     {
       "label": ".update()",
       "file_type": "code",
       "source_file": "src/user/user.service.ts",
       "source_location": "L32",
+      "id": "user_user_service_userservice_update",
       "community": 4,
-      "norm_label": ".update()",
-      "id": "user_user_service_userservice_update"
+      "norm_label": ".update()"
     },
     {
       "label": ".remove()",
       "file_type": "code",
       "source_file": "src/user/user.service.ts",
       "source_location": "L39",
+      "id": "user_user_service_userservice_remove",
       "community": 4,
-      "norm_label": ".remove()",
-      "id": "user_user_service_userservice_remove"
+      "norm_label": ".remove()"
     },
     {
       "label": "user.service.spec.ts",
       "file_type": "code",
       "source_file": "src/user/user.service.spec.ts",
       "source_location": "L1",
-      "community": 3,
-      "norm_label": "user.service.spec.ts",
-      "id": "src_user_user_service_spec_ts"
+      "id": "src_user_user_service_spec_ts",
+      "community": 4,
+      "norm_label": "user.service.spec.ts"
     },
     {
       "label": "create-user.dto.ts",
       "file_type": "code",
       "source_file": "src/user/dto/create-user.dto.ts",
       "source_location": "L1",
+      "id": "src_user_dto_create_user_dto_ts",
       "community": 4,
-      "norm_label": "create-user.dto.ts",
-      "id": "src_user_dto_create_user_dto_ts"
+      "norm_label": "create-user.dto.ts"
     },
     {
       "label": "CreateUserDto",
       "file_type": "code",
       "source_file": "src/user/dto/create-user.dto.ts",
       "source_location": "L3",
+      "id": "dto_create_user_dto_createuserdto",
       "community": 4,
-      "norm_label": "createuserdto",
-      "id": "dto_create_user_dto_createuserdto"
+      "norm_label": "createuserdto"
     },
     {
       "label": "update-user.dto.ts",
       "file_type": "code",
       "source_file": "src/user/dto/update-user.dto.ts",
       "source_location": "L1",
+      "id": "src_user_dto_update_user_dto_ts",
       "community": 4,
-      "norm_label": "update-user.dto.ts",
-      "id": "src_user_dto_update_user_dto_ts"
+      "norm_label": "update-user.dto.ts"
     },
     {
       "label": "UpdateUserDto",
       "file_type": "code",
       "source_file": "src/user/dto/update-user.dto.ts",
       "source_location": "L4",
+      "id": "dto_update_user_dto_updateuserdto",
       "community": 4,
-      "norm_label": "updateuserdto",
-      "id": "dto_update_user_dto_updateuserdto"
+      "norm_label": "updateuserdto"
     },
     {
       "label": "user.entity.ts",
       "file_type": "code",
       "source_file": "src/user/entities/user.entity.ts",
       "source_location": "L1",
+      "id": "src_user_entities_user_entity_ts",
       "community": 17,
-      "norm_label": "user.entity.ts",
-      "id": "src_user_entities_user_entity_ts"
+      "norm_label": "user.entity.ts"
     },
     {
       "label": "User",
       "file_type": "code",
       "source_file": "src/user/entities/user.entity.ts",
       "source_location": "L1",
+      "id": "entities_user_entity_user",
       "community": 17,
-      "norm_label": "user",
-      "id": "entities_user_entity_user"
+      "norm_label": "user"
     },
     {
       "label": "auth.controller.ts",
       "file_type": "code",
       "source_file": "src/auth/auth.controller.ts",
       "source_location": "L1",
+      "id": "src_auth_auth_controller_ts",
       "community": 1,
-      "norm_label": "auth.controller.ts",
-      "id": "src_auth_auth_controller_ts"
+      "norm_label": "auth.controller.ts"
     },
     {
       "label": "AuthController",
       "file_type": "code",
       "source_file": "src/auth/auth.controller.ts",
       "source_location": "L8",
+      "id": "auth_auth_controller_authcontroller",
       "community": 1,
-      "norm_label": "authcontroller",
-      "id": "auth_auth_controller_authcontroller"
+      "norm_label": "authcontroller"
     },
     {
       "label": ".constructor()",
       "file_type": "code",
       "source_file": "src/auth/auth.controller.ts",
       "source_location": "L9",
+      "id": "auth_auth_controller_authcontroller_constructor",
       "community": 1,
-      "norm_label": ".constructor()",
-      "id": "auth_auth_controller_authcontroller_constructor"
+      "norm_label": ".constructor()"
     },
     {
       "label": ".register()",
       "file_type": "code",
       "source_file": "src/auth/auth.controller.ts",
       "source_location": "L13",
+      "id": "auth_auth_controller_authcontroller_register",
       "community": 1,
-      "norm_label": ".register()",
-      "id": "auth_auth_controller_authcontroller_register"
+      "norm_label": ".register()"
     },
     {
       "label": ".login()",
       "file_type": "code",
       "source_file": "src/auth/auth.controller.ts",
       "source_location": "L19",
+      "id": "auth_auth_controller_authcontroller_login",
       "community": 1,
-      "norm_label": ".login()",
-      "id": "auth_auth_controller_authcontroller_login"
+      "norm_label": ".login()"
     },
     {
       "label": ".logout()",
       "file_type": "code",
       "source_file": "src/auth/auth.controller.ts",
       "source_location": "L26",
+      "id": "auth_auth_controller_authcontroller_logout",
       "community": 1,
-      "norm_label": ".logout()",
-      "id": "auth_auth_controller_authcontroller_logout"
+      "norm_label": ".logout()"
     },
     {
       "label": "jwt-auth.guard.ts",
       "file_type": "code",
       "source_file": "src/auth/jwt-auth.guard.ts",
       "source_location": "L1",
-      "community": 1,
-      "norm_label": "jwt-auth.guard.ts",
-      "id": "src_auth_jwt_auth_guard_ts"
+      "id": "src_auth_jwt_auth_guard_ts",
+      "community": 3,
+      "norm_label": "jwt-auth.guard.ts"
     },
     {
       "label": "JwtAuthGuard",
       "file_type": "code",
       "source_file": "src/auth/jwt-auth.guard.ts",
       "source_location": "L5",
-      "community": 1,
-      "norm_label": "jwtauthguard",
-      "id": "auth_jwt_auth_guard_jwtauthguard"
+      "id": "auth_jwt_auth_guard_jwtauthguard",
+      "community": 3,
+      "norm_label": "jwtauthguard"
     },
     {
       "label": "auth.service.ts",
       "file_type": "code",
       "source_file": "src/auth/auth.service.ts",
       "source_location": "L1",
+      "id": "src_auth_auth_service_ts",
       "community": 1,
-      "norm_label": "auth.service.ts",
-      "id": "src_auth_auth_service_ts"
+      "norm_label": "auth.service.ts"
     },
     {
       "label": "AuthService",
       "file_type": "code",
       "source_file": "src/auth/auth.service.ts",
       "source_location": "L11",
+      "id": "auth_auth_service_authservice",
       "community": 1,
-      "norm_label": "authservice",
-      "id": "auth_auth_service_authservice"
+      "norm_label": "authservice"
     },
     {
       "label": ".constructor()",
       "file_type": "code",
       "source_file": "src/auth/auth.service.ts",
       "source_location": "L12",
+      "id": "auth_auth_service_authservice_constructor",
       "community": 1,
-      "norm_label": ".constructor()",
-      "id": "auth_auth_service_authservice_constructor"
+      "norm_label": ".constructor()"
     },
     {
       "label": ".register()",
       "file_type": "code",
       "source_file": "src/auth/auth.service.ts",
       "source_location": "L19",
+      "id": "auth_auth_service_authservice_register",
       "community": 1,
-      "norm_label": ".register()",
-      "id": "auth_auth_service_authservice_register"
+      "norm_label": ".register()"
     },
     {
       "label": ".login()",
       "file_type": "code",
       "source_file": "src/auth/auth.service.ts",
       "source_location": "L39",
+      "id": "auth_auth_service_authservice_login",
       "community": 1,
-      "norm_label": ".login()",
-      "id": "auth_auth_service_authservice_login"
+      "norm_label": ".login()"
     },
     {
       "label": ".validateUserById()",
       "file_type": "code",
       "source_file": "src/auth/auth.service.ts",
       "source_location": "L76",
+      "id": "auth_auth_service_authservice_validateuserbyid",
       "community": 1,
-      "norm_label": ".validateuserbyid()",
-      "id": "auth_auth_service_authservice_validateuserbyid"
+      "norm_label": ".validateuserbyid()"
     },
     {
       "label": ".logout()",
       "file_type": "code",
       "source_file": "src/auth/auth.service.ts",
       "source_location": "L85",
+      "id": "auth_auth_service_authservice_logout",
       "community": 1,
-      "norm_label": ".logout()",
-      "id": "auth_auth_service_authservice_logout"
+      "norm_label": ".logout()"
     },
     {
       "label": "jwt.strategy.ts",
       "file_type": "code",
       "source_file": "src/auth/jwt.strategy.ts",
       "source_location": "L1",
+      "id": "src_auth_jwt_strategy_ts",
       "community": 2,
-      "norm_label": "jwt.strategy.ts",
-      "id": "src_auth_jwt_strategy_ts"
+      "norm_label": "jwt.strategy.ts"
     },
     {
       "label": "JwtStrategy",
       "file_type": "code",
       "source_file": "src/auth/jwt.strategy.ts",
       "source_location": "L7",
+      "id": "auth_jwt_strategy_jwtstrategy",
       "community": 2,
-      "norm_label": "jwtstrategy",
-      "id": "auth_jwt_strategy_jwtstrategy"
+      "norm_label": "jwtstrategy"
     },
     {
       "label": ".constructor()",
       "file_type": "code",
       "source_file": "src/auth/jwt.strategy.ts",
       "source_location": "L8",
+      "id": "auth_jwt_strategy_jwtstrategy_constructor",
       "community": 2,
-      "norm_label": ".constructor()",
-      "id": "auth_jwt_strategy_jwtstrategy_constructor"
+      "norm_label": ".constructor()"
     },
     {
       "label": ".validate()",
       "file_type": "code",
       "source_file": "src/auth/jwt.strategy.ts",
       "source_location": "L16",
+      "id": "auth_jwt_strategy_jwtstrategy_validate",
       "community": 2,
-      "norm_label": ".validate()",
-      "id": "auth_jwt_strategy_jwtstrategy_validate"
+      "norm_label": ".validate()"
     },
     {
       "label": "auth.controller.spec.ts",
       "file_type": "code",
       "source_file": "src/auth/auth.controller.spec.ts",
       "source_location": "L1",
+      "id": "src_auth_auth_controller_spec_ts",
       "community": 1,
-      "norm_label": "auth.controller.spec.ts",
-      "id": "src_auth_auth_controller_spec_ts"
+      "norm_label": "auth.controller.spec.ts"
     },
     {
       "label": "mockUser",
       "file_type": "code",
       "source_file": "src/auth/auth.controller.spec.ts",
       "source_location": "L9",
+      "id": "auth_auth_controller_spec_mockuser",
       "community": 1,
-      "norm_label": "mockuser",
-      "id": "auth_auth_controller_spec_mockuser"
+      "norm_label": "mockuser"
     },
     {
       "label": "mockLoginResponse",
       "file_type": "code",
       "source_file": "src/auth/auth.controller.spec.ts",
       "source_location": "L17",
+      "id": "auth_auth_controller_spec_mockloginresponse",
       "community": 1,
-      "norm_label": "mockloginresponse",
-      "id": "auth_auth_controller_spec_mockloginresponse"
+      "norm_label": "mockloginresponse"
     },
     {
       "label": "mockAuthService",
       "file_type": "code",
       "source_file": "src/auth/auth.controller.spec.ts",
       "source_location": "L26",
+      "id": "auth_auth_controller_spec_mockauthservice",
       "community": 1,
-      "norm_label": "mockauthservice",
-      "id": "auth_auth_controller_spec_mockauthservice"
+      "norm_label": "mockauthservice"
     },
     {
       "label": "dto",
       "file_type": "code",
       "source_file": "src/auth/auth.controller.spec.ts",
       "source_location": "L48",
+      "id": "auth_auth_controller_spec_dto",
       "community": 1,
-      "norm_label": "dto",
-      "id": "auth_auth_controller_spec_dto"
+      "norm_label": "dto"
     },
     {
       "label": "auth.service.spec.ts",
       "file_type": "code",
       "source_file": "src/auth/auth.service.spec.ts",
       "source_location": "L1",
-      "community": 4,
-      "norm_label": "auth.service.spec.ts",
-      "id": "src_auth_auth_service_spec_ts"
+      "id": "src_auth_auth_service_spec_ts",
+      "community": 1,
+      "norm_label": "auth.service.spec.ts"
     },
     {
       "label": "mockUser",
       "file_type": "code",
       "source_file": "src/auth/auth.service.spec.ts",
       "source_location": "L20",
-      "community": 4,
-      "norm_label": "mockuser",
-      "id": "auth_auth_service_spec_mockuser"
+      "id": "auth_auth_service_spec_mockuser",
+      "community": 1,
+      "norm_label": "mockuser"
     },
     {
       "label": "mockUserService",
       "file_type": "code",
       "source_file": "src/auth/auth.service.spec.ts",
       "source_location": "L32",
-      "community": 4,
-      "norm_label": "mockuserservice",
-      "id": "auth_auth_service_spec_mockuserservice"
+      "id": "auth_auth_service_spec_mockuserservice",
+      "community": 1,
+      "norm_label": "mockuserservice"
     },
     {
       "label": "mockJwtService",
       "file_type": "code",
       "source_file": "src/auth/auth.service.spec.ts",
       "source_location": "L38",
-      "community": 4,
-      "norm_label": "mockjwtservice",
-      "id": "auth_auth_service_spec_mockjwtservice"
+      "id": "auth_auth_service_spec_mockjwtservice",
+      "community": 1,
+      "norm_label": "mockjwtservice"
     },
     {
       "label": "mockConfigService",
       "file_type": "code",
       "source_file": "src/auth/auth.service.spec.ts",
       "source_location": "L42",
-      "community": 4,
-      "norm_label": "mockconfigservice",
-      "id": "auth_auth_service_spec_mockconfigservice"
+      "id": "auth_auth_service_spec_mockconfigservice",
+      "community": 1,
+      "norm_label": "mockconfigservice"
     },
     {
       "label": "auth.module.ts",
       "file_type": "code",
       "source_file": "src/auth/auth.module.ts",
       "source_location": "L1",
+      "id": "src_auth_auth_module_ts",
       "community": 2,
-      "norm_label": "auth.module.ts",
-      "id": "src_auth_auth_module_ts"
+      "norm_label": "auth.module.ts"
     },
     {
       "label": "AuthModule",
       "file_type": "code",
       "source_file": "src/auth/auth.module.ts",
       "source_location": "L25",
+      "id": "auth_auth_module_authmodule",
       "community": 2,
-      "norm_label": "authmodule",
-      "id": "auth_auth_module_authmodule"
+      "norm_label": "authmodule"
     },
     {
       "label": "login.dto.ts",
       "file_type": "code",
       "source_file": "src/auth/dto/login.dto.ts",
       "source_location": "L1",
+      "id": "src_auth_dto_login_dto_ts",
       "community": 1,
-      "norm_label": "login.dto.ts",
-      "id": "src_auth_dto_login_dto_ts"
+      "norm_label": "login.dto.ts"
     },
     {
       "label": "LoginDto",
       "file_type": "code",
       "source_file": "src/auth/dto/login.dto.ts",
       "source_location": "L3",
+      "id": "dto_login_dto_logindto",
       "community": 1,
-      "norm_label": "logindto",
-      "id": "dto_login_dto_logindto"
+      "norm_label": "logindto"
     },
     {
       "label": "register.dto.ts",
       "file_type": "code",
       "source_file": "src/auth/dto/register.dto.ts",
       "source_location": "L1",
+      "id": "src_auth_dto_register_dto_ts",
       "community": 1,
-      "norm_label": "register.dto.ts",
-      "id": "src_auth_dto_register_dto_ts"
+      "norm_label": "register.dto.ts"
     },
     {
       "label": "RegisterDto",
       "file_type": "code",
       "source_file": "src/auth/dto/register.dto.ts",
       "source_location": "L3",
+      "id": "dto_register_dto_registerdto",
       "community": 1,
-      "norm_label": "registerdto",
-      "id": "dto_register_dto_registerdto"
+      "norm_label": "registerdto"
     },
     {
       "label": "prisma.service.ts",
       "file_type": "code",
       "source_file": "src/prisma/prisma.service.ts",
       "source_location": "L1",
-      "community": 3,
-      "norm_label": "prisma.service.ts",
-      "id": "src_prisma_prisma_service_ts"
+      "id": "src_prisma_prisma_service_ts",
+      "community": 4,
+      "norm_label": "prisma.service.ts"
     },
     {
       "label": "PrismaService",
       "file_type": "code",
       "source_file": "src/prisma/prisma.service.ts",
       "source_location": "L8",
-      "community": 3,
-      "norm_label": "prismaservice",
-      "id": "prisma_prisma_service_prismaservice"
+      "id": "prisma_prisma_service_prismaservice",
+      "community": 4,
+      "norm_label": "prismaservice"
     },
     {
       "label": ".constructor()",
       "file_type": "code",
       "source_file": "src/prisma/prisma.service.ts",
       "source_location": "L9",
-      "community": 3,
-      "norm_label": ".constructor()",
-      "id": "prisma_prisma_service_prismaservice_constructor"
+      "id": "prisma_prisma_service_prismaservice_constructor",
+      "community": 4,
+      "norm_label": ".constructor()"
     },
     {
       "label": ".onModuleInit()",
       "file_type": "code",
       "source_file": "src/prisma/prisma.service.ts",
       "source_location": "L17",
-      "community": 3,
-      "norm_label": ".onmoduleinit()",
-      "id": "prisma_prisma_service_prismaservice_onmoduleinit"
+      "id": "prisma_prisma_service_prismaservice_onmoduleinit",
+      "community": 4,
+      "norm_label": ".onmoduleinit()"
     },
     {
       "label": "prisma.service.spec.ts",
       "file_type": "code",
       "source_file": "src/prisma/prisma.service.spec.ts",
       "source_location": "L1",
-      "community": 3,
-      "norm_label": "prisma.service.spec.ts",
-      "id": "src_prisma_prisma_service_spec_ts"
+      "id": "src_prisma_prisma_service_spec_ts",
+      "community": 4,
+      "norm_label": "prisma.service.spec.ts"
     },
     {
       "label": "prisma.module.ts",
       "file_type": "code",
       "source_file": "src/prisma/prisma.module.ts",
       "source_location": "L1",
-      "community": 3,
-      "norm_label": "prisma.module.ts",
-      "id": "src_prisma_prisma_module_ts"
+      "id": "src_prisma_prisma_module_ts",
+      "community": 4,
+      "norm_label": "prisma.module.ts"
     },
     {
       "label": "PrismaModule",
       "file_type": "code",
       "source_file": "src/prisma/prisma.module.ts",
       "source_location": "L9",
-      "community": 3,
-      "norm_label": "prismamodule",
-      "id": "prisma_prisma_module_prismamodule"
+      "id": "prisma_prisma_module_prismamodule",
+      "community": 4,
+      "norm_label": "prismamodule"
     },
     {
       "label": "redis.module.ts",
       "file_type": "code",
       "source_file": "src/redis/redis.module.ts",
       "source_location": "L1",
+      "id": "src_redis_redis_module_ts",
       "community": 11,
-      "norm_label": "redis.module.ts",
-      "id": "src_redis_redis_module_ts"
+      "norm_label": "redis.module.ts"
     },
     {
       "label": "RedisModule",
       "file_type": "code",
       "source_file": "src/redis/redis.module.ts",
       "source_location": "L9",
+      "id": "redis_redis_module_redismodule",
       "community": 11,
-      "norm_label": "redismodule",
-      "id": "redis_redis_module_redismodule"
+      "norm_label": "redismodule"
     },
     {
       "label": "redis.service.ts",
       "file_type": "code",
       "source_file": "src/redis/redis.service.ts",
       "source_location": "L1",
+      "id": "src_redis_redis_service_ts",
       "community": 11,
-      "norm_label": "redis.service.ts",
-      "id": "src_redis_redis_service_ts"
+      "norm_label": "redis.service.ts"
     },
     {
       "label": "RedisService",
       "file_type": "code",
       "source_file": "src/redis/redis.service.ts",
       "source_location": "L6",
+      "id": "redis_redis_service_redisservice",
       "community": 11,
-      "norm_label": "redisservice",
-      "id": "redis_redis_service_redisservice"
+      "norm_label": "redisservice"
     },
     {
       "label": ".constructor()",
       "file_type": "code",
       "source_file": "src/redis/redis.service.ts",
       "source_location": "L9",
+      "id": "redis_redis_service_redisservice_constructor",
       "community": 11,
-      "norm_label": ".constructor()",
-      "id": "redis_redis_service_redisservice_constructor"
+      "norm_label": ".constructor()"
     },
     {
       "label": ".set()",
       "file_type": "code",
       "source_file": "src/redis/redis.service.ts",
       "source_location": "L16",
+      "id": "redis_redis_service_redisservice_set",
       "community": 11,
-      "norm_label": ".set()",
-      "id": "redis_redis_service_redisservice_set"
+      "norm_label": ".set()"
     },
     {
       "label": ".get()",
       "file_type": "code",
       "source_file": "src/redis/redis.service.ts",
       "source_location": "L24",
+      "id": "redis_redis_service_redisservice_get",
       "community": 11,
-      "norm_label": ".get()",
-      "id": "redis_redis_service_redisservice_get"
+      "norm_label": ".get()"
     },
     {
       "label": ".exists()",
       "file_type": "code",
       "source_file": "src/redis/redis.service.ts",
       "source_location": "L28",
+      "id": "redis_redis_service_redisservice_exists",
       "community": 11,
-      "norm_label": ".exists()",
-      "id": "redis_redis_service_redisservice_exists"
+      "norm_label": ".exists()"
     },
     {
       "label": ".onModuleDestroy()",
       "file_type": "code",
       "source_file": "src/redis/redis.service.ts",
       "source_location": "L33",
+      "id": "redis_redis_service_redisservice_onmoduledestroy",
       "community": 11,
-      "norm_label": ".onmoduledestroy()",
-      "id": "redis_redis_service_redisservice_onmoduledestroy"
+      "norm_label": ".onmoduledestroy()"
     },
     {
       "label": "README.md",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L1",
+      "id": "readme_md",
       "community": 9,
-      "norm_label": "readme.md",
-      "id": "readme_md"
+      "norm_label": "readme.md"
     },
     {
       "label": "Description",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L24",
+      "id": "notify_core_readme_description",
       "community": 9,
-      "norm_label": "description",
-      "id": "notify_core_readme_description"
+      "norm_label": "description"
     },
     {
       "label": "Project setup",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L28",
+      "id": "notify_core_readme_project_setup",
       "community": 9,
-      "norm_label": "project setup",
-      "id": "notify_core_readme_project_setup"
+      "norm_label": "project setup"
     },
     {
       "label": "code:bash ($ npm install)",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L30",
+      "id": "notify_core_readme_codeblock_1",
       "community": 9,
-      "norm_label": "code:bash ($ npm install)",
-      "id": "notify_core_readme_codeblock_1"
+      "norm_label": "code:bash ($ npm install)"
     },
     {
       "label": "Compile and run the project",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L34",
+      "id": "notify_core_readme_compile_and_run_the_project",
       "community": 9,
-      "norm_label": "compile and run the project",
-      "id": "notify_core_readme_compile_and_run_the_project"
+      "norm_label": "compile and run the project"
     },
     {
       "label": "code:bash (# development)",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L36",
+      "id": "notify_core_readme_codeblock_2",
       "community": 9,
-      "norm_label": "code:bash (# development)",
-      "id": "notify_core_readme_codeblock_2"
+      "norm_label": "code:bash (# development)"
     },
     {
       "label": "Run tests",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L47",
+      "id": "notify_core_readme_run_tests",
       "community": 9,
-      "norm_label": "run tests",
-      "id": "notify_core_readme_run_tests"
+      "norm_label": "run tests"
     },
     {
       "label": "code:bash (# unit tests)",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L49",
+      "id": "notify_core_readme_codeblock_3",
       "community": 9,
-      "norm_label": "code:bash (# unit tests)",
-      "id": "notify_core_readme_codeblock_3"
+      "norm_label": "code:bash (# unit tests)"
     },
     {
       "label": "Deployment",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L60",
+      "id": "notify_core_readme_deployment",
       "community": 9,
-      "norm_label": "deployment",
-      "id": "notify_core_readme_deployment"
+      "norm_label": "deployment"
     },
     {
       "label": "code:bash ($ npm install -g @nestjs/mau)",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L66",
+      "id": "notify_core_readme_codeblock_4",
       "community": 9,
-      "norm_label": "code:bash ($ npm install -g @nestjs/mau)",
-      "id": "notify_core_readme_codeblock_4"
+      "norm_label": "code:bash ($ npm install -g @nestjs/mau)"
     },
     {
       "label": "Resources",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L73",
+      "id": "notify_core_readme_resources",
       "community": 9,
-      "norm_label": "resources",
-      "id": "notify_core_readme_resources"
+      "norm_label": "resources"
     },
     {
       "label": "Support",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L86",
+      "id": "notify_core_readme_support",
       "community": 9,
-      "norm_label": "support",
-      "id": "notify_core_readme_support"
+      "norm_label": "support"
     },
     {
       "label": "Stay in touch",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L90",
+      "id": "notify_core_readme_stay_in_touch",
       "community": 9,
-      "norm_label": "stay in touch",
-      "id": "notify_core_readme_stay_in_touch"
+      "norm_label": "stay in touch"
     },
     {
       "label": "License",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L96",
+      "id": "notify_core_readme_license",
       "community": 9,
-      "norm_label": "license",
-      "id": "notify_core_readme_license"
+      "norm_label": "license"
     },
     {
       "label": "graphify.md",
       "file_type": "document",
       "source_file": ".agents/rules/graphify.md",
       "source_location": "L1",
+      "id": "agents_rules_graphify_md",
       "community": 16,
-      "norm_label": "graphify.md",
-      "id": "agents_rules_graphify_md"
+      "norm_label": "graphify.md"
     },
     {
       "label": "graphify",
       "file_type": "document",
       "source_file": ".agents/rules/graphify.md",
       "source_location": "L6",
+      "id": "rules_graphify_graphify",
       "community": 16,
-      "norm_label": "graphify",
-      "id": "rules_graphify_graphify"
+      "norm_label": "graphify"
     },
     {
       "label": "graphify.md",
       "file_type": "document",
       "source_file": ".agents/workflows/graphify.md",
       "source_location": "L1",
+      "id": "agents_workflows_graphify_md",
       "community": 18,
-      "norm_label": "graphify.md",
-      "id": "agents_workflows_graphify_md"
+      "norm_label": "graphify.md"
     },
     {
       "label": "Workflow: graphify",
       "file_type": "document",
       "source_file": ".agents/workflows/graphify.md",
       "source_location": "L6",
+      "id": "workflows_graphify_workflow_graphify",
       "community": 18,
-      "norm_label": "workflow: graphify",
-      "id": "workflows_graphify_workflow_graphify"
+      "norm_label": "workflow: graphify"
     }
   ],
   "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nest-cli.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "nest_cli_json",
+      "target": "notify_core_nest_cli_schema"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nest-cli.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "nest_cli_json",
+      "target": "notify_core_nest_cli_collection"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nest-cli.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "nest_cli_json",
+      "target": "notify_core_nest_cli_sourceroot"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nest-cli.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "nest_cli_json",
+      "target": "notify_core_nest_cli_compileroptions"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nest-cli.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "notify_core_nest_cli_compileroptions",
+      "target": "notify_core_nest_cli_compileroptions_deleteoutdir"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.build.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tsconfig_build_json",
+      "target": "notify_core_tsconfig_build_extends"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.build.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tsconfig_build_json",
+      "target": "notify_core_tsconfig_build_exclude"
+    },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
@@ -2876,9 +2964,9 @@
       "source_file": "package.json",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "notify_core_package_dependencies",
-      "target": "notify_core_package_dependencies_nestjs_platform_socket_io",
-      "confidence_score": 1.0
+      "target": "notify_core_package_dependencies_nestjs_platform_socket_io"
     },
     {
       "relation": "contains",
@@ -2886,9 +2974,9 @@
       "source_file": "package.json",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "notify_core_package_dependencies",
-      "target": "notify_core_package_dependencies_nestjs_websockets",
-      "confidence_score": 1.0
+      "target": "notify_core_package_dependencies_nestjs_websockets"
     },
     {
       "relation": "contains",
@@ -3393,260 +3481,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/notification/notification.gateway.ts",
-      "source_location": "L14",
-      "weight": 1.0,
-      "source": "src_notification_notification_gateway_ts",
-      "target": "notification_notification_gateway_notificationgateway",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/notification/notification.module.ts",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "src_notification_notification_module_ts",
-      "target": "src_notification_notification_gateway_ts",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/notification/notification.gateway.ts",
-      "source_location": "L19",
-      "weight": 1.0,
-      "source": "notification_notification_gateway_notificationgateway",
-      "target": "notification_notification_gateway_notificationgateway_handleevent",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/notification/notification.module.ts",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "src_notification_notification_module_ts",
-      "target": "notification_notification_gateway_notificationgateway",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/notification/notification.module.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_notification_notification_module_ts",
-      "target": "notification_notification_service_notificationservice"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/notification/notification.module.ts",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_notification_notification_module_ts",
-      "target": "notification_notification_consumer_notificationconsumer"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/notification/notification.module.ts",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_notification_notification_module_ts",
-      "target": "notification_notification_producer_notificationproducer"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/notification/notification.module.ts",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_notification_notification_module_ts",
-      "target": "notification_notification_controller_notificationcontroller"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/notification/notification.module.ts",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_notification_notification_module_ts",
-      "target": "email_email_module_emailmodule"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/notification/notification.module.ts",
-      "source_location": "L21",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_notification_notification_module_ts",
-      "target": "notification_notification_module_notificationmodule"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app.module.ts",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_module_ts",
-      "target": "src_notification_notification_module_ts"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/notification/notification.module.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_notification_notification_module_ts",
-      "target": "src_notification_notification_service_ts"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/notification/notification.module.ts",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_notification_notification_module_ts",
-      "target": "src_notification_notification_consumer_ts"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/notification/notification.module.ts",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_notification_notification_module_ts",
-      "target": "src_notification_notification_producer_ts"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/notification/notification.module.ts",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_notification_notification_module_ts",
-      "target": "src_notification_notification_controller_ts"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/notification/notification.module.ts",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_notification_notification_module_ts",
-      "target": "src_email_email_module_ts"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app.module.ts",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_module_ts",
-      "target": "notification_notification_module_notificationmodule"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "nest-cli.json",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "nest_cli_json",
-      "target": "notify_core_nest_cli_schema"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "nest-cli.json",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "nest_cli_json",
-      "target": "notify_core_nest_cli_collection"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "nest-cli.json",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "nest_cli_json",
-      "target": "notify_core_nest_cli_sourceroot"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "nest-cli.json",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "nest_cli_json",
-      "target": "notify_core_nest_cli_compileroptions"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "nest-cli.json",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "notify_core_nest_cli_compileroptions",
-      "target": "notify_core_nest_cli_compileroptions_deleteoutdir"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "tsconfig.build.json",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tsconfig_build_json",
-      "target": "notify_core_tsconfig_build_extends"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "tsconfig.build.json",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tsconfig_build_json",
-      "target": "notify_core_tsconfig_build_exclude"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "tsconfig.json",
       "source_location": "L2",
       "weight": 1.0,
@@ -4039,6 +3873,28 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/app.module.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_module_ts",
+      "target": "src_notification_notification_module_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.module.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_module_ts",
+      "target": "notification_notification_module_notificationmodule"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.module.ts",
       "source_location": "L10",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -4322,6 +4178,170 @@
       "target": "notification_notification_service_notificationservice"
     },
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.module.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_notification_notification_module_ts",
+      "target": "src_notification_notification_service_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.module.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_notification_notification_module_ts",
+      "target": "notification_notification_service_notificationservice"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.module.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_notification_notification_module_ts",
+      "target": "src_notification_notification_consumer_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.module.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_notification_notification_module_ts",
+      "target": "notification_notification_consumer_notificationconsumer"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.module.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_notification_notification_module_ts",
+      "target": "src_notification_notification_producer_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.module.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_notification_notification_module_ts",
+      "target": "notification_notification_producer_notificationproducer"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.module.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_notification_notification_module_ts",
+      "target": "src_notification_notification_controller_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.module.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_notification_notification_module_ts",
+      "target": "notification_notification_controller_notificationcontroller"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.module.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_notification_notification_module_ts",
+      "target": "src_notification_notification_gateway_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.module.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_notification_notification_module_ts",
+      "target": "notification_notification_gateway_notificationgateway"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.module.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_notification_notification_module_ts",
+      "target": "src_email_email_module_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.module.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_notification_notification_module_ts",
+      "target": "email_email_module_emailmodule"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.module.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_notification_notification_module_ts",
+      "target": "src_auth_auth_module_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.module.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_notification_notification_module_ts",
+      "target": "auth_auth_module_authmodule",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.module.ts",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_notification_notification_module_ts",
+      "target": "notification_notification_module_notificationmodule"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/notification/notification.producer.ts",
@@ -4360,6 +4380,46 @@
       "confidence_score": 1.0,
       "source": "notification_notification_producer_notificationproducer",
       "target": "notification_notification_producer_notificationproducer_enqueuejob"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.gateway.ts",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_notification_notification_gateway_ts",
+      "target": "notification_notification_gateway_notificationgateway"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.gateway.ts",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "notification_notification_gateway_notificationgateway",
+      "target": "notification_notification_gateway_notificationgateway_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.gateway.ts",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "notification_notification_gateway_notificationgateway",
+      "target": "notification_notification_gateway_notificationgateway_handleconnection",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.gateway.ts",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "notification_notification_gateway_notificationgateway",
+      "target": "notification_notification_gateway_notificationgateway_handleevent"
     },
     {
       "relation": "imports_from",
@@ -6408,5 +6468,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "95a7e0921ec68df89dd3216d7a082c16cfbf8bb1"
+  "built_at_commit": "66117039dcae28890039d1206c39272f4d519611"
 }

@@ -1,16 +1,16 @@
-# Graph Report - notify-core  (2026-06-03)
+# Graph Report - notify-core  (2026-06-05)
 
 ## Corpus Check
-- 52 files · ~4,939 words
+- 52 files · ~4,998 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 285 nodes · 370 edges · 20 communities (15 shown, 5 thin omitted)
+- 287 nodes · 374 edges · 20 communities (15 shown, 5 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `95a7e092`
+- Built from commit: `66117039`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -56,20 +56,20 @@ Cohesion: 0.07
 Nodes (29): devDependencies, dotenv, eslint, eslint-config-prettier, @eslint/eslintrc, @eslint/js, eslint-plugin-prettier, globals (+21 more)
 
 ### Community 1 - "Community 1"
-Cohesion: 0.12
-Nodes (9): AuthController, dto, mockAuthService, mockLoginResponse, mockUser, AuthService, JwtAuthGuard, LoginDto (+1 more)
+Cohesion: 0.11
+Nodes (12): AuthController, dto, mockAuthService, mockLoginResponse, mockUser, AuthService, mockConfigService, mockJwtService (+4 more)
 
 ### Community 2 - "Community 2"
 Cohesion: 0.14
 Nodes (6): AuthModule, JwtStrategy, AppController, AppModule, AppService, UserModule
 
 ### Community 3 - "Community 3"
-Cohesion: 0.10
-Nodes (6): CreateNotificationDto, UpdateNotificationDto, NotificationController, NotificationService, PrismaModule, PrismaService
+Cohesion: 0.13
+Nodes (5): JwtAuthGuard, CreateNotificationDto, UpdateNotificationDto, NotificationController, NotificationService
 
 ### Community 4 - "Community 4"
 Cohesion: 0.11
-Nodes (8): mockConfigService, mockJwtService, mockUser, mockUserService, CreateUserDto, UpdateUserDto, UserController, UserService
+Nodes (6): CreateUserDto, UpdateUserDto, PrismaModule, PrismaService, UserController, UserService
 
 ### Community 5 - "Community 5"
 Cohesion: 0.08
@@ -80,7 +80,7 @@ Cohesion: 0.09
 Nodes (22): compilerOptions, allowSyntheticDefaultImports, baseUrl, declaration, emitDecoratorMetadata, esModuleInterop, experimentalDecorators, forceConsistentCasingInFileNames (+14 more)
 
 ### Community 7 - "Community 7"
-Cohesion: 0.11
+Cohesion: 0.10
 Nodes (9): EmailModule, EmailService, EmailJobData, InAppJobData, NotificationConsumer, NotificationGateway, NotificationModule, EnqueueJobOptions (+1 more)
 
 ### Community 8 - "Community 8"
@@ -104,7 +104,7 @@ Cohesion: 0.33
 Nodes (5): collection, compilerOptions, deleteOutDir, $schema, sourceRoot
 
 ## Knowledge Gaps
-- **132 isolated node(s):** `name`, `version`, `description`, `author`, `private` (+127 more)
+- **132 isolated node(s):** `$schema`, `collection`, `sourceRoot`, `deleteOutDir`, `extends` (+127 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **5 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -112,16 +112,16 @@ Nodes (5): collection, compilerOptions, deleteOutDir, $schema, sourceRoot
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `devDependencies` connect `Community 0` to `Community 8`?**
-  _High betweenness centrality (0.047) - this node is a cross-community bridge._
+  _High betweenness centrality (0.046) - this node is a cross-community bridge._
 - **Why does `dependencies` connect `Community 5` to `Community 8`?**
-  _High betweenness centrality (0.042) - this node is a cross-community bridge._
-- **Why does `UserService` connect `Community 4` to `Community 1`, `Community 2`, `Community 3`?**
+  _High betweenness centrality (0.041) - this node is a cross-community bridge._
+- **Why does `UserService` connect `Community 4` to `Community 1`, `Community 2`?**
   _High betweenness centrality (0.028) - this node is a cross-community bridge._
-- **What connects `name`, `version`, `description` to the rest of the system?**
+- **What connects `$schema`, `collection`, `sourceRoot` to the rest of the system?**
   _132 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.06896551724137931 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
-  _Cohesion score 0.12318840579710146 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.10541310541310542 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
   _Cohesion score 0.13768115942028986 - nodes in this community are weakly interconnected._
