@@ -1278,7 +1278,7 @@
       "source_file": "src/notification/notification.module.ts",
       "source_location": "L1",
       "id": "src_notification_notification_module_ts",
-      "community": 2,
+      "community": 7,
       "norm_label": "notification.module.ts"
     },
     {
@@ -1411,7 +1411,7 @@
       "label": "NotificationController",
       "file_type": "code",
       "source_file": "src/notification/notification.controller.ts",
-      "source_location": "L19",
+      "source_location": "L21",
       "id": "notification_notification_controller_notificationcontroller",
       "community": 11,
       "norm_label": "notificationcontroller"
@@ -1420,7 +1420,7 @@
       "label": ".constructor()",
       "file_type": "code",
       "source_file": "src/notification/notification.controller.ts",
-      "source_location": "L20",
+      "source_location": "L22",
       "id": "notification_notification_controller_notificationcontroller_constructor",
       "community": 11,
       "norm_label": ".constructor()"
@@ -1429,7 +1429,7 @@
       "label": ".send()",
       "file_type": "code",
       "source_file": "src/notification/notification.controller.ts",
-      "source_location": "L23",
+      "source_location": "L25",
       "id": "notification_notification_controller_notificationcontroller_send",
       "community": 11,
       "norm_label": ".send()"
@@ -1438,7 +1438,7 @@
       "label": ".create()",
       "file_type": "code",
       "source_file": "src/notification/notification.controller.ts",
-      "source_location": "L28",
+      "source_location": "L30",
       "id": "notification_notification_controller_notificationcontroller_create",
       "community": 11,
       "norm_label": ".create()"
@@ -1447,16 +1447,25 @@
       "label": ".findAll()",
       "file_type": "code",
       "source_file": "src/notification/notification.controller.ts",
-      "source_location": "L33",
+      "source_location": "L35",
       "id": "notification_notification_controller_notificationcontroller_findall",
       "community": 11,
       "norm_label": ".findall()"
     },
     {
+      "label": ".findMyNotifications()",
+      "file_type": "code",
+      "source_file": "src/notification/notification.controller.ts",
+      "source_location": "L40",
+      "id": "notification_notification_controller_notificationcontroller_findmynotifications",
+      "community": 11,
+      "norm_label": ".findmynotifications()"
+    },
+    {
       "label": ".findByUser()",
       "file_type": "code",
       "source_file": "src/notification/notification.controller.ts",
-      "source_location": "L38",
+      "source_location": "L51",
       "id": "notification_notification_controller_notificationcontroller_findbyuser",
       "community": 11,
       "norm_label": ".findbyuser()"
@@ -1465,7 +1474,7 @@
       "label": ".findOne()",
       "file_type": "code",
       "source_file": "src/notification/notification.controller.ts",
-      "source_location": "L43",
+      "source_location": "L56",
       "id": "notification_notification_controller_notificationcontroller_findone",
       "community": 11,
       "norm_label": ".findone()"
@@ -1474,7 +1483,7 @@
       "label": ".update()",
       "file_type": "code",
       "source_file": "src/notification/notification.controller.ts",
-      "source_location": "L48",
+      "source_location": "L61",
       "id": "notification_notification_controller_notificationcontroller_update",
       "community": 11,
       "norm_label": ".update()"
@@ -1483,7 +1492,7 @@
       "label": ".remove()",
       "file_type": "code",
       "source_file": "src/notification/notification.controller.ts",
-      "source_location": "L56",
+      "source_location": "L69",
       "id": "notification_notification_controller_notificationcontroller_remove",
       "community": 11,
       "norm_label": ".remove()"
@@ -1552,10 +1561,19 @@
       "norm_label": ".findbyuser()"
     },
     {
-      "label": ".findOne()",
+      "label": ".findPaginatedByUser()",
       "file_type": "code",
       "source_file": "src/notification/notification.service.ts",
       "source_location": "L75",
+      "id": "notification_notification_service_notificationservice_findpaginatedbyuser",
+      "community": 3,
+      "norm_label": ".findpaginatedbyuser()"
+    },
+    {
+      "label": ".findOne()",
+      "file_type": "code",
+      "source_file": "src/notification/notification.service.ts",
+      "source_location": "L98",
       "id": "notification_notification_service_notificationservice_findone",
       "community": 3,
       "norm_label": ".findone()"
@@ -1564,7 +1582,7 @@
       "label": ".update()",
       "file_type": "code",
       "source_file": "src/notification/notification.service.ts",
-      "source_location": "L85",
+      "source_location": "L108",
       "id": "notification_notification_service_notificationservice_update",
       "community": 3,
       "norm_label": ".update()"
@@ -1573,7 +1591,7 @@
       "label": ".remove()",
       "file_type": "code",
       "source_file": "src/notification/notification.service.ts",
-      "source_location": "L99",
+      "source_location": "L122",
       "id": "notification_notification_service_notificationservice_remove",
       "community": 3,
       "norm_label": ".remove()"
@@ -1872,7 +1890,7 @@
       "source_file": "src/user/user.module.ts",
       "source_location": "L1",
       "id": "src_user_user_module_ts",
-      "community": 2,
+      "community": 7,
       "norm_label": "user.module.ts"
     },
     {
@@ -1881,7 +1899,7 @@
       "source_file": "src/user/user.module.ts",
       "source_location": "L10",
       "id": "user_user_module_usermodule",
-      "community": 2,
+      "community": 7,
       "norm_label": "usermodule"
     },
     {
@@ -2169,7 +2187,7 @@
       "source_file": "src/auth/jwt.strategy.ts",
       "source_location": "L1",
       "id": "src_auth_jwt_strategy_ts",
-      "community": 2,
+      "community": 7,
       "norm_label": "jwt.strategy.ts"
     },
     {
@@ -2178,7 +2196,7 @@
       "source_file": "src/auth/jwt.strategy.ts",
       "source_location": "L7",
       "id": "auth_jwt_strategy_jwtstrategy",
-      "community": 2,
+      "community": 7,
       "norm_label": "jwtstrategy"
     },
     {
@@ -2187,7 +2205,7 @@
       "source_file": "src/auth/jwt.strategy.ts",
       "source_location": "L8",
       "id": "auth_jwt_strategy_jwtstrategy_constructor",
-      "community": 2,
+      "community": 7,
       "norm_label": ".constructor()"
     },
     {
@@ -2196,7 +2214,7 @@
       "source_file": "src/auth/jwt.strategy.ts",
       "source_location": "L16",
       "id": "auth_jwt_strategy_jwtstrategy_validate",
-      "community": 2,
+      "community": 7,
       "norm_label": ".validate()"
     },
     {
@@ -2295,7 +2313,7 @@
       "source_file": "src/auth/auth.module.ts",
       "source_location": "L1",
       "id": "src_auth_auth_module_ts",
-      "community": 2,
+      "community": 7,
       "norm_label": "auth.module.ts"
     },
     {
@@ -2304,7 +2322,7 @@
       "source_file": "src/auth/auth.module.ts",
       "source_location": "L25",
       "id": "auth_auth_module_authmodule",
-      "community": 2,
+      "community": 7,
       "norm_label": "authmodule"
     },
     {
@@ -2412,7 +2430,7 @@
       "source_file": "src/redis/redis.module.ts",
       "source_location": "L1",
       "id": "src_redis_redis_module_ts",
-      "community": 12,
+      "community": 2,
       "norm_label": "redis.module.ts"
     },
     {
@@ -2421,7 +2439,7 @@
       "source_file": "src/redis/redis.module.ts",
       "source_location": "L9",
       "id": "redis_redis_module_redismodule",
-      "community": 12,
+      "community": 2,
       "norm_label": "redismodule"
     },
     {
@@ -2430,7 +2448,7 @@
       "source_file": "src/redis/redis.service.ts",
       "source_location": "L1",
       "id": "src_redis_redis_service_ts",
-      "community": 12,
+      "community": 2,
       "norm_label": "redis.service.ts"
     },
     {
@@ -2439,7 +2457,7 @@
       "source_file": "src/redis/redis.service.ts",
       "source_location": "L6",
       "id": "redis_redis_service_redisservice",
-      "community": 12,
+      "community": 2,
       "norm_label": "redisservice"
     },
     {
@@ -2448,7 +2466,7 @@
       "source_file": "src/redis/redis.service.ts",
       "source_location": "L9",
       "id": "redis_redis_service_redisservice_constructor",
-      "community": 12,
+      "community": 2,
       "norm_label": ".constructor()"
     },
     {
@@ -2457,7 +2475,7 @@
       "source_file": "src/redis/redis.service.ts",
       "source_location": "L16",
       "id": "redis_redis_service_redisservice_set",
-      "community": 12,
+      "community": 2,
       "norm_label": ".set()"
     },
     {
@@ -2466,7 +2484,7 @@
       "source_file": "src/redis/redis.service.ts",
       "source_location": "L24",
       "id": "redis_redis_service_redisservice_get",
-      "community": 12,
+      "community": 2,
       "norm_label": ".get()"
     },
     {
@@ -2475,7 +2493,7 @@
       "source_file": "src/redis/redis.service.ts",
       "source_location": "L28",
       "id": "redis_redis_service_redisservice_exists",
-      "community": 12,
+      "community": 2,
       "norm_label": ".exists()"
     },
     {
@@ -2484,7 +2502,7 @@
       "source_file": "src/redis/redis.service.ts",
       "source_location": "L33",
       "id": "redis_redis_service_redisservice_onmoduledestroy",
-      "community": 12,
+      "community": 2,
       "norm_label": ".onmoduledestroy()"
     },
     {
@@ -4401,9 +4419,9 @@
       "source_file": "src/notification/notification.module.ts",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_notification_notification_module_ts",
-      "target": "src_user_user_module_ts",
-      "confidence_score": 1.0
+      "target": "src_user_user_module_ts"
     },
     {
       "relation": "imports",
@@ -4412,9 +4430,9 @@
       "source_file": "src/notification/notification.module.ts",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_notification_notification_module_ts",
-      "target": "user_user_module_usermodule",
-      "confidence_score": 1.0
+      "target": "user_user_module_usermodule"
     },
     {
       "relation": "contains",
@@ -4453,9 +4471,9 @@
       "source_file": "src/notification/notification.service.ts",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_notification_notification_service_ts",
-      "target": "src_notification_notification_producer_ts",
-      "confidence_score": 1.0
+      "target": "src_notification_notification_producer_ts"
     },
     {
       "relation": "method",
@@ -4484,9 +4502,9 @@
       "source_file": "src/notification/notification.service.ts",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_notification_notification_service_ts",
-      "target": "notification_notification_producer_notificationproducer",
-      "confidence_score": 1.0
+      "target": "notification_notification_producer_notificationproducer"
     },
     {
       "relation": "contains",
@@ -4643,9 +4661,9 @@
       "source_file": "src/notification/notification.controller.ts",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_notification_notification_controller_ts",
-      "target": "src_notification_dto_send_notification_dto_ts",
-      "confidence_score": 1.0
+      "target": "src_notification_dto_send_notification_dto_ts"
     },
     {
       "relation": "imports",
@@ -4654,9 +4672,9 @@
       "source_file": "src/notification/notification.controller.ts",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_notification_notification_controller_ts",
-      "target": "dto_send_notification_dto_sendnotificationdto",
-      "confidence_score": 1.0
+      "target": "dto_send_notification_dto_sendnotificationdto"
     },
     {
       "relation": "imports_from",
@@ -4706,9 +4724,9 @@
       "source_file": "src/notification/notification.controller.ts",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "notification_notification_controller_notificationcontroller",
-      "target": "notification_notification_controller_notificationcontroller_send",
-      "confidence_score": 1.0
+      "target": "notification_notification_controller_notificationcontroller_send"
     },
     {
       "relation": "method",
@@ -4729,6 +4747,16 @@
       "confidence_score": 1.0,
       "source": "notification_notification_controller_notificationcontroller",
       "target": "notification_notification_controller_notificationcontroller_findall"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.controller.ts",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "notification_notification_controller_notificationcontroller",
+      "target": "notification_notification_controller_notificationcontroller_findmynotifications",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -4843,9 +4871,9 @@
       "source_file": "src/notification/notification.service.ts",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_notification_notification_service_ts",
-      "target": "src_user_user_service_ts",
-      "confidence_score": 1.0
+      "target": "src_user_user_service_ts"
     },
     {
       "relation": "imports",
@@ -4854,9 +4882,9 @@
       "source_file": "src/notification/notification.service.ts",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_notification_notification_service_ts",
-      "target": "user_user_service_userservice",
-      "confidence_score": 1.0
+      "target": "user_user_service_userservice"
     },
     {
       "relation": "imports_from",
@@ -4865,9 +4893,9 @@
       "source_file": "src/notification/notification.service.ts",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_notification_notification_service_ts",
-      "target": "src_notification_dto_send_notification_dto_ts",
-      "confidence_score": 1.0
+      "target": "src_notification_dto_send_notification_dto_ts"
     },
     {
       "relation": "imports",
@@ -4876,9 +4904,9 @@
       "source_file": "src/notification/notification.service.ts",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_notification_notification_service_ts",
-      "target": "dto_send_notification_dto_sendnotificationdto",
-      "confidence_score": 1.0
+      "target": "dto_send_notification_dto_sendnotificationdto"
     },
     {
       "relation": "imports",
@@ -4887,9 +4915,9 @@
       "source_file": "src/notification/notification.service.ts",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_notification_notification_service_ts",
-      "target": "dto_send_notification_dto_sendchannel",
-      "confidence_score": 1.0
+      "target": "dto_send_notification_dto_sendchannel"
     },
     {
       "relation": "contains",
@@ -4928,9 +4956,9 @@
       "source_file": "src/notification/notification.service.ts",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "notification_notification_service_notificationservice",
-      "target": "notification_notification_service_notificationservice_send",
-      "confidence_score": 1.0
+      "target": "notification_notification_service_notificationservice_send"
     },
     {
       "relation": "method",
@@ -4961,6 +4989,16 @@
       "confidence_score": 1.0,
       "source": "notification_notification_service_notificationservice",
       "target": "notification_notification_service_notificationservice_findbyuser"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.service.ts",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "notification_notification_service_notificationservice",
+      "target": "notification_notification_service_notificationservice_findpaginatedbyuser",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5010,9 +5048,9 @@
       "source_file": "src/notification/notification.service.ts",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "notification_notification_service_notificationservice_send",
-      "target": "notification_notification_service_notificationservice_findone",
-      "confidence_score": 1.0
+      "target": "notification_notification_service_notificationservice_findone"
     },
     {
       "relation": "calls",
@@ -5188,9 +5226,9 @@
       "source_file": "src/notification/dto/send-notification.dto.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_notification_dto_send_notification_dto_ts",
-      "target": "dto_send_notification_dto_sendchannel",
-      "confidence_score": 1.0
+      "target": "dto_send_notification_dto_sendchannel"
     },
     {
       "relation": "contains",
@@ -5198,9 +5236,9 @@
       "source_file": "src/notification/dto/send-notification.dto.ts",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_notification_dto_send_notification_dto_ts",
-      "target": "dto_send_notification_dto_sendnotificationdto",
-      "confidence_score": 1.0
+      "target": "dto_send_notification_dto_sendnotificationdto"
     },
     {
       "relation": "contains",
@@ -6745,5 +6783,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "43d86fc0c5f876d11c79275d75518186ee143579"
+  "built_at_commit": "9fd3f288a8c468f62d026838739a1caaa9138a52"
 }

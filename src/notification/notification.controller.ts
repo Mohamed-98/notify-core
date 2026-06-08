@@ -7,6 +7,8 @@ import {
   Param,
   Delete,
   UseGuards,
+  Req,
+  Query,
 } from '@nestjs/common';
 import { NotificationService } from './notification.service';
 import { CreateNotificationDto } from './dto/create-notification.dto';
@@ -32,6 +34,17 @@ export class NotificationController {
   @Get()
   findAll() {
     return this.notificationService.findAll();
+  }
+
+  @Get('me')
+  findMyNotifications(
+    @Req() req: any,
+    @Query('page') page?: string,
+    @Query('limit') limit?: string,
+  ) {
+    const pageNum = parseInt(page || '1', 10);
+    const limitNum = parseInt(limit || '10', 10);
+    return this.notificationService.findPaginatedByUser(req.user.id, pageNum, limitNum);
   }
 
   @Get('user/:userId')
