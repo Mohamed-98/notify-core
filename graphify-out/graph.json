@@ -364,10 +364,19 @@
       "norm_label": "@nestjs/platform-socket.io"
     },
     {
-      "label": "@nestjs/websockets",
+      "label": "@nestjs/swagger",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L32",
+      "id": "notify_core_package_dependencies_nestjs_swagger",
+      "community": 5,
+      "norm_label": "@nestjs/swagger"
+    },
+    {
+      "label": "@nestjs/websockets",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L33",
       "id": "notify_core_package_dependencies_nestjs_websockets",
       "community": 5,
       "norm_label": "@nestjs/websockets"
@@ -376,7 +385,7 @@
       "label": "@prisma/adapter-pg",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L33",
+      "source_location": "L34",
       "id": "notify_core_package_dependencies_prisma_adapter_pg",
       "community": 5,
       "norm_label": "@prisma/adapter-pg"
@@ -385,7 +394,7 @@
       "label": "@prisma/client",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L34",
+      "source_location": "L35",
       "id": "notify_core_package_dependencies_prisma_client",
       "community": 5,
       "norm_label": "@prisma/client"
@@ -394,7 +403,7 @@
       "label": "@sendgrid/mail",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L35",
+      "source_location": "L36",
       "id": "notify_core_package_dependencies_sendgrid_mail",
       "community": 5,
       "norm_label": "@sendgrid/mail"
@@ -403,7 +412,7 @@
       "label": "bcrypt",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L36",
+      "source_location": "L37",
       "id": "notify_core_package_dependencies_bcrypt",
       "community": 5,
       "norm_label": "bcrypt"
@@ -412,7 +421,7 @@
       "label": "bull",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L37",
+      "source_location": "L38",
       "id": "notify_core_package_dependencies_bull",
       "community": 5,
       "norm_label": "bull"
@@ -421,7 +430,7 @@
       "label": "class-transformer",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L38",
+      "source_location": "L39",
       "id": "notify_core_package_dependencies_class_transformer",
       "community": 5,
       "norm_label": "class-transformer"
@@ -430,7 +439,7 @@
       "label": "class-validator",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L39",
+      "source_location": "L40",
       "id": "notify_core_package_dependencies_class_validator",
       "community": 5,
       "norm_label": "class-validator"
@@ -439,7 +448,7 @@
       "label": "ioredis",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L40",
+      "source_location": "L41",
       "id": "notify_core_package_dependencies_ioredis",
       "community": 5,
       "norm_label": "ioredis"
@@ -448,7 +457,7 @@
       "label": "joi",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L41",
+      "source_location": "L42",
       "id": "notify_core_package_dependencies_joi",
       "community": 5,
       "norm_label": "joi"
@@ -457,7 +466,7 @@
       "label": "passport",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L42",
+      "source_location": "L43",
       "id": "notify_core_package_dependencies_passport",
       "community": 5,
       "norm_label": "passport"
@@ -466,7 +475,7 @@
       "label": "passport-jwt",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L43",
+      "source_location": "L44",
       "id": "notify_core_package_dependencies_passport_jwt",
       "community": 5,
       "norm_label": "passport-jwt"
@@ -475,7 +484,7 @@
       "label": "pg",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L44",
+      "source_location": "L45",
       "id": "notify_core_package_dependencies_pg",
       "community": 5,
       "norm_label": "pg"
@@ -484,7 +493,7 @@
       "label": "reflect-metadata",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L45",
+      "source_location": "L46",
       "id": "notify_core_package_dependencies_reflect_metadata",
       "community": 5,
       "norm_label": "reflect-metadata"
@@ -493,7 +502,7 @@
       "label": "rxjs",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L46",
+      "source_location": "L47",
       "id": "notify_core_package_dependencies_rxjs",
       "community": 5,
       "norm_label": "rxjs"
@@ -502,7 +511,7 @@
       "label": "devDependencies",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L48",
+      "source_location": "L49",
       "id": "notify_core_package_devdependencies",
       "community": 0,
       "norm_label": "devdependencies"
@@ -511,7 +520,7 @@
       "label": "@eslint/eslintrc",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L49",
+      "source_location": "L50",
       "id": "notify_core_package_devdependencies_eslint_eslintrc",
       "community": 0,
       "norm_label": "@eslint/eslintrc"
@@ -520,7 +529,7 @@
       "label": "@eslint/js",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L50",
+      "source_location": "L51",
       "id": "notify_core_package_devdependencies_eslint_js",
       "community": 0,
       "norm_label": "@eslint/js"
@@ -529,7 +538,7 @@
       "label": "@nestjs/cli",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L51",
+      "source_location": "L52",
       "id": "notify_core_package_devdependencies_nestjs_cli",
       "community": 0,
       "norm_label": "@nestjs/cli"
@@ -538,7 +547,7 @@
       "label": "@nestjs/schematics",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L52",
+      "source_location": "L53",
       "id": "notify_core_package_devdependencies_nestjs_schematics",
       "community": 0,
       "norm_label": "@nestjs/schematics"
@@ -547,7 +556,7 @@
       "label": "@nestjs/testing",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L53",
+      "source_location": "L54",
       "id": "notify_core_package_devdependencies_nestjs_testing",
       "community": 0,
       "norm_label": "@nestjs/testing"
@@ -556,7 +565,7 @@
       "label": "@types/bcrypt",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L54",
+      "source_location": "L55",
       "id": "notify_core_package_devdependencies_types_bcrypt",
       "community": 0,
       "norm_label": "@types/bcrypt"
@@ -565,7 +574,7 @@
       "label": "@types/express",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L55",
+      "source_location": "L56",
       "id": "notify_core_package_devdependencies_types_express",
       "community": 0,
       "norm_label": "@types/express"
@@ -574,7 +583,7 @@
       "label": "@types/jest",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L56",
+      "source_location": "L57",
       "id": "notify_core_package_devdependencies_types_jest",
       "community": 0,
       "norm_label": "@types/jest"
@@ -583,7 +592,7 @@
       "label": "@types/node",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L57",
+      "source_location": "L58",
       "id": "notify_core_package_devdependencies_types_node",
       "community": 0,
       "norm_label": "@types/node"
@@ -592,7 +601,7 @@
       "label": "@types/passport-jwt",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L58",
+      "source_location": "L59",
       "id": "notify_core_package_devdependencies_types_passport_jwt",
       "community": 0,
       "norm_label": "@types/passport-jwt"
@@ -601,7 +610,7 @@
       "label": "@types/pg",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L59",
+      "source_location": "L60",
       "id": "notify_core_package_devdependencies_types_pg",
       "community": 0,
       "norm_label": "@types/pg"
@@ -610,7 +619,7 @@
       "label": "@types/supertest",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L60",
+      "source_location": "L61",
       "id": "notify_core_package_devdependencies_types_supertest",
       "community": 0,
       "norm_label": "@types/supertest"
@@ -619,7 +628,7 @@
       "label": "dotenv",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L61",
+      "source_location": "L62",
       "id": "notify_core_package_devdependencies_dotenv",
       "community": 0,
       "norm_label": "dotenv"
@@ -628,7 +637,7 @@
       "label": "eslint",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L62",
+      "source_location": "L63",
       "id": "notify_core_package_devdependencies_eslint",
       "community": 0,
       "norm_label": "eslint"
@@ -637,7 +646,7 @@
       "label": "eslint-config-prettier",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L63",
+      "source_location": "L64",
       "id": "notify_core_package_devdependencies_eslint_config_prettier",
       "community": 0,
       "norm_label": "eslint-config-prettier"
@@ -646,7 +655,7 @@
       "label": "eslint-plugin-prettier",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L64",
+      "source_location": "L65",
       "id": "notify_core_package_devdependencies_eslint_plugin_prettier",
       "community": 0,
       "norm_label": "eslint-plugin-prettier"
@@ -655,7 +664,7 @@
       "label": "globals",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L65",
+      "source_location": "L66",
       "id": "notify_core_package_devdependencies_globals",
       "community": 0,
       "norm_label": "globals"
@@ -664,7 +673,7 @@
       "label": "jest",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L66",
+      "source_location": "L67",
       "id": "notify_core_package_devdependencies_jest",
       "community": 0,
       "norm_label": "jest"
@@ -673,7 +682,7 @@
       "label": "prettier",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L67",
+      "source_location": "L68",
       "id": "notify_core_package_devdependencies_prettier",
       "community": 0,
       "norm_label": "prettier"
@@ -682,7 +691,7 @@
       "label": "prisma",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L68",
+      "source_location": "L69",
       "id": "notify_core_package_devdependencies_prisma",
       "community": 0,
       "norm_label": "prisma"
@@ -691,7 +700,7 @@
       "label": "source-map-support",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L69",
+      "source_location": "L70",
       "id": "notify_core_package_devdependencies_source_map_support",
       "community": 0,
       "norm_label": "source-map-support"
@@ -700,7 +709,7 @@
       "label": "supertest",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L70",
+      "source_location": "L71",
       "id": "notify_core_package_devdependencies_supertest",
       "community": 0,
       "norm_label": "supertest"
@@ -709,7 +718,7 @@
       "label": "ts-jest",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L71",
+      "source_location": "L72",
       "id": "notify_core_package_devdependencies_ts_jest",
       "community": 0,
       "norm_label": "ts-jest"
@@ -718,7 +727,7 @@
       "label": "ts-loader",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L72",
+      "source_location": "L73",
       "id": "notify_core_package_devdependencies_ts_loader",
       "community": 0,
       "norm_label": "ts-loader"
@@ -727,7 +736,7 @@
       "label": "ts-node",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L73",
+      "source_location": "L74",
       "id": "notify_core_package_devdependencies_ts_node",
       "community": 0,
       "norm_label": "ts-node"
@@ -736,7 +745,7 @@
       "label": "tsconfig-paths",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L74",
+      "source_location": "L75",
       "id": "notify_core_package_devdependencies_tsconfig_paths",
       "community": 0,
       "norm_label": "tsconfig-paths"
@@ -745,7 +754,7 @@
       "label": "typescript",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L75",
+      "source_location": "L76",
       "id": "notify_core_package_devdependencies_typescript",
       "community": 0,
       "norm_label": "typescript"
@@ -754,7 +763,7 @@
       "label": "typescript-eslint",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L76",
+      "source_location": "L77",
       "id": "notify_core_package_devdependencies_typescript_eslint",
       "community": 0,
       "norm_label": "typescript-eslint"
@@ -763,7 +772,7 @@
       "label": "jest",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L78",
+      "source_location": "L79",
       "id": "notify_core_package_jest",
       "community": 8,
       "norm_label": "jest"
@@ -772,7 +781,7 @@
       "label": "moduleFileExtensions",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L79",
+      "source_location": "L80",
       "id": "notify_core_package_jest_modulefileextensions",
       "community": 8,
       "norm_label": "modulefileextensions"
@@ -781,7 +790,7 @@
       "label": "rootDir",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L84",
+      "source_location": "L85",
       "id": "notify_core_package_jest_rootdir",
       "community": 8,
       "norm_label": "rootdir"
@@ -790,7 +799,7 @@
       "label": "testRegex",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L85",
+      "source_location": "L86",
       "id": "notify_core_package_jest_testregex",
       "community": 8,
       "norm_label": "testregex"
@@ -799,7 +808,7 @@
       "label": "transform",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L86",
+      "source_location": "L87",
       "id": "notify_core_package_jest_transform",
       "community": 8,
       "norm_label": "transform"
@@ -808,7 +817,7 @@
       "label": "^.+\\\\.(t|j)s$",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L87",
+      "source_location": "L88",
       "id": "notify_core_package_transform_t_j_s",
       "community": 8,
       "norm_label": "^.+\\\\.(t|j)s$"
@@ -817,7 +826,7 @@
       "label": "collectCoverageFrom",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L89",
+      "source_location": "L90",
       "id": "notify_core_package_jest_collectcoveragefrom",
       "community": 8,
       "norm_label": "collectcoveragefrom"
@@ -826,7 +835,7 @@
       "label": "coverageDirectory",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L92",
+      "source_location": "L93",
       "id": "notify_core_package_jest_coveragedirectory",
       "community": 8,
       "norm_label": "coveragedirectory"
@@ -835,7 +844,7 @@
       "label": "testEnvironment",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L93",
+      "source_location": "L94",
       "id": "notify_core_package_jest_testenvironment",
       "community": 8,
       "norm_label": "testenvironment"
@@ -1125,7 +1134,7 @@
       "source_file": "test/app.e2e-spec.ts",
       "source_location": "L1",
       "id": "test_app_e2e_spec_ts",
-      "community": 2,
+      "community": 7,
       "norm_label": "app.e2e-spec.ts"
     },
     {
@@ -1134,7 +1143,7 @@
       "source_file": "src/app.module.ts",
       "source_location": "L1",
       "id": "src_app_module_ts",
-      "community": 2,
+      "community": 7,
       "norm_label": "app.module.ts"
     },
     {
@@ -1143,7 +1152,7 @@
       "source_file": "src/app.module.ts",
       "source_location": "L46",
       "id": "src_app_module_appmodule",
-      "community": 2,
+      "community": 7,
       "norm_label": "appmodule"
     },
     {
@@ -1152,7 +1161,7 @@
       "source_file": "src/app.module.ts",
       "source_location": "L47",
       "id": "src_app_module_appmodule_configure",
-      "community": 2,
+      "community": 7,
       "norm_label": ".configure()"
     },
     {
@@ -1242,16 +1251,16 @@
       "source_file": "src/main.ts",
       "source_location": "L1",
       "id": "src_main_ts",
-      "community": 2,
+      "community": 7,
       "norm_label": "main.ts"
     },
     {
       "label": "bootstrap()",
       "file_type": "code",
       "source_file": "src/main.ts",
-      "source_location": "L5",
+      "source_location": "L7",
       "id": "src_main_bootstrap",
-      "community": 2,
+      "community": 7,
       "norm_label": "bootstrap()"
     },
     {
@@ -1287,7 +1296,7 @@
       "source_file": "src/notification/notification.module.ts",
       "source_location": "L31",
       "id": "notification_notification_module_notificationmodule",
-      "community": 2,
+      "community": 7,
       "norm_label": "notificationmodule"
     },
     {
@@ -1411,7 +1420,7 @@
       "label": "NotificationController",
       "file_type": "code",
       "source_file": "src/notification/notification.controller.ts",
-      "source_location": "L21",
+      "source_location": "L24",
       "id": "notification_notification_controller_notificationcontroller",
       "community": 11,
       "norm_label": "notificationcontroller"
@@ -1420,7 +1429,7 @@
       "label": ".constructor()",
       "file_type": "code",
       "source_file": "src/notification/notification.controller.ts",
-      "source_location": "L22",
+      "source_location": "L25",
       "id": "notification_notification_controller_notificationcontroller_constructor",
       "community": 11,
       "norm_label": ".constructor()"
@@ -1429,7 +1438,7 @@
       "label": ".send()",
       "file_type": "code",
       "source_file": "src/notification/notification.controller.ts",
-      "source_location": "L25",
+      "source_location": "L31",
       "id": "notification_notification_controller_notificationcontroller_send",
       "community": 11,
       "norm_label": ".send()"
@@ -1438,7 +1447,7 @@
       "label": ".create()",
       "file_type": "code",
       "source_file": "src/notification/notification.controller.ts",
-      "source_location": "L30",
+      "source_location": "L38",
       "id": "notification_notification_controller_notificationcontroller_create",
       "community": 11,
       "norm_label": ".create()"
@@ -1447,7 +1456,7 @@
       "label": ".findAll()",
       "file_type": "code",
       "source_file": "src/notification/notification.controller.ts",
-      "source_location": "L35",
+      "source_location": "L45",
       "id": "notification_notification_controller_notificationcontroller_findall",
       "community": 11,
       "norm_label": ".findall()"
@@ -1456,7 +1465,7 @@
       "label": ".findMyNotifications()",
       "file_type": "code",
       "source_file": "src/notification/notification.controller.ts",
-      "source_location": "L40",
+      "source_location": "L54",
       "id": "notification_notification_controller_notificationcontroller_findmynotifications",
       "community": 11,
       "norm_label": ".findmynotifications()"
@@ -1465,16 +1474,25 @@
       "label": ".findByUser()",
       "file_type": "code",
       "source_file": "src/notification/notification.controller.ts",
-      "source_location": "L51",
+      "source_location": "L68",
       "id": "notification_notification_controller_notificationcontroller_findbyuser",
       "community": 11,
       "norm_label": ".findbyuser()"
     },
     {
+      "label": ".markAsRead()",
+      "file_type": "code",
+      "source_file": "src/notification/notification.controller.ts",
+      "source_location": "L77",
+      "id": "notification_notification_controller_notificationcontroller_markasread",
+      "community": 11,
+      "norm_label": ".markasread()"
+    },
+    {
       "label": ".findOne()",
       "file_type": "code",
       "source_file": "src/notification/notification.controller.ts",
-      "source_location": "L56",
+      "source_location": "L86",
       "id": "notification_notification_controller_notificationcontroller_findone",
       "community": 11,
       "norm_label": ".findone()"
@@ -1483,7 +1501,7 @@
       "label": ".update()",
       "file_type": "code",
       "source_file": "src/notification/notification.controller.ts",
-      "source_location": "L61",
+      "source_location": "L94",
       "id": "notification_notification_controller_notificationcontroller_update",
       "community": 11,
       "norm_label": ".update()"
@@ -1492,7 +1510,7 @@
       "label": ".remove()",
       "file_type": "code",
       "source_file": "src/notification/notification.controller.ts",
-      "source_location": "L69",
+      "source_location": "L105",
       "id": "notification_notification_controller_notificationcontroller_remove",
       "community": 11,
       "norm_label": ".remove()"
@@ -1512,7 +1530,7 @@
       "source_file": "src/notification/notification.service.ts",
       "source_location": "L11",
       "id": "notification_notification_service_notificationservice",
-      "community": 3,
+      "community": 12,
       "norm_label": "notificationservice"
     },
     {
@@ -1521,7 +1539,7 @@
       "source_file": "src/notification/notification.service.ts",
       "source_location": "L12",
       "id": "notification_notification_service_notificationservice_constructor",
-      "community": 3,
+      "community": 12,
       "norm_label": ".constructor()"
     },
     {
@@ -1530,70 +1548,79 @@
       "source_file": "src/notification/notification.service.ts",
       "source_location": "L18",
       "id": "notification_notification_service_notificationservice_send",
-      "community": 3,
+      "community": 12,
       "norm_label": ".send()"
+    },
+    {
+      "label": ".markAsRead()",
+      "file_type": "code",
+      "source_file": "src/notification/notification.service.ts",
+      "source_location": "L63",
+      "id": "notification_notification_service_notificationservice_markasread",
+      "community": 12,
+      "norm_label": ".markasread()"
     },
     {
       "label": ".create()",
       "file_type": "code",
       "source_file": "src/notification/notification.service.ts",
-      "source_location": "L51",
+      "source_location": "L71",
       "id": "notification_notification_service_notificationservice_create",
-      "community": 3,
+      "community": 12,
       "norm_label": ".create()"
     },
     {
       "label": ".findAll()",
       "file_type": "code",
       "source_file": "src/notification/notification.service.ts",
-      "source_location": "L63",
+      "source_location": "L83",
       "id": "notification_notification_service_notificationservice_findall",
-      "community": 3,
+      "community": 12,
       "norm_label": ".findall()"
     },
     {
       "label": ".findByUser()",
       "file_type": "code",
       "source_file": "src/notification/notification.service.ts",
-      "source_location": "L69",
+      "source_location": "L89",
       "id": "notification_notification_service_notificationservice_findbyuser",
-      "community": 3,
+      "community": 12,
       "norm_label": ".findbyuser()"
     },
     {
       "label": ".findPaginatedByUser()",
       "file_type": "code",
       "source_file": "src/notification/notification.service.ts",
-      "source_location": "L75",
+      "source_location": "L95",
       "id": "notification_notification_service_notificationservice_findpaginatedbyuser",
-      "community": 3,
+      "community": 12,
       "norm_label": ".findpaginatedbyuser()"
     },
     {
       "label": ".findOne()",
       "file_type": "code",
       "source_file": "src/notification/notification.service.ts",
-      "source_location": "L98",
+      "source_location": "L118",
       "id": "notification_notification_service_notificationservice_findone",
-      "community": 3,
+      "community": 12,
       "norm_label": ".findone()"
     },
     {
       "label": ".update()",
       "file_type": "code",
       "source_file": "src/notification/notification.service.ts",
-      "source_location": "L108",
+      "source_location": "L128",
       "id": "notification_notification_service_notificationservice_update",
-      "community": 3,
+      "community": 12,
       "norm_label": ".update()"
     },
     {
       "label": ".remove()",
       "file_type": "code",
       "source_file": "src/notification/notification.service.ts",
-      "source_location": "L122",
+      "source_location": "L142",
       "id": "notification_notification_service_notificationservice_remove",
-      "community": 3,
+      "community": 12,
       "norm_label": ".remove()"
     },
     {
@@ -1708,7 +1735,7 @@
       "label": "SendChannel",
       "file_type": "code",
       "source_file": "src/notification/dto/send-notification.dto.ts",
-      "source_location": "L3",
+      "source_location": "L4",
       "id": "dto_send_notification_dto_sendchannel",
       "community": 3,
       "norm_label": "sendchannel"
@@ -1717,7 +1744,7 @@
       "label": "SendNotificationDto",
       "file_type": "code",
       "source_file": "src/notification/dto/send-notification.dto.ts",
-      "source_location": "L9",
+      "source_location": "L10",
       "id": "dto_send_notification_dto_sendnotificationdto",
       "community": 3,
       "norm_label": "sendnotificationdto"
@@ -1735,7 +1762,7 @@
       "label": "CreateNotificationDto",
       "file_type": "code",
       "source_file": "src/notification/dto/create-notification.dto.ts",
-      "source_location": "L4",
+      "source_location": "L5",
       "id": "dto_create_notification_dto_createnotificationdto",
       "community": 3,
       "norm_label": "createnotificationdto"
@@ -2106,7 +2133,7 @@
       "source_file": "src/auth/jwt-auth.guard.ts",
       "source_location": "L1",
       "id": "src_auth_jwt_auth_guard_ts",
-      "community": 1,
+      "community": 3,
       "norm_label": "jwt-auth.guard.ts"
     },
     {
@@ -2115,7 +2142,7 @@
       "source_file": "src/auth/jwt-auth.guard.ts",
       "source_location": "L5",
       "id": "auth_jwt_auth_guard_jwtauthguard",
-      "community": 1,
+      "community": 3,
       "norm_label": "jwtauthguard"
     },
     {
@@ -2430,7 +2457,7 @@
       "source_file": "src/redis/redis.module.ts",
       "source_location": "L1",
       "id": "src_redis_redis_module_ts",
-      "community": 2,
+      "community": 21,
       "norm_label": "redis.module.ts"
     },
     {
@@ -2439,7 +2466,7 @@
       "source_file": "src/redis/redis.module.ts",
       "source_location": "L9",
       "id": "redis_redis_module_redismodule",
-      "community": 2,
+      "community": 21,
       "norm_label": "redismodule"
     },
     {
@@ -2448,7 +2475,7 @@
       "source_file": "src/redis/redis.service.ts",
       "source_location": "L1",
       "id": "src_redis_redis_service_ts",
-      "community": 2,
+      "community": 21,
       "norm_label": "redis.service.ts"
     },
     {
@@ -2457,7 +2484,7 @@
       "source_file": "src/redis/redis.service.ts",
       "source_location": "L6",
       "id": "redis_redis_service_redisservice",
-      "community": 2,
+      "community": 21,
       "norm_label": "redisservice"
     },
     {
@@ -2466,7 +2493,7 @@
       "source_file": "src/redis/redis.service.ts",
       "source_location": "L9",
       "id": "redis_redis_service_redisservice_constructor",
-      "community": 2,
+      "community": 21,
       "norm_label": ".constructor()"
     },
     {
@@ -2475,7 +2502,7 @@
       "source_file": "src/redis/redis.service.ts",
       "source_location": "L16",
       "id": "redis_redis_service_redisservice_set",
-      "community": 2,
+      "community": 21,
       "norm_label": ".set()"
     },
     {
@@ -2484,7 +2511,7 @@
       "source_file": "src/redis/redis.service.ts",
       "source_location": "L24",
       "id": "redis_redis_service_redisservice_get",
-      "community": 2,
+      "community": 21,
       "norm_label": ".get()"
     },
     {
@@ -2493,7 +2520,7 @@
       "source_file": "src/redis/redis.service.ts",
       "source_location": "L28",
       "id": "redis_redis_service_redisservice_exists",
-      "community": 2,
+      "community": 21,
       "norm_label": ".exists()"
     },
     {
@@ -2502,7 +2529,7 @@
       "source_file": "src/redis/redis.service.ts",
       "source_location": "L33",
       "id": "redis_redis_service_redisservice_onmoduledestroy",
-      "community": 2,
+      "community": 21,
       "norm_label": ".onmoduledestroy()"
     },
     {
@@ -3048,6 +3075,16 @@
       "confidence_score": 1.0,
       "source": "notify_core_package_dependencies",
       "target": "notify_core_package_dependencies_nestjs_platform_socket_io"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "notify_core_package_dependencies",
+      "target": "notify_core_package_dependencies_nestjs_swagger",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4754,9 +4791,9 @@
       "source_file": "src/notification/notification.controller.ts",
       "source_location": "L40",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "notification_notification_controller_notificationcontroller",
-      "target": "notification_notification_controller_notificationcontroller_findmynotifications",
-      "confidence_score": 1.0
+      "target": "notification_notification_controller_notificationcontroller_findmynotifications"
     },
     {
       "relation": "method",
@@ -4767,6 +4804,16 @@
       "confidence_score": 1.0,
       "source": "notification_notification_controller_notificationcontroller",
       "target": "notification_notification_controller_notificationcontroller_findbyuser"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.controller.ts",
+      "source_location": "L77",
+      "weight": 1.0,
+      "source": "notification_notification_controller_notificationcontroller",
+      "target": "notification_notification_controller_notificationcontroller_markasread",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -4964,6 +5011,16 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/notification/notification.service.ts",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "notification_notification_service_notificationservice",
+      "target": "notification_notification_service_notificationservice_markasread",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.service.ts",
       "source_location": "L10",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -4996,9 +5053,9 @@
       "source_file": "src/notification/notification.service.ts",
       "source_location": "L75",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "notification_notification_service_notificationservice",
-      "target": "notification_notification_service_notificationservice_findpaginatedbyuser",
-      "confidence_score": 1.0
+      "target": "notification_notification_service_notificationservice_findpaginatedbyuser"
     },
     {
       "relation": "method",
@@ -5051,6 +5108,28 @@
       "confidence_score": 1.0,
       "source": "notification_notification_service_notificationservice_send",
       "target": "notification_notification_service_notificationservice_findone"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.service.ts",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "notification_notification_service_notificationservice_markasread",
+      "target": "notification_notification_service_notificationservice_findone",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/notification/notification.service.ts",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "notification_notification_service_notificationservice_markasread",
+      "target": "notification_notification_service_notificationservice_update",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -6783,5 +6862,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "9fd3f288a8c468f62d026838739a1caaa9138a52"
+  "built_at_commit": "dd75bae9b91a95cdffb71f702f5046dd8ef1dbb7"
 }

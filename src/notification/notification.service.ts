@@ -23,29 +23,49 @@ export class NotificationService {
       throw new NotFoundException(`User with id ${userId} not found`);
     }
 
+    const userPrefs = (user.preferences as Record<string, any>) || { email: true, inApp: true };
+    const emailEnabled = userPrefs.email !== false;
+    const inAppEnabled = userPrefs.inApp !== false;
+
     const enqueuedJobs: any[] = [];
 
     if (channel === SendChannel.EMAIL || channel === SendChannel.BOTH) {
-      const job = await this.notificationProducer.enqueueJob('email', {
-        to: user.email,
-        subject: subject || 'Notification',
-        body: message,
-      });
-      enqueuedJobs.push({ type: 'email', jobId: job.id });
+      if (emailEnabled) {
+        const job = await this.notificationProducer.enqueueJob('email', {
+          to: user.email,
+          subject: subject || 'Notification',
+          body: message,
+        });
+        enqueuedJobs.push({ type: 'email', jobId: job.id });
+      } else {
+        enqueuedJobs.push({ type: 'email', status: 'skipped_by_preference' });
+      }
     }
 
     if (channel === SendChannel.IN_APP || channel === SendChannel.BOTH) {
-      const job = await this.notificationProducer.enqueueJob('in-app', {
-        userId,
-        message,
-      });
-      enqueuedJobs.push({ type: 'in-app', jobId: job.id });
+      if (inAppEnabled) {
+        const job = await this.notificationProducer.enqueueJob('in-app', {
+          userId,
+          message,
+        });
+        enqueuedJobs.push({ type: 'in-app', jobId: job.id });
+      } else {
+        enqueuedJobs.push({ type: 'in-app', status: 'skipped_by_preference' });
+      }
     }
 
     return {
       success: true,
       enqueuedJobs,
     };
+  }
+
+  async markAsRead(id: string) {
+    await this.findOne(id); // throws if not found
+    return this.prisma.notification.update({
+      where: { id },
+      data: { status: 'READ' },
+    });
   }
 
   create(createNotificationDto: CreateNotificationDto) {

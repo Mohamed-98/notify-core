@@ -50,7 +50,7 @@
   - ✅ Handle client client disconnect and clean up socket map
 - 🔄 Phase 7 — Notification logic & API
   - ✅ Create POST /notifications/send — enqueues job based on channel (email | in-app | both)
-  - ⬜ Create GET /notifications/me — paginated list of user's notifications
+  - ✅ Create GET /notifications/me — paginated list of user's notifications
   - ⬜ Create PATCH /notifications/:id/read — mark as read
   - ⬜ Implement preference-aware routing (user can opt out of channels)
   - ⬜ Validate all DTOs with class-validator, add Swagger decorators
