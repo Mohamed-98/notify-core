@@ -75,19 +75,19 @@
     "semantic_hash": "1ce88e2980d26c34c957998bbd31b722"
   },
   "/home/gado/Documents/notify-core/src/notification/notification.module.ts": {
-    "mtime": 1780620585.7787678,
-    "ast_hash": "bfc3c8216770957adc93a77b21ad1b13",
+    "mtime": 1780935133.0458934,
+    "ast_hash": "7a26f04003e66a552361f0b186f29446",
     "semantic_hash": ""
   },
   "/home/gado/Documents/notify-core/src/notification/notification.controller.ts": {
-    "mtime": 1779255919.0882373,
-    "ast_hash": "76fdce587deb367c453f44033710aafc",
-    "semantic_hash": "76fdce587deb367c453f44033710aafc"
+    "mtime": 1780935141.2250028,
+    "ast_hash": "73756807fb8ed91c8f820a4fab919e36",
+    "semantic_hash": ""
   },
   "/home/gado/Documents/notify-core/src/notification/notification.service.ts": {
-    "mtime": 1779044546.8916328,
-    "ast_hash": "35a7e5cc71052f8f921077b34245abe6",
-    "semantic_hash": "35a7e5cc71052f8f921077b34245abe6"
+    "mtime": 1780935152.6181557,
+    "ast_hash": "67d97e457ea37277799bc76e2d02a7d0",
+    "semantic_hash": ""
   },
   "/home/gado/Documents/notify-core/src/notification/notification.service.spec.ts": {
     "mtime": 1779100536.3571117,
@@ -240,8 +240,8 @@
     "semantic_hash": "b2e4ad085607e3f7658a7e91279b157e"
   },
   "/home/gado/Documents/notify-core/src/notification/notification.consumer.ts": {
-    "mtime": 1780439205.6087148,
-    "ast_hash": "e8290d3b1a8c85e9b823e0a7dbc0fb53",
+    "mtime": 1780934974.7938383,
+    "ast_hash": "66f54ddeafb37ba998d9adad9fe09fa1",
     "semantic_hash": ""
   },
   "/home/gado/Documents/notify-core/src/email/email.module.ts": {
@@ -260,8 +260,13 @@
     "semantic_hash": ""
   },
   "/home/gado/Documents/notify-core/src/notification/notification.gateway.ts": {
-    "mtime": 1780620589.8407693,
-    "ast_hash": "e63a698c829cb0bc83325dda9160b77b",
+    "mtime": 1780934968.2127557,
+    "ast_hash": "2720ef01db1bbc944c73543953588e90",
+    "semantic_hash": ""
+  },
+  "/home/gado/Documents/notify-core/src/notification/dto/send-notification.dto.ts": {
+    "mtime": 1780935129.1718416,
+    "ast_hash": "bccf7f96af29b19e1d9e21e1c52ff5cb",
     "semantic_hash": ""
   }
 }

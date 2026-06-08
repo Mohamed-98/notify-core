@@ -1,16 +1,16 @@
-# Graph Report - notify-core  (2026-06-05)
+# Graph Report - notify-core  (2026-06-08)
 
 ## Corpus Check
-- 52 files · ~4,998 words
+- 53 files · ~5,270 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 287 nodes · 374 edges · 20 communities (15 shown, 5 thin omitted)
+- 294 nodes · 394 edges · 21 communities (15 shown, 6 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `66117039`
+- Built from commit: `43d86fc0`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -27,6 +27,7 @@
 - [[_COMMUNITY_Community 9|Community 9]]
 - [[_COMMUNITY_Community 10|Community 10]]
 - [[_COMMUNITY_Community 11|Community 11]]
+- [[_COMMUNITY_Community 12|Community 12]]
 - [[_COMMUNITY_Community 13|Community 13]]
 - [[_COMMUNITY_Community 14|Community 14]]
 - [[_COMMUNITY_Community 15|Community 15]]
@@ -36,36 +37,36 @@
 
 ## God Nodes (most connected - your core abstractions)
 1. `compilerOptions` - 22 edges
-2. `UserService` - 14 edges
+2. `UserService` - 15 edges
 3. `scripts` - 13 edges
-4. `NotificationService` - 12 edges
-5. `NotificationController` - 10 edges
+4. `NotificationService` - 13 edges
+5. `NotificationController` - 11 edges
 6. `AuthService` - 10 edges
 7. `UserController` - 9 edges
 8. `PrismaService` - 9 edges
 9. `jest` - 8 edges
-10. `RedisService` - 8 edges
+10. `NotificationGateway` - 8 edges
 
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
 
-## Communities (20 total, 5 thin omitted)
+## Communities (21 total, 6 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.07
 Nodes (29): devDependencies, dotenv, eslint, eslint-config-prettier, @eslint/eslintrc, @eslint/js, eslint-plugin-prettier, globals (+21 more)
 
 ### Community 1 - "Community 1"
-Cohesion: 0.11
-Nodes (12): AuthController, dto, mockAuthService, mockLoginResponse, mockUser, AuthService, mockConfigService, mockJwtService (+4 more)
+Cohesion: 0.10
+Nodes (13): AuthController, dto, mockAuthService, mockLoginResponse, mockUser, AuthService, mockConfigService, mockJwtService (+5 more)
 
 ### Community 2 - "Community 2"
 Cohesion: 0.14
-Nodes (6): AuthModule, JwtStrategy, AppController, AppModule, AppService, UserModule
+Nodes (7): AuthModule, JwtStrategy, NotificationModule, AppController, AppModule, AppService, UserModule
 
 ### Community 3 - "Community 3"
-Cohesion: 0.13
-Nodes (5): JwtAuthGuard, CreateNotificationDto, UpdateNotificationDto, NotificationController, NotificationService
+Cohesion: 0.15
+Nodes (7): CreateNotificationDto, SendChannel, SendNotificationDto, UpdateNotificationDto, EnqueueJobOptions, NotificationProducer, NotificationService
 
 ### Community 4 - "Community 4"
 Cohesion: 0.11
@@ -80,8 +81,8 @@ Cohesion: 0.09
 Nodes (22): compilerOptions, allowSyntheticDefaultImports, baseUrl, declaration, emitDecoratorMetadata, esModuleInterop, experimentalDecorators, forceConsistentCasingInFileNames (+14 more)
 
 ### Community 7 - "Community 7"
-Cohesion: 0.10
-Nodes (9): EmailModule, EmailService, EmailJobData, InAppJobData, NotificationConsumer, NotificationGateway, NotificationModule, EnqueueJobOptions (+1 more)
+Cohesion: 0.11
+Nodes (6): EmailModule, EmailService, EmailJobData, InAppJobData, NotificationConsumer, NotificationGateway
 
 ### Community 8 - "Community 8"
 Cohesion: 0.12
@@ -106,22 +107,22 @@ Nodes (5): collection, compilerOptions, deleteOutDir, $schema, sourceRoot
 ## Knowledge Gaps
 - **132 isolated node(s):** `$schema`, `collection`, `sourceRoot`, `deleteOutDir`, `extends` (+127 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **5 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **6 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `devDependencies` connect `Community 0` to `Community 8`?**
-  _High betweenness centrality (0.046) - this node is a cross-community bridge._
+  _High betweenness centrality (0.044) - this node is a cross-community bridge._
 - **Why does `dependencies` connect `Community 5` to `Community 8`?**
-  _High betweenness centrality (0.041) - this node is a cross-community bridge._
-- **Why does `UserService` connect `Community 4` to `Community 1`, `Community 2`?**
-  _High betweenness centrality (0.028) - this node is a cross-community bridge._
+  _High betweenness centrality (0.039) - this node is a cross-community bridge._
+- **Why does `UserService` connect `Community 4` to `Community 1`, `Community 2`, `Community 3`?**
+  _High betweenness centrality (0.035) - this node is a cross-community bridge._
 - **What connects `$schema`, `collection`, `sourceRoot` to the rest of the system?**
   _132 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.06896551724137931 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
-  _Cohesion score 0.10541310541310542 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.09852216748768473 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
-  _Cohesion score 0.13768115942028986 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.13846153846153847 - nodes in this community are weakly interconnected._

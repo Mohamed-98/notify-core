@@ -11,12 +11,18 @@ import {
 import { NotificationService } from './notification.service';
 import { CreateNotificationDto } from './dto/create-notification.dto';
 import { UpdateNotificationDto } from './dto/update-notification.dto';
+import { SendNotificationDto } from './dto/send-notification.dto';
 import { JwtAuthGuard } from '../auth/jwt-auth.guard';
 
 @UseGuards(JwtAuthGuard)
 @Controller('notifications')
 export class NotificationController {
   constructor(private readonly notificationService: NotificationService) {}
+
+  @Post('send')
+  send(@Body() sendNotificationDto: SendNotificationDto) {
+    return this.notificationService.send(sendNotificationDto);
+  }
 
   @Post()
   create(@Body() createNotificationDto: CreateNotificationDto) {

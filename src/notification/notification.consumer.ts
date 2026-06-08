@@ -1,6 +1,7 @@
 import { Process, Processor, OnQueueFailed, InjectQueue } from '@nestjs/bull';
 import type { Job, Queue } from 'bull';
 import { EmailService } from '../email/email.service';
+import { NotificationGateway } from './notification.gateway';
 
 export type EmailJobData = {
   to: string;
@@ -16,6 +17,7 @@ export class NotificationConsumer {
   constructor(
     @InjectQueue('notification-dlq') private readonly dlqQueue: Queue,
     private readonly emailService: EmailService,
+    private readonly notificationGateway: NotificationGateway,
   ) {}
 
   @Process('email')
@@ -36,9 +38,11 @@ export class NotificationConsumer {
   @Process('in-app')
   async handleInApp(job: Job<InAppJobData>) {
     console.log('Processing in-app:', job.data);
-    if (!job.data.userId) {
+    const { userId, message } = job.data;
+    if (!userId) {
       throw new Error('Missing user ID');
     }
+    this.notificationGateway.sendToUser(userId, { message });
   }
 
   @OnQueueFailed()

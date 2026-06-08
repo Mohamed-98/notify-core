@@ -3,10 +3,51 @@ import { PrismaService } from '../prisma/prisma.service';
 import { CreateNotificationDto } from './dto/create-notification.dto';
 import { UpdateNotificationDto } from './dto/update-notification.dto';
 import { Prisma } from '@prisma/client';
+import { UserService } from '../user/user.service';
+import { NotificationProducer } from './notification.producer';
+import { SendNotificationDto, SendChannel } from './dto/send-notification.dto';
 
 @Injectable()
 export class NotificationService {
-  constructor(private readonly prisma: PrismaService) {}
+  constructor(
+    private readonly prisma: PrismaService,
+    private readonly userService: UserService,
+    private readonly notificationProducer: NotificationProducer,
+  ) {}
+
+  async send(sendNotificationDto: SendNotificationDto) {
+    const { userId, channel, message, subject } = sendNotificationDto;
+
+    const user = await this.userService.findOne(userId);
+    if (!user) {
+      throw new NotFoundException(`User with id ${userId} not found`);
+    }
+
+    const enqueuedJobs: any[] = [];
+
+    if (channel === SendChannel.EMAIL || channel === SendChannel.BOTH) {
+      const job = await this.notificationProducer.enqueueJob('email', {
+        to: user.email,
+        subject: subject || 'Notification',
+        body: message,
+      });
+      enqueuedJobs.push({ type: 'email', jobId: job.id });
+    }
+
+    if (channel === SendChannel.IN_APP || channel === SendChannel.BOTH) {
+      const job = await this.notificationProducer.enqueueJob('in-app', {
+        userId,
+        message,
+      });
+      enqueuedJobs.push({ type: 'in-app', jobId: job.id });
+    }
+
+    return {
+      success: true,
+      enqueuedJobs,
+    };
+  }
+
   create(createNotificationDto: CreateNotificationDto) {
     const { userId, type, channel, status, payload } = createNotificationDto;
     return this.prisma.notification.create({
