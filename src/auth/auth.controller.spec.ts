@@ -10,6 +10,7 @@ describe('AuthController', () => {
     id: 'user-uuid',
     email: 'test@example.com',
     name: 'Test User',
+    preferences: {},
     createdAt: new Date(),
     updatedAt: new Date(),
   };
@@ -26,6 +27,7 @@ describe('AuthController', () => {
     const mockAuthService = {
       register: jest.fn(),
       login: jest.fn(),
+      logout: jest.fn(),
     };
 
     const module: TestingModule = await Test.createTestingModule({
@@ -71,6 +73,21 @@ describe('AuthController', () => {
 
       expect(service.login).toHaveBeenCalledWith(dto);
       expect(result).toEqual(mockLoginResponse);
+    });
+  });
+
+  describe('logout', () => {
+    it('should call authService.logout with bearer token', async () => {
+      service.logout.mockResolvedValue(undefined);
+
+      const result = await controller.logout('Bearer some-token');
+
+      expect(service.logout).toHaveBeenCalledWith('some-token');
+      expect(result).toEqual({ message: 'Logged out successfully' });
+    });
+
+    it('should throw on missing auth header', async () => {
+      await expect(controller.logout('')).rejects.toThrow('No token provided');
     });
   });
 });

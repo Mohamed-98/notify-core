@@ -5,6 +5,7 @@ import { ConfigService } from '@nestjs/config';
 import * as bcrypt from 'bcrypt';
 import { AuthService } from './auth.service';
 import { UserService } from '../user/user.service';
+import { RedisService } from '../redis/redis.service';
 
 jest.mock('bcrypt', () => ({
   hash: jest.fn(),
@@ -37,10 +38,17 @@ describe('AuthService', () => {
 
     const mockJwtService = {
       sign: jest.fn(),
+      decode: jest.fn(),
     };
 
     const mockConfigService = {
       get: jest.fn().mockReturnValue('mock-secret'),
+    };
+
+    const mockRedisService = {
+      set: jest.fn(),
+      get: jest.fn(),
+      exists: jest.fn(),
     };
 
     const module: TestingModule = await Test.createTestingModule({
@@ -49,6 +57,7 @@ describe('AuthService', () => {
         { provide: UserService, useValue: mockUserService },
         { provide: JwtService, useValue: mockJwtService },
         { provide: ConfigService, useValue: mockConfigService },
+        { provide: RedisService, useValue: mockRedisService },
       ],
     }).compile();
 

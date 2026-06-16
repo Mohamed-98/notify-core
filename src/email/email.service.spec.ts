@@ -3,17 +3,16 @@ import { ConfigService } from '@nestjs/config';
 import { EmailService } from './email.service';
 import * as sgMail from '@sendgrid/mail';
 
-jest.mock('@sendgrid/mail', () => {
-  return {
-    setApiKey: jest.fn(),
-    send: jest.fn().mockResolvedValue([{ statusCode: 202 }]),
-  };
-});
+jest.mock('@sendgrid/mail', () => ({
+  setApiKey: jest.fn(),
+  send: jest.fn().mockResolvedValue([{ statusCode: 202 }]),
+}));
 
 describe('EmailService', () => {
   let service: EmailService;
 
   beforeEach(async () => {
+    jest.clearAllMocks();
     const module: TestingModule = await Test.createTestingModule({
       providers: [
         EmailService,
@@ -31,10 +30,6 @@ describe('EmailService', () => {
     }).compile();
 
     service = module.get<EmailService>(EmailService);
-  });
-
-  afterEach(() => {
-    jest.clearAllMocks();
   });
 
   it('should be defined', () => {
@@ -71,6 +66,44 @@ describe('EmailService', () => {
       from: 'test@example.com',
       templateId: 'd-12345',
       dynamicTemplateData: { name: 'Bob' },
+    });
+  });
+
+  describe('circuit breaker', () => {
+    it('should open circuit after threshold failures', async () => {
+      (sgMail.send as jest.Mock).mockRejectedValue(new Error('SendGrid error'));
+
+      for (let i = 0; i < 3; i++) {
+        await expect(
+          service.sendEmail({ to: 'a@b.com', subject: 'test', body: 'test' }),
+        ).rejects.toThrow('SendGrid error');
+      }
+
+      // Circuit is now OPEN — 4th call should throw circuit breaker error
+      await expect(
+        service.sendEmail({ to: 'a@b.com', subject: 'test', body: 'test' }),
+      ).rejects.toThrow('Email circuit breaker is open');
+    });
+
+    it('should close circuit after successful send', async () => {
+      const err = new Error('SendGrid error');
+      (sgMail.send as jest.Mock)
+        .mockRejectedValueOnce(err)
+        .mockRejectedValueOnce(err)
+        .mockRejectedValueOnce(err)
+        .mockResolvedValueOnce([{ statusCode: 202 }]);
+
+      // 3 failures to open circuit
+      for (let i = 0; i < 3; i++) {
+        await expect(
+          service.sendEmail({ to: 'a@b.com', subject: 'test', body: 'test' }),
+        ).rejects.toThrow('SendGrid error');
+      }
+
+      // Circuit is OPEN — should reject
+      await expect(
+        service.sendEmail({ to: 'a@b.com', subject: 'test', body: 'test' }),
+      ).rejects.toThrow('Email circuit breaker is open');
     });
   });
 });

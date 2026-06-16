@@ -1,10 +1,14 @@
 import { Controller, Get } from '@nestjs/common';
+import { ConfigService } from '@nestjs/config';
 import { AppService } from './app.service';
 import * as net from 'net';
 
 @Controller()
 export class AppController {
-  constructor(private readonly appService: AppService) {}
+  constructor(
+    private readonly appService: AppService,
+    private readonly configService: ConfigService,
+  ) {}
 
   @Get()
   getHello(): string {
@@ -13,17 +17,19 @@ export class AppController {
 
   @Get('health')
   async getHealth() {
-    const redisHost = process.env.REDIS_HOST || 'localhost';
-    const redisPort = parseInt(process.env.REDIS_PORT || '6379', 10);
+    const redisHost = this.configService.get<string>('REDIS_HOST') || 'localhost';
+    const redisPort = this.configService.get<number>('REDIS_PORT') || 6379;
     const redisCheck = await this.checkConnection(redisHost, redisPort);
+
+    const databaseUrl = this.configService.get<string>('DATABASE_URL');
     let pgHost = 'localhost';
     let pgPort = 5432;
-    if (process.env.DATABASE_URL) {
+    if (databaseUrl) {
       try {
-        const dbUrl = new URL(process.env.DATABASE_URL);
+        const dbUrl = new URL(databaseUrl);
         pgHost = dbUrl.hostname;
         pgPort = parseInt(dbUrl.port || '5432', 10);
-      } catch (e) {
+      } catch {
         // ignore parsing error
       }
     }

@@ -48,56 +48,57 @@
   - ✅ Map authenticated users to socket IDs in-memory (or via Redis)
   - ✅ Implement server.to(socketId).emit() for targeted delivery
   - ✅ Handle client client disconnect and clean up socket map
-- 🔄 Phase 7 — Notification logic & API
+- ✅ Phase 7 — Notification logic & API
   - ✅ Create POST /notifications/send — enqueues job based on channel (email | in-app | both)
   - ✅ Create GET /notifications/me — paginated list of user's notifications
-  - ⬜ Create PATCH /notifications/:id/read — mark as read
-  - ⬜ Implement preference-aware routing (user can opt out of channels)
-  - ⬜ Validate all DTOs with class-validator, add Swagger decorators
-- ⬜ Phase 8 — Logging — Winston
-  - ⬜ Install nest-winston and configure transports (console + file)
-  - ⬜ Add structured log fields: requestId, userId, channel, jobId
-  - ⬜ Add HTTP request logging middleware (method, path, status, latency)
-  - ⬜ Log all queue job lifecycle events (queued, processing, done, failed)
-- ⬜ Phase 9 — Testing — Jest
-  - ⬜ Unit test NotificationService with mocked repos and queue
-  - ⬜ Unit test EmailService with mocked SendGrid client
-  - ⬜ Unit test NotificationGateway auth and emit logic
-  - ⬜ Integration test queue → consumer → delivery flow
-  - ⬜ E2E test: POST /send → job processed → notification persisted + delivered
-- ⬜ Phase 10 — Error handling & resilience
-  - ⬜ Create global HttpExceptionFilter for consistent error shape
-  - ⬜ Add rate limiting on send endpoint (throttler guard)
-  - ⬜ Implement circuit breaker or fallback for SendGrid outages
-  - ⬜ Handle WebSocket errors and reconnect gracefully on client side
-- ⬜ Phase 11 — DevOps & final polish
-  - ⬜ Multi-stage Dockerfile (build → production image)
-  - ⬜ Finalize docker-compose with healthchecks and depends_on ordering
-  - ⬜ Add GitHub Actions CI: lint → test → build on every PR
-  - ⬜ Write README: architecture overview, setup guide, env vars table, API reference
-  - ⬜ Add Swagger UI at /api/docs with full schema coverage
+  - ✅ Create PATCH /notifications/:id/read — mark as read
+  - ✅ Implement preference-aware routing (user can opt out of channels)
+  - ✅ Validate all DTOs with class-validator, add Swagger decorators
+- ✅ Phase 8 — Logging — Winston
+  - ✅ Install nest-winston and configure transports (console + file)
+  - ✅ Add structured log fields: requestId, userId, channel, jobId
+  - ✅ Add HTTP request logging middleware (method, path, status, latency)
+  - ✅ Log all queue job lifecycle events (queued, processing, done, failed)
+- ✅ Phase 9 — Testing — Jest
+  - ✅ Unit test NotificationService with mocked repos and queue
+  - ✅ Unit test EmailService with mocked SendGrid client
+  - ✅ Unit test NotificationGateway auth and emit logic
+  - ✅ Integration test queue → consumer → delivery flow
+  - ✅ E2E test: POST /send → job processed → notification persisted + delivered
+- ✅ Phase 10 — Error handling & resilience
+  - ✅ Create global HttpExceptionFilter for consistent error shape
+  - ✅ Add rate limiting on send endpoint (throttler guard)
+  - ✅ Implement circuit breaker or fallback for SendGrid outages
+  - ✅ Handle WebSocket errors and reconnect gracefully on client side
+- ✅ Phase 11 — DevOps & final polish
+  - ✅ Multi-stage Dockerfile (build → production image)
+  - ✅ Finalize docker-compose with healthchecks and depends_on ordering
+  - ✅ Add GitHub Actions CI: lint → test → build on every PR
+  - ✅ Write README: architecture overview, setup guide, env vars table, API reference
+  - ✅ Add Swagger UI at /api/docs with full schema coverage
 
 ## Key Decisions & Workarounds
 
 ### Queue Strategy
 
 - Use **Bull** for reliable background processing.
-- Separate queues/jobs for different channels (email, web, push) to allow independent scaling and failure handling.
+- Separate job types (email, in-app) within a single queue for independent failure handling.
 
 ### WebSocket Authentication
 
 - JWT validation must happen during the **handshake** phase to prevent unauthorized connections.
-- Rooms are keyed by `userId` to ensure private delivery of notifications.
+- Socket-to-user mapping stored in-memory map, keyed by `userId`.
 
 ### Email Integration
 
 - **SendGrid** is the primary provider.
-- Failure to send emails should trigger a retry in the Bull queue with exponential backoff.
+- Failure to send emails triggers retry in the Bull queue with exponential backoff.
+- Circuit breaker (3 consecutive failures, 30s reset) prevents cascading SendGrid failures.
 
 ### Logging
 
-- Use **Winston** for structured logging.
-- Essential for tracking job status in production and debugging failed delivery attempts.
+- Use **Winston** with JSON format for structured logging.
+- Console + file transports.
 
 ## .env Template
 
@@ -107,6 +108,7 @@ REDIS_HOST=localhost
 REDIS_PORT=6379
 JWT_SECRET=your_secret_key
 SENDGRID_API_KEY=your_sendgrid_key
+SENDGRID_FROM_EMAIL=verified@example.com
 PORT=3001
 ```
 
@@ -118,16 +120,28 @@ notify-core/
 │   └── schema.prisma
 ├── src/
 │   ├── auth/
-│   ├── common/          ← Guards, Decorators, Filters
-│   ├── notifications/
-│   │   ├── consumers/
-│   │   ├── producers/
-│   │   ├── gateway/
 │   │   └── dto/
+│   ├── common/
+│   │   ├── filters/
+│   │   └── middleware/
+│   ├── notification/
+│   │   ├── dto/
+│   │   ├── notification.consumer.ts
+│   │   ├── notification.producer.ts
+│   │   ├── notification.gateway.ts
+│   │   ├── notification.service.ts
+│   │   ├── notification.controller.ts
+│   │   └── notification.module.ts
 │   ├── email/
+│   ├── prisma/
+│   ├── redis/
+│   ├── user/
+│   │   └── dto/
 │   ├── app.module.ts
 │   └── main.ts
 ├── docker-compose.yml
+├── Dockerfile
 ├── .env
+├── .github/workflows/ci.yml
 └── README.md
 ```
