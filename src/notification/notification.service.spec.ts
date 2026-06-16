@@ -78,6 +78,7 @@ describe('NotificationService', () => {
 
     it('should enqueue email job when channel is EMAIL', async () => {
       mockUserService.findOne.mockResolvedValue(mockUser);
+      mockPrisma.notification.create.mockResolvedValue({ id: 'notif-email-1' });
       mockProducer.enqueueJob.mockResolvedValue({ id: 'job-1' });
 
       const result = await service.send({
@@ -88,18 +89,22 @@ describe('NotificationService', () => {
       });
 
       expect(mockProducer.enqueueJob).toHaveBeenCalledWith('email', {
+        notificationId: 'notif-email-1',
         to: 'test@example.com',
         subject: 'Greeting',
         body: 'hello',
       });
       expect(result).toEqual({
         success: true,
-        enqueuedJobs: [{ type: 'email', jobId: 'job-1' }],
+        enqueuedJobs: [
+          { type: 'email', jobId: 'job-1', notificationId: 'notif-email-1' },
+        ],
       });
     });
 
     it('should enqueue in-app job when channel is IN_APP', async () => {
       mockUserService.findOne.mockResolvedValue(mockUser);
+      mockPrisma.notification.create.mockResolvedValue({ id: 'notif-inapp-1' });
       mockProducer.enqueueJob.mockResolvedValue({ id: 'job-2' });
 
       const result = await service.send({
@@ -109,17 +114,23 @@ describe('NotificationService', () => {
       });
 
       expect(mockProducer.enqueueJob).toHaveBeenCalledWith('in-app', {
+        notificationId: 'notif-inapp-1',
         userId: 'user-1',
         message: 'hello',
       });
       expect(result).toEqual({
         success: true,
-        enqueuedJobs: [{ type: 'in-app', jobId: 'job-2' }],
+        enqueuedJobs: [
+          { type: 'in-app', jobId: 'job-2', notificationId: 'notif-inapp-1' },
+        ],
       });
     });
 
     it('should enqueue both when channel is BOTH', async () => {
       mockUserService.findOne.mockResolvedValue(mockUser);
+      mockPrisma.notification.create
+        .mockResolvedValueOnce({ id: 'notif-email-1' })
+        .mockResolvedValueOnce({ id: 'notif-inapp-1' });
       mockProducer.enqueueJob
         .mockResolvedValueOnce({ id: 'job-1' })
         .mockResolvedValueOnce({ id: 'job-2' });
