@@ -4,6 +4,7 @@ import { WINSTON_MODULE_PROVIDER } from 'nest-winston';
 import { NotificationConsumer } from './notification.consumer';
 import { EmailService } from '../email/email.service';
 import { NotificationGateway } from './notification.gateway';
+import { PrismaService } from '../prisma/prisma.service';
 
 describe('NotificationConsumer', () => {
   let consumer: NotificationConsumer;
@@ -25,6 +26,11 @@ describe('NotificationConsumer', () => {
   beforeEach(async () => {
     const mockEmailService = { sendEmail: jest.fn() };
     const mockGateway = { sendToUser: jest.fn() };
+    const mockPrisma = {
+      notification: {
+        update: jest.fn(),
+      },
+    };
 
     const module: TestingModule = await Test.createTestingModule({
       providers: [
@@ -33,6 +39,7 @@ describe('NotificationConsumer', () => {
         { provide: getQueueToken('notification-dlq'), useValue: mockDlqQueue },
         { provide: EmailService, useValue: mockEmailService },
         { provide: NotificationGateway, useValue: mockGateway },
+        { provide: PrismaService, useValue: mockPrisma },
       ],
     }).compile();
 

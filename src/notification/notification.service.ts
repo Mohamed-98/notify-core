@@ -2,7 +2,7 @@ import { Injectable, NotFoundException } from '@nestjs/common';
 import { PrismaService } from '../prisma/prisma.service';
 import { CreateNotificationDto } from './dto/create-notification.dto';
 import { UpdateNotificationDto } from './dto/update-notification.dto';
-import { Prisma } from '@prisma/client';
+import { Prisma, NotificationChannel } from '@prisma/client';
 import { UserService } from '../user/user.service';
 import { NotificationProducer } from './notification.producer';
 import { SendNotificationDto, SendChannel } from './dto/send-notification.dto';
@@ -23,7 +23,10 @@ export class NotificationService {
       throw new NotFoundException(`User with id ${userId} not found`);
     }
 
-    const userPrefs = (user.preferences as Record<string, any>) || { email: true, inApp: true };
+    const userPrefs = (user.preferences as Record<string, any>) || {
+      email: true,
+      inApp: true,
+    };
     const emailEnabled = userPrefs.email !== false;
     const inAppEnabled = userPrefs.inApp !== false;
 
@@ -31,12 +34,26 @@ export class NotificationService {
 
     if (channel === SendChannel.EMAIL || channel === SendChannel.BOTH) {
       if (emailEnabled) {
+        const notification = await this.prisma.notification.create({
+          data: {
+            userId,
+            type: 'alert',
+            channel: NotificationChannel.EMAIL,
+            payload: { message, subject },
+          },
+        });
+
         const job = await this.notificationProducer.enqueueJob('email', {
+          notificationId: notification.id,
           to: user.email,
           subject: subject || 'Notification',
           body: message,
         });
-        enqueuedJobs.push({ type: 'email', jobId: job.id });
+        enqueuedJobs.push({
+          type: 'email',
+          jobId: job.id,
+          notificationId: notification.id,
+        });
       } else {
         enqueuedJobs.push({ type: 'email', status: 'skipped_by_preference' });
       }
@@ -44,11 +61,25 @@ export class NotificationService {
 
     if (channel === SendChannel.IN_APP || channel === SendChannel.BOTH) {
       if (inAppEnabled) {
+        const notification = await this.prisma.notification.create({
+          data: {
+            userId,
+            type: 'alert',
+            channel: NotificationChannel.IN_APP,
+            payload: { message },
+          },
+        });
+
         const job = await this.notificationProducer.enqueueJob('in-app', {
+          notificationId: notification.id,
           userId,
           message,
         });
-        enqueuedJobs.push({ type: 'in-app', jobId: job.id });
+        enqueuedJobs.push({
+          type: 'in-app',
+          jobId: job.id,
+          notificationId: notification.id,
+        });
       } else {
         enqueuedJobs.push({ type: 'in-app', status: 'skipped_by_preference' });
       }
