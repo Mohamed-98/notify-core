@@ -50,7 +50,7 @@ describe('Notification (e2e)', () => {
         preferences: { email: true, inApp: true },
         createdAt: new Date(),
         updatedAt: new Date(),
-      } as any);
+      });
 
       const res = await supertest(app.getHttpServer())
         .post('/notifications/send')
@@ -58,8 +58,9 @@ describe('Notification (e2e)', () => {
         .send({ userId: 'u1', channel: 'email', message: 'E2E test' })
         .expect(201);
 
-      expect(res.body.success).toBe(true);
-      expect(res.body.enqueuedJobs).toBeDefined();
+      const body = res.body as Record<string, any>;
+      expect(body.success).toBe(true);
+      expect(body.enqueuedJobs).toBeDefined();
     });
   });
 
@@ -73,8 +74,9 @@ describe('Notification (e2e)', () => {
         .set('Authorization', `Bearer ${authToken}`)
         .expect(200);
 
-      expect(res.body.data).toEqual([]);
-      expect(res.body.meta).toBeDefined();
+      const body = res.body as Record<string, any>;
+      expect(body.data).toEqual([]);
+      expect(body.meta).toBeDefined();
     });
   });
 });

@@ -142,7 +142,10 @@ describe('NotificationService', () => {
       });
 
       expect(mockProducer.enqueueJob).toHaveBeenCalledTimes(2);
-      expect(result.enqueuedJobs).toHaveLength(2);
+      expect(result.enqueuedJobs).toEqual([
+        { type: 'email', jobId: 'job-1', notificationId: 'notif-email-1' },
+        { type: 'in-app', jobId: 'job-2', notificationId: 'notif-inapp-1' },
+      ]);
     });
 
     it('should skip email when user preference is false', async () => {
