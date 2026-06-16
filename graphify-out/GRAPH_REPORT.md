@@ -5,12 +5,12 @@
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 338 nodes · 458 edges · 20 communities (14 shown, 6 thin omitted)
+- 338 nodes · 463 edges · 20 communities (14 shown, 6 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `5ec69a37`
+- Built from commit: `92172a80`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -40,10 +40,10 @@
 3. `NotificationService` - 15 edges
 4. `scripts` - 13 edges
 5. `NotificationController` - 13 edges
-6. `NotificationConsumer` - 10 edges
-7. `NotificationGateway` - 10 edges
-8. `PrismaService` - 10 edges
-9. `AuthService` - 10 edges
+6. `NotificationGateway` - 10 edges
+7. `NotificationConsumer` - 10 edges
+8. `AuthService` - 10 edges
+9. `PrismaService` - 10 edges
 10. `EmailService` - 9 edges
 
 ## Surprising Connections (you probably didn't know these)
@@ -64,7 +64,7 @@ Cohesion: 0.14
 Nodes (7): AuthModule, JwtStrategy, LoggerMiddleware, NotificationModule, AppController, AppService, UserModule
 
 ### Community 3 - "Community 3"
-Cohesion: 0.11
+Cohesion: 0.12
 Nodes (15): CreateNotificationDto, SendChannel, SendNotificationDto, UpdateNotificationDto, dto, mockService, EnqueueJobOptions, NotificationProducer (+7 more)
 
 ### Community 4 - "Community 4"
@@ -100,7 +100,7 @@ Cohesion: 0.33
 Nodes (5): collection, compilerOptions, deleteOutDir, $schema, sourceRoot
 
 ## Knowledge Gaps
-- **156 isolated node(s):** `code:block1 (Client → REST API → NotificationService → Bull Queue → Consu)`, `code:bash (cp .env.example .env)`, `Environment Variables`, `API Endpoints`, `code:typescript (import { io, Socket } from 'socket.io-client';)` (+151 more)
+- **156 isolated node(s):** `$schema`, `collection`, `sourceRoot`, `deleteOutDir`, `extends` (+151 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **6 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -108,16 +108,16 @@ Nodes (5): collection, compilerOptions, deleteOutDir, $schema, sourceRoot
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `UserService` connect `Community 4` to `Community 1`, `Community 2`, `Community 3`?**
-  _High betweenness centrality (0.046) - this node is a cross-community bridge._
+  _High betweenness centrality (0.042) - this node is a cross-community bridge._
 - **Why does `NotificationService` connect `Community 12` to `Community 2`, `Community 3`?**
   _High betweenness centrality (0.036) - this node is a cross-community bridge._
 - **Why does `dependencies` connect `Community 5` to `Community 8`?**
   _High betweenness centrality (0.035) - this node is a cross-community bridge._
-- **What connects `code:block1 (Client → REST API → NotificationService → Bull Queue → Consu)`, `code:bash (cp .env.example .env)`, `Environment Variables` to the rest of the system?**
+- **What connects `$schema`, `collection`, `sourceRoot` to the rest of the system?**
   _156 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.06896551724137931 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
-  _Cohesion score 0.0728744939271255 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.07422402159244265 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
   _Cohesion score 0.14333333333333334 - nodes in this community are weakly interconnected._
