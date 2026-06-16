@@ -15,8 +15,8 @@
     "semantic_hash": "e17094028c7f31ea68086dc2fbb5e072"
   },
   "/home/gado/Documents/notify-core/package.json": {
-    "mtime": 1780935339.166981,
-    "ast_hash": "9aaf0d374a3668e03e09f087463442bf",
+    "mtime": 1781649220.1503866,
+    "ast_hash": "b5030ce64f95af629de901bac3ca2050",
     "semantic_hash": ""
   },
   "/home/gado/Documents/notify-core/tsconfig.json": {
@@ -35,9 +35,9 @@
     "semantic_hash": "9f2f5b0e1da31d7b04e205c944e85e8d"
   },
   "/home/gado/Documents/notify-core/test/app.e2e-spec.ts": {
-    "mtime": 1778521393.4915407,
-    "ast_hash": "91198fa8fc7e238ecc9dacec901d7a15",
-    "semantic_hash": "91198fa8fc7e238ecc9dacec901d7a15"
+    "mtime": 1781649314.5465803,
+    "ast_hash": "7be7b8fa37ec849517bce0d355f6f605",
+    "semantic_hash": ""
   },
   "/home/gado/Documents/notify-core/prisma/migrations/20260517191152_init/migration.sql": {
     "mtime": 1779045112.8451993,
@@ -45,9 +45,9 @@
     "semantic_hash": "68f0184a895fcf3ff694fe520710ad4c"
   },
   "/home/gado/Documents/notify-core/src/app.module.ts": {
-    "mtime": 1779551882.482227,
-    "ast_hash": "d06bbc221a167615098a2e80cb9f95e9",
-    "semantic_hash": "d06bbc221a167615098a2e80cb9f95e9"
+    "mtime": 1781649968.1083744,
+    "ast_hash": "11379261c822f28337d9bc95fa06842c",
+    "semantic_hash": ""
   },
   "/home/gado/Documents/notify-core/src/app.service.ts": {
     "mtime": 1778521393.4913342,
@@ -55,24 +55,24 @@
     "semantic_hash": "cd3fb7836f10de08a725ee1fd4ab36fe"
   },
   "/home/gado/Documents/notify-core/src/app.controller.ts": {
-    "mtime": 1778711767.40769,
-    "ast_hash": "161a2c9280d606f86c5555a6e0362e3a",
-    "semantic_hash": "161a2c9280d606f86c5555a6e0362e3a"
+    "mtime": 1781649932.8154936,
+    "ast_hash": "a504739a284c2257bbdd01170a24ca09",
+    "semantic_hash": ""
   },
   "/home/gado/Documents/notify-core/src/main.ts": {
-    "mtime": 1780935424.561937,
-    "ast_hash": "31cad5eb990937d94c35e6c317d7a280",
+    "mtime": 1781649259.541766,
+    "ast_hash": "20e19db0f012c3d6ac1eedee754ffe18",
     "semantic_hash": ""
   },
   "/home/gado/Documents/notify-core/src/app.controller.spec.ts": {
-    "mtime": 1778521393.4914346,
-    "ast_hash": "4a1c0e1133dbda6f6e8f3e60d984eddf",
-    "semantic_hash": "4a1c0e1133dbda6f6e8f3e60d984eddf"
+    "mtime": 1781649991.6862948,
+    "ast_hash": "a3e0f35b2715769f4340ddc442ff1f6c",
+    "semantic_hash": ""
   },
   "/home/gado/Documents/notify-core/src/notification/notification.controller.spec.ts": {
-    "mtime": 1779100528.971031,
-    "ast_hash": "1ce88e2980d26c34c957998bbd31b722",
-    "semantic_hash": "1ce88e2980d26c34c957998bbd31b722"
+    "mtime": 1781649946.897446,
+    "ast_hash": "ce679173ce61a057aec8326968957225",
+    "semantic_hash": ""
   },
   "/home/gado/Documents/notify-core/src/notification/notification.module.ts": {
     "mtime": 1780935133.0458934,
@@ -90,9 +90,9 @@
     "semantic_hash": ""
   },
   "/home/gado/Documents/notify-core/src/notification/notification.service.spec.ts": {
-    "mtime": 1779100536.3571117,
-    "ast_hash": "112c52a8ffeefcc38713c7aec65353ad",
-    "semantic_hash": "112c52a8ffeefcc38713c7aec65353ad"
+    "mtime": 1781649310.128595,
+    "ast_hash": "657ebf9d8dea3ff41ffc0fe3f6576644",
+    "semantic_hash": ""
   },
   "/home/gado/Documents/notify-core/src/notification/dto/update-notification.dto.ts": {
     "mtime": 1780935405.5756662,
@@ -105,9 +105,9 @@
     "semantic_hash": ""
   },
   "/home/gado/Documents/notify-core/src/user/user.controller.spec.ts": {
-    "mtime": 1779100520.0079331,
-    "ast_hash": "bdbfd8933b013b7a9d0352e83cc2b374",
-    "semantic_hash": "bdbfd8933b013b7a9d0352e83cc2b374"
+    "mtime": 1781649953.2184246,
+    "ast_hash": "899fbdc847927a57170f95b851c6bff2",
+    "semantic_hash": ""
   },
   "/home/gado/Documents/notify-core/src/user/user.controller.ts": {
     "mtime": 1779255917.0802383,
@@ -125,9 +125,9 @@
     "semantic_hash": "15fb9d167016164130fcc652b00c4734"
   },
   "/home/gado/Documents/notify-core/src/user/user.service.spec.ts": {
-    "mtime": 1779043496.1201952,
-    "ast_hash": "68f3a0aad27c7ab0a16d959bed7a8027",
-    "semantic_hash": "68f3a0aad27c7ab0a16d959bed7a8027"
+    "mtime": 1781649950.5534337,
+    "ast_hash": "51039e56d592c38b4ad2c4b85a7eda2e",
+    "semantic_hash": ""
   },
   "/home/gado/Documents/notify-core/src/user/dto/create-user.dto.ts": {
     "mtime": 1779042962.8655622,
@@ -138,11 +138,6 @@
     "mtime": 1779042619.4466605,
     "ast_hash": "cbf49f6d70de405d8a66ead021b04319",
     "semantic_hash": "cbf49f6d70de405d8a66ead021b04319"
-  },
-  "/home/gado/Documents/notify-core/src/user/entities/user.entity.ts": {
-    "mtime": 1779042619.446768,
-    "ast_hash": "0eda481066e74096b241683e1cdb654e",
-    "semantic_hash": "0eda481066e74096b241683e1cdb654e"
   },
   "/home/gado/Documents/notify-core/src/auth/auth.controller.ts": {
     "mtime": 1779255906.0432436,
@@ -160,19 +155,19 @@
     "semantic_hash": "d75d39a5327948562cf09de1ab0c9762"
   },
   "/home/gado/Documents/notify-core/src/auth/jwt.strategy.ts": {
-    "mtime": 1779255885.1242537,
-    "ast_hash": "1724ef40b77aa7c178fdadf5c7d3797b",
-    "semantic_hash": "1724ef40b77aa7c178fdadf5c7d3797b"
+    "mtime": 1781650033.5631535,
+    "ast_hash": "67b60e1bc484d5f62aa0151e33ae3680",
+    "semantic_hash": ""
   },
   "/home/gado/Documents/notify-core/src/auth/auth.controller.spec.ts": {
-    "mtime": 1779100486.6095686,
-    "ast_hash": "8f30c585ad7e9afe95fc403c11eb6862",
-    "semantic_hash": "8f30c585ad7e9afe95fc403c11eb6862"
+    "mtime": 1781650034.4215887,
+    "ast_hash": "18748c7e8145b31550e707fc8f0edd59",
+    "semantic_hash": ""
   },
   "/home/gado/Documents/notify-core/src/auth/auth.service.spec.ts": {
-    "mtime": 1779100501.9047353,
-    "ast_hash": "7a6b6738866f4733fc038bbea9f0650c",
-    "semantic_hash": "7a6b6738866f4733fc038bbea9f0650c"
+    "mtime": 1781649920.6775346,
+    "ast_hash": "92df25230701bf4dc46ffa743031b5a8",
+    "semantic_hash": ""
   },
   "/home/gado/Documents/notify-core/src/auth/auth.module.ts": {
     "mtime": 1780620581.8377662,
@@ -190,14 +185,14 @@
     "semantic_hash": "5eef49d3e6b62ebca333c21a76e644a9"
   },
   "/home/gado/Documents/notify-core/src/prisma/prisma.service.ts": {
-    "mtime": 1779100395.0145705,
-    "ast_hash": "a6750343d9426d6f3a1418d669ef4a52",
-    "semantic_hash": "a6750343d9426d6f3a1418d669ef4a52"
+    "mtime": 1781649936.201482,
+    "ast_hash": "8ece006235fdac95aa74ea679f47a30b",
+    "semantic_hash": ""
   },
   "/home/gado/Documents/notify-core/src/prisma/prisma.service.spec.ts": {
-    "mtime": 1778713079.9217367,
-    "ast_hash": "3fcc10df908924d197822601d2e65831",
-    "semantic_hash": "3fcc10df908924d197822601d2e65831"
+    "mtime": 1781649999.5472684,
+    "ast_hash": "12a0a2e343122b36db760ee1cae37d54",
+    "semantic_hash": ""
   },
   "/home/gado/Documents/notify-core/src/prisma/prisma.module.ts": {
     "mtime": 1779042497.3187788,
@@ -215,14 +210,14 @@
     "semantic_hash": "8911532043107f3601ff3cede267b443"
   },
   "/home/gado/Documents/notify-core/README.md": {
-    "mtime": 1778521393.4907274,
-    "ast_hash": "f9b30a57e215bc0b63868065fc71a1ac",
-    "semantic_hash": "f9b30a57e215bc0b63868065fc71a1ac"
+    "mtime": 1781649983.1043239,
+    "ast_hash": "bd0691e8c8ce1923aa0012f4498a7374",
+    "semantic_hash": ""
   },
   "/home/gado/Documents/notify-core/docker-compose.yml": {
-    "mtime": 1779101272.1327956,
-    "ast_hash": "f639c09f8496a8a1074883380131bc3a",
-    "semantic_hash": "f639c09f8496a8a1074883380131bc3a"
+    "mtime": 1781649274.5157154,
+    "ast_hash": "a6c968ea99fe99c0ba437c30bf634248",
+    "semantic_hash": ""
   },
   "/home/gado/Documents/notify-core/.agents/rules/graphify.md": {
     "mtime": 1779529655.0754,
@@ -240,8 +235,8 @@
     "semantic_hash": "b2e4ad085607e3f7658a7e91279b157e"
   },
   "/home/gado/Documents/notify-core/src/notification/notification.consumer.ts": {
-    "mtime": 1780934974.7938383,
-    "ast_hash": "66f54ddeafb37ba998d9adad9fe09fa1",
+    "mtime": 1781649007.5826168,
+    "ast_hash": "71e5ef6903e78843ade50a732ef20178",
     "semantic_hash": ""
   },
   "/home/gado/Documents/notify-core/src/email/email.module.ts": {
@@ -250,18 +245,18 @@
     "semantic_hash": ""
   },
   "/home/gado/Documents/notify-core/src/email/email.service.ts": {
-    "mtime": 1780439986.5543163,
-    "ast_hash": "11eedf192edc89cdcb115dc43b1d0329",
+    "mtime": 1781649271.1407268,
+    "ast_hash": "6cd11f425b4781d4d241c3bb28d8b4bd",
     "semantic_hash": ""
   },
   "/home/gado/Documents/notify-core/src/email/email.service.spec.ts": {
-    "mtime": 1780439228.8556612,
-    "ast_hash": "4c45bc492ae4b44f84ef362fdddafa1c",
+    "mtime": 1781649963.9263885,
+    "ast_hash": "5d837cb0675f712ff55616fc3222e403",
     "semantic_hash": ""
   },
   "/home/gado/Documents/notify-core/src/notification/notification.gateway.ts": {
-    "mtime": 1780934968.2127557,
-    "ast_hash": "2720ef01db1bbc944c73543953588e90",
+    "mtime": 1781649927.4895115,
+    "ast_hash": "867e1ff882730ba680224225a8620f02",
     "semantic_hash": ""
   },
   "/home/gado/Documents/notify-core/src/notification/dto/send-notification.dto.ts": {
@@ -272,6 +267,31 @@
   "/home/gado/Documents/notify-core/prisma/migrations/20260608161628_add_user_preferences/migration.sql": {
     "mtime": 1780935388.9840658,
     "ast_hash": "ed5fdfbb3599221a2116f3107e6d329b",
+    "semantic_hash": ""
+  },
+  "/home/gado/Documents/notify-core/src/notification/notification.gateway.spec.ts": {
+    "mtime": 1781650017.8012068,
+    "ast_hash": "1432ead53437e5d278bad982af223670",
+    "semantic_hash": ""
+  },
+  "/home/gado/Documents/notify-core/src/notification/notification.consumer.spec.ts": {
+    "mtime": 1781649250.629796,
+    "ast_hash": "532124d0cf00e6ff9126f48d94726977",
+    "semantic_hash": ""
+  },
+  "/home/gado/Documents/notify-core/src/common/filters/http-exception.filter.ts": {
+    "mtime": 1781649257.8327718,
+    "ast_hash": "1cbdcad93296cb6f39ec603b53c318a1",
+    "semantic_hash": ""
+  },
+  "/home/gado/Documents/notify-core/src/common/middleware/logger.middleware.ts": {
+    "mtime": 1781648994.275662,
+    "ast_hash": "aa33c257bc0fbc330b3fc405e0cfd571",
+    "semantic_hash": ""
+  },
+  "/home/gado/Documents/notify-core/.github/workflows/ci.yml": {
+    "mtime": 1781649276.9207075,
+    "ast_hash": "b9ac58ec8747528e5e69a9f9706ac3b9",
     "semantic_hash": ""
   }
 }

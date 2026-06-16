@@ -82,23 +82,22 @@
 ### Queue Strategy
 
 - Use **Bull** for reliable background processing.
-- Separate job types (email, in-app) within a single queue for independent failure handling.
+- Separate queues/jobs for different channels (email, web, push) to allow independent scaling and failure handling.
 
 ### WebSocket Authentication
 
 - JWT validation must happen during the **handshake** phase to prevent unauthorized connections.
-- Socket-to-user mapping stored in-memory map, keyed by `userId`.
+- Rooms are keyed by `userId` to ensure private delivery of notifications.
 
 ### Email Integration
 
 - **SendGrid** is the primary provider.
-- Failure to send emails triggers retry in the Bull queue with exponential backoff.
-- Circuit breaker (3 consecutive failures, 30s reset) prevents cascading SendGrid failures.
+- Failure to send emails should trigger a retry in the Bull queue with exponential backoff.
 
 ### Logging
 
-- Use **Winston** with JSON format for structured logging.
-- Console + file transports.
+- Use **Winston** for structured logging.
+- Essential for tracking job status in production and debugging failed delivery attempts.
 
 ## .env Template
 
@@ -108,7 +107,6 @@ REDIS_HOST=localhost
 REDIS_PORT=6379
 JWT_SECRET=your_secret_key
 SENDGRID_API_KEY=your_sendgrid_key
-SENDGRID_FROM_EMAIL=verified@example.com
 PORT=3001
 ```
 
@@ -120,28 +118,16 @@ notify-core/
 │   └── schema.prisma
 ├── src/
 │   ├── auth/
+│   ├── common/          ← Guards, Decorators, Filters
+│   ├── notifications/
+│   │   ├── consumers/
+│   │   ├── producers/
+│   │   ├── gateway/
 │   │   └── dto/
-│   ├── common/
-│   │   ├── filters/
-│   │   └── middleware/
-│   ├── notification/
-│   │   ├── dto/
-│   │   ├── notification.consumer.ts
-│   │   ├── notification.producer.ts
-│   │   ├── notification.gateway.ts
-│   │   ├── notification.service.ts
-│   │   ├── notification.controller.ts
-│   │   └── notification.module.ts
 │   ├── email/
-│   ├── prisma/
-│   ├── redis/
-│   ├── user/
-│   │   └── dto/
 │   ├── app.module.ts
 │   └── main.ts
 ├── docker-compose.yml
-├── Dockerfile
 ├── .env
-├── .github/workflows/ci.yml
 └── README.md
 ```
